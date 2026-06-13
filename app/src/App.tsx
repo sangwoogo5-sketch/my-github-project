@@ -36,10 +36,15 @@ const translationsMap: Record<string, string> = {
     "달 너머, 궁극적인 목표는 여전히 화성입니다. 그러나 장기 우주 비행에 따른 심리적, 신체적 피해는 상당한 장애물이 됩니다. 과학자들은 우주 비행사들을 보호하기 위해 새로운 거주 모듈과 방사선 차폐 장치를 개발하고 있습니다."
 };
 
+// 메인 내비게이션 뷰 타입
+type MainView = 'home' | 'library' | 'flashcards';
+
 function App() {
+  const [mainView, setMainView] = useState<MainView>('home');
   const [filter, setFilter] = useState('All');
+  
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
-  const [activeTab, setActiveTab] = useState<'reader' | 'flashcards' | 'chat'>('reader');
+  const [activeReaderTab, setActiveReaderTab] = useState<'reader' | 'flashcards' | 'chat'>('reader');
   const [activeParagraph, setActiveParagraph] = useState<number | null>(null);
   
   // Archive States
@@ -47,6 +52,7 @@ function App() {
   const [selectionPos, setSelectionPos] = useState<{x: number, y: number, text: string, context: string} | null>(null);
   const [currentCardIdx, setCurrentCardIdx] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [isSaving, setIsSaving] = useState(false);
 
   // Read History State
   const [readArticleIds, setReadArticleIds] = useState<string[]>([]);
@@ -77,16 +83,14 @@ function App() {
   const handleArticleClick = (article: Article) => {
     markAsRead(article.id);
     setSelectedArticle(article);
-    setActiveTab('reader');
+    setActiveReaderTab('reader');
     setActiveParagraph(null);
   };
 
   // 1. Recommendations Logic (Unread -> Newest -> limit 3)
   const getRecommendations = () => {
     const unread = articlesData.articles.filter(a => !readArticleIds.includes(a.id));
-    // Sort by newest date (mock implementation)
     const sorted = unread.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-    // If we have less than 3 unread, fallback to some read ones just to fill UI
     if (sorted.length < 3) {
       const remaining = 3 - sorted.length;
       const read = articlesData.articles.filter(a => readArticleIds.includes(a.id)).slice(0, remaining);
@@ -117,22 +121,41 @@ function App() {
         context: contextText
       });
     } else {
-      setSelectionPos(null);
+      if (!isSaving) setSelectionPos(null);
     }
   };
 
-  const handleSaveWordClick = () => {
+  // Google Translate API를 이용한 자동 한글 뜻 찾기
+  const handleSaveWordClick = async () => {
     if (!selectionPos) return;
-    const userMeaning = window.prompt(`'${selectionPos.text}'의 한글 뜻을 입력해 주세요.\n(나중에 적으려면 그냥 확인을 누르세요)`);
+    setIsSaving(true);
+    const wordText = selectionPos.text;
+    const context = selectionPos.context;
+    
+    // 시각적 피드백을 위해 팝업 내용을 "저장 중..."으로 변경
+    setSelectionPos({ ...selectionPos, text: "저장 중..." });
+    
+    let autoMeaning = "뜻을 찾을 수 없음";
+    try {
+      // 무료 Google Translate API 호출
+      const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=${encodeURIComponent(wordText)}`);
+      const data = await res.json();
+      autoMeaning = data[0][0][0]; // 번역된 텍스트
+    } catch (e) {
+      console.error("번역 API 오류:", e);
+    }
+
     const newWord: SavedWord = {
       id: Date.now().toString(),
-      word: selectionPos.text,
-      meaning: userMeaning || "뜻 미입력",
-      context: selectionPos.context,
+      word: wordText,
+      meaning: autoMeaning,
+      context: context,
       source: selectedArticle?.source || "직접 입력",
       dateAdded: new Date().toISOString()
     };
+    
     saveToArchive(newWord);
+    setIsSaving(false);
     setSelectionPos(null);
     window.getSelection()?.removeAllRanges();
   };
@@ -155,24 +178,32 @@ function App() {
     return translationsMap[text.trim()] || "이 문장에 대한 해석 데이터가 없습니다. (추후 AI 자동 해석 연동 예정)";
   };
 
-  const renderDashboard = () => {
-    const recommended = getRecommendations();
+  // Navigation Header (공통 상단 메뉴)
+  const renderHeader = () => (
+    <header className="header" style={{ marginBottom: '30px' }}>
+      <h1 style={{ cursor: 'pointer' }} onClick={() => { setMainView('home'); setSelectedArticle(null); }}>Study English</h1>
+      <div className="filter-group">
+        <button className={`glass-button ${mainView === 'home' && !selectedArticle ? 'active' : ''}`} onClick={() => { setMainView('home'); setSelectedArticle(null); }}>
+          🏠 홈
+        </button>
+        <button className={`glass-button ${mainView === 'library' && !selectedArticle ? 'active' : ''}`} onClick={() => { setMainView('library'); setSelectedArticle(null); }}>
+          📰 전체 기사
+        </button>
+        <button className={`glass-button ${mainView === 'flashcards' && !selectedArticle ? 'active' : ''}`} style={{ borderColor: 'var(--accent)' }} onClick={() => { setMainView('flashcards'); setSelectedArticle(null); }}>
+          📚 내 단어장 ({savedWords.length})
+        </button>
+      </div>
+    </header>
+  );
 
+  const renderHome = () => {
+    const recommended = getRecommendations();
     return (
       <div className="app-container">
-        <header className="header">
-          <h1>Study English</h1>
-          <div className="filter-group">
-            <button className="glass-button" style={{borderColor: 'var(--accent)'}} onClick={() => { setSelectedArticle(null); setActiveTab('flashcards'); }}>
-              📚 내 단어장 ({savedWords.length})
-            </button>
-          </div>
-        </header>
-        
-        {/* 추천 기사 섹션 */}
-        <section style={{ marginBottom: '60px' }}>
+        {renderHeader()}
+        <section>
           <h2 style={{ fontSize: '1.8rem', marginBottom: '20px' }}>🌟 맞춤 추천 기사</h2>
-          <p style={{ color: 'var(--text-muted)', marginBottom: '20px' }}>학습하지 않은 최신 업데이트 기사를 난이도별로 추천합니다.</p>
+          <p style={{ color: 'var(--text-muted)', marginBottom: '30px' }}>학습하지 않은 최신 업데이트 기사를 난이도별로 추천합니다.</p>
           <div className="articles-grid">
             {recommended.map((article) => (
               <div key={`rec-${article.id}`} className="glass-panel article-card" style={{ border: '1px solid var(--accent)' }} onClick={() => handleArticleClick(article)}>
@@ -190,10 +221,16 @@ function App() {
             ))}
           </div>
         </section>
+      </div>
+    );
+  };
 
-        {/* 전체 기사 섹션 */}
+  const renderLibrary = () => {
+    return (
+      <div className="app-container">
+        {renderHeader()}
         <section>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
             <h2 style={{ fontSize: '1.8rem' }}>📚 전체 기사 탐색</h2>
             <div className="filter-group">
               {['All', 'Beginner', 'Intermediate', 'Advanced'].map(diff => (
@@ -236,16 +273,12 @@ function App() {
   const renderFlashcards = () => {
     return (
       <div className="app-container flashcards-container">
-        <div style={{ width: '100%', maxWidth: '500px', display: 'flex', justifyContent: 'flex-start', marginBottom: '20px' }}>
-          <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setActiveTab('reader'); }}>
-            ← 뒤로 가기
-          </button>
-        </div>
-
+        {renderHeader()}
+        
         {savedWords.length === 0 ? (
           <div className="glass-panel empty-state">
             <h2>아직 저장된 단어가 없습니다.</h2>
-            <p>기사 화면에서 모르는 단어를 마우스로 드래그하여 아카이브해 보세요!</p>
+            <p>기사 화면에서 모르는 단어를 마우스로 드래그하여 자동으로 뜻을 저장해 보세요!</p>
           </div>
         ) : (
           <>
@@ -276,8 +309,8 @@ function App() {
             </div>
             
             <div className="flashcard-controls">
-              <button className="btn-prev" onClick={prevCard}>← 이전 카드</button>
-              <button className="btn-next" onClick={nextCard}>다음 카드 →</button>
+              <button className="btn-prev" onClick={(e) => { e.stopPropagation(); prevCard(); }}>← 이전 카드</button>
+              <button className="btn-next" onClick={(e) => { e.stopPropagation(); nextCard(); }}>다음 카드 →</button>
             </div>
           </>
         )}
@@ -290,27 +323,27 @@ function App() {
     
     return (
       <div className="app-container reader-view" onMouseUp={handleMouseUp}>
-        <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setActiveTab('reader'); }}>
-          ← 대시보드로
+        <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setMainView('home'); }}>
+          ← 홈으로 가기
         </button>
         
         <div className="feature-tabs">
-          <button className={`glass-button ${activeTab === 'reader' ? 'active' : ''}`} onClick={() => setActiveTab('reader')}>📖 Reader</button>
-          <button className={`glass-button ${activeTab === 'flashcards' ? 'active' : ''}`} onClick={() => setActiveTab('flashcards')}>🗂️ Flashcards ({savedWords.length})</button>
-          <button className={`glass-button ${activeTab === 'chat' ? 'active' : ''}`} onClick={() => setActiveTab('chat')}>💬 Discuss</button>
+          <button className={`glass-button ${activeReaderTab === 'reader' ? 'active' : ''}`} onClick={() => setActiveReaderTab('reader')}>📖 Reader</button>
+          <button className={`glass-button ${activeReaderTab === 'flashcards' ? 'active' : ''}`} onClick={() => setActiveReaderTab('flashcards')}>🗂️ 기사 단어장</button>
+          <button className={`glass-button ${activeReaderTab === 'chat' ? 'active' : ''}`} onClick={() => setActiveReaderTab('chat')}>💬 Discuss</button>
         </div>
 
-        {selectionPos && activeTab === 'reader' && (
+        {selectionPos && activeReaderTab === 'reader' && (
           <div 
             className="selection-popup" 
             style={{ left: selectionPos.x, top: selectionPos.y }}
             onMouseDown={(e) => { e.preventDefault(); handleSaveWordClick(); }}
           >
-            + 단어 저장 (Archive)
+            {isSaving ? "저장 중..." : "+저장"}
           </div>
         )}
 
-        {activeTab === 'reader' && (
+        {activeReaderTab === 'reader' && (
           <div className="glass-panel">
             <div className="reader-header">
               <h1>{article.title}</h1>
@@ -340,9 +373,15 @@ function App() {
           </div>
         )}
 
-        {activeTab === 'flashcards' && renderFlashcards()}
+        {/* Reader 탭 내에서의 플래시카드는 전체 단어장 뷰 재사용 혹은 별도 처리 가능. 여기서는 전체 단어장 렌더링으로 연결 */}
+        {activeReaderTab === 'flashcards' && (
+          <div style={{marginTop: '30px', textAlign: 'center'}}>
+            <p>이 기사에서 저장한 단어들을 모아볼 수 있습니다. (전체 단어장으로 이동하세요)</p>
+            <button className="glass-button" style={{marginTop: '20px'}} onClick={() => { setSelectedArticle(null); setMainView('flashcards'); }}>전체 단어장 가기</button>
+          </div>
+        )}
 
-        {activeTab === 'chat' && (
+        {activeReaderTab === 'chat' && (
           <div className="glass-panel" style={{ textAlign: 'center', padding: '60px' }}>
             <h2>Discuss with AI</h2>
             <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>AI와 함께 이 기사의 핵심 내용을 영어로 토론해 보세요! (준비 중)</p>
@@ -354,7 +393,11 @@ function App() {
 
   return (
     <div className="app">
-      {selectedArticle || activeTab === 'flashcards' ? (selectedArticle ? renderReader(selectedArticle) : renderFlashcards()) : renderDashboard()}
+      {/* 라우팅 로직 간소화 */}
+      {selectedArticle 
+        ? renderReader(selectedArticle) 
+        : (mainView === 'home' ? renderHome() : mainView === 'library' ? renderLibrary() : renderFlashcards())
+      }
     </div>
   );
 }
