@@ -16,6 +16,7 @@ type SavedWord = {
   id: string;
   word: string;
   meaning: string;
+  enMeaning: string;
   context: string;
   source: string;
   dateAdded: string;
@@ -36,7 +37,6 @@ const translationsMap: Record<string, string> = {
     "달 너머, 궁극적인 목표는 여전히 화성입니다. 그러나 장기 우주 비행에 따른 심리적, 신체적 피해는 상당한 장애물이 됩니다. 과학자들은 우주 비행사들을 보호하기 위해 새로운 거주 모듈과 방사선 차폐 장치를 개발하고 있습니다."
 };
 
-// 메인 내비게이션 뷰 타입
 type MainView = 'home' | 'library' | 'flashcards';
 
 function App() {
@@ -87,7 +87,6 @@ function App() {
     setActiveParagraph(null);
   };
 
-  // 1. Recommendations Logic (Unread -> Newest -> limit 3)
   const getRecommendations = () => {
     const unread = articlesData.articles.filter(a => !readArticleIds.includes(a.id));
     const sorted = unread.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
@@ -103,7 +102,6 @@ function App() {
     ? articlesData.articles 
     : articlesData.articles.filter(a => a.difficulty === filter);
 
-  // Handle Text Selection for Archiving
   const handleMouseUp = () => {
     const selection = window.getSelection();
     const text = selection?.toString().trim();
@@ -125,30 +123,40 @@ function App() {
     }
   };
 
-  // Google Translate API를 이용한 자동 한글 뜻 찾기
   const handleSaveWordClick = async () => {
     if (!selectionPos) return;
     setIsSaving(true);
     const wordText = selectionPos.text;
     const context = selectionPos.context;
     
-    // 시각적 피드백을 위해 팝업 내용을 "저장 중..."으로 변경
     setSelectionPos({ ...selectionPos, text: "저장 중..." });
     
     let autoMeaning = "뜻을 찾을 수 없음";
+    let autoEnMeaning = "영어 뜻 없음";
+    
     try {
-      // 무료 Google Translate API 호출
-      const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=${encodeURIComponent(wordText)}`);
-      const data = await res.json();
-      autoMeaning = data[0][0][0]; // 번역된 텍스트
+      // 1. 한국어 번역 가져오기
+      const resKo = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=${encodeURIComponent(wordText)}`);
+      const dataKo = await resKo.json();
+      autoMeaning = dataKo[0][0][0]; 
+      
+      // 2. 영어 영영사전 정의 가져오기
+      const resEn = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(wordText.split(' ')[0])}`);
+      if (resEn.ok) {
+        const dataEn = await resEn.json();
+        if (dataEn && dataEn[0] && dataEn[0].meanings && dataEn[0].meanings[0].definitions[0]) {
+          autoEnMeaning = dataEn[0].meanings[0].definitions[0].definition;
+        }
+      }
     } catch (e) {
-      console.error("번역 API 오류:", e);
+      console.error("사전 API 오류:", e);
     }
 
     const newWord: SavedWord = {
       id: Date.now().toString(),
       word: wordText,
       meaning: autoMeaning,
+      enMeaning: autoEnMeaning,
       context: context,
       source: selectedArticle?.source || "직접 입력",
       dateAdded: new Date().toISOString()
@@ -158,6 +166,32 @@ function App() {
     setIsSaving(false);
     setSelectionPos(null);
     window.getSelection()?.removeAllRanges();
+  };
+
+  const handleDeleteWord = (e: React.MouseEvent, id: string) => {
+    e.stopPropagation(); // 카드 뒤집힘 방지
+    if (window.confirm("이 단어를 삭제하시겠습니까?")) {
+      const updated = savedWords.filter(w => w.id !== id);
+      setSavedWords(updated);
+      localStorage.setItem('gravity_saved_words', JSON.stringify(updated));
+      if (currentCardIdx >= updated.length) {
+        setCurrentCardIdx(Math.max(0, updated.length - 1));
+      }
+      setIsFlipped(false);
+    }
+  };
+
+  const handleEditMeaning = (e: React.MouseEvent, id: string) => {
+    e.stopPropagation(); // 카드 뒤집힘 방지
+    const wordToEdit = savedWords.find(w => w.id === id);
+    if (!wordToEdit) return;
+
+    const newMeaning = window.prompt("한글 뜻을 수정하세요:", wordToEdit.meaning);
+    if (newMeaning && newMeaning.trim() !== "") {
+      const updated = savedWords.map(w => w.id === id ? { ...w, meaning: newMeaning } : w);
+      setSavedWords(updated);
+      localStorage.setItem('gravity_saved_words', JSON.stringify(updated));
+    }
   };
 
   const nextCard = () => {
@@ -178,10 +212,9 @@ function App() {
     return translationsMap[text.trim()] || "이 문장에 대한 해석 데이터가 없습니다. (추후 AI 자동 해석 연동 예정)";
   };
 
-  // Navigation Header (공통 상단 메뉴)
   const renderHeader = () => (
-    <header className="header" style={{ marginBottom: '30px' }}>
-      <h1 style={{ cursor: 'pointer' }} onClick={() => { setMainView('home'); setSelectedArticle(null); }}>Study English</h1>
+    <header className="header">
+      <h1 style={{ cursor: 'pointer', margin: 0 }} onClick={() => { setMainView('home'); setSelectedArticle(null); }}>Study English</h1>
       <div className="filter-group">
         <button className={`glass-button ${mainView === 'home' && !selectedArticle ? 'active' : ''}`} onClick={() => { setMainView('home'); setSelectedArticle(null); }}>
           🏠 홈
@@ -270,50 +303,83 @@ function App() {
     );
   };
 
-  const renderFlashcards = () => {
+  // 플래시카드 공통 렌더링 함수 (전체 단어장 및 기사 전용 단어장 통합)
+  const renderFlashcardsList = (words: SavedWord[], title: string) => {
+    if (words.length === 0) {
+      return (
+        <div className="glass-panel empty-state" style={{ marginTop: '40px' }}>
+          <h2>저장된 단어가 없습니다.</h2>
+          <p>기사 화면에서 모르는 단어를 마우스로 드래그하여 아카이브해 보세요!</p>
+        </div>
+      );
+    }
+
+    const currentWord = words[currentCardIdx] || words[0];
+
     return (
-      <div className="app-container flashcards-container">
-        {renderHeader()}
-        
-        {savedWords.length === 0 ? (
-          <div className="glass-panel empty-state">
-            <h2>아직 저장된 단어가 없습니다.</h2>
-            <p>기사 화면에서 모르는 단어를 마우스로 드래그하여 자동으로 뜻을 저장해 보세요!</p>
-          </div>
-        ) : (
-          <>
-            <h2>Flashcards ({currentCardIdx + 1} / {savedWords.length})</h2>
-            <div 
-              className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
-              onClick={() => setIsFlipped(!isFlipped)}
-            >
-              <div className="flashcard-inner">
-                <div className="flashcard-front">
-                  <h2>{savedWords[currentCardIdx].word}</h2>
-                  <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>클릭해서 의미 확인하기</p>
-                </div>
-                <div className="flashcard-back">
-                  <h3 style={{ fontSize: '2.5rem', color: 'white', marginBottom: '5px' }}>{savedWords[currentCardIdx].word}</h3>
-                  <p style={{ fontSize: '1.5rem', color: '#fbbf24', marginBottom: '25px', fontWeight: 'bold' }}>{savedWords[currentCardIdx].meaning}</p>
-                  
-                  <div style={{ padding: '15px', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', marginBottom: '15px', width: '100%' }}>
-                    <p style={{ fontStyle: 'italic', color: 'rgba(255,255,255,0.9)', fontSize: '1rem', lineHeight: '1.4' }}>"{savedWords[currentCardIdx].context}"</p>
-                  </div>
-                  
-                  <div style={{ fontSize: '0.85rem', opacity: 0.8, display: 'flex', justifyContent: 'space-between', width: '100%', marginTop: 'auto' }}>
-                    <span>출처: <strong>{savedWords[currentCardIdx].source}</strong></span>
-                    <span>저장일: {new Date(savedWords[currentCardIdx].dateAdded).toLocaleDateString()}</span>
-                  </div>
-                </div>
+      <div className="flashcards-container" style={{ marginTop: '20px' }}>
+        <h2>{title} ({currentCardIdx + 1} / {words.length})</h2>
+        <div 
+          className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
+          onClick={() => setIsFlipped(!isFlipped)}
+        >
+          <div className="flashcard-inner">
+            <div className="flashcard-front">
+              <div className="card-actions">
+                <button className="icon-btn" onClick={(e) => handleDeleteWord(e, currentWord.id)} title="단어 삭제">🗑️</button>
               </div>
+              <h2>{currentWord.word}</h2>
+              <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>클릭해서 의미 확인하기</p>
             </div>
             
-            <div className="flashcard-controls">
-              <button className="btn-prev" onClick={(e) => { e.stopPropagation(); prevCard(); }}>← 이전 카드</button>
-              <button className="btn-next" onClick={(e) => { e.stopPropagation(); nextCard(); }}>다음 카드 →</button>
+            <div className="flashcard-back">
+              <div className="card-actions">
+                <button className="icon-btn" onClick={(e) => handleEditMeaning(e, currentWord.id)} title="한글 뜻 수정">✏️</button>
+                <button className="icon-btn" onClick={(e) => handleDeleteWord(e, currentWord.id)} title="단어 삭제">🗑️</button>
+              </div>
+              
+              <h3 style={{ fontSize: '2.5rem', color: 'white', marginBottom: '5px' }}>{currentWord.word}</h3>
+              
+              <div style={{ padding: '15px 0', width: '100%' }}>
+                {/* 한글 뜻: 기울임 없음, 정자체 */}
+                <p style={{ fontSize: '1.4rem', color: '#fbbf24', marginBottom: '10px', fontWeight: 'bold', fontStyle: 'normal' }}>
+                  {currentWord.meaning}
+                </p>
+                {/* 영영 뜻 추가 */}
+                <p style={{ fontSize: '1rem', color: '#94a3b8', fontStyle: 'normal', marginBottom: '20px' }}>
+                  {currentWord.enMeaning || "영어 뜻 없음"}
+                </p>
+              </div>
+              
+              {/* 예문 박스 */}
+              <div style={{ padding: '15px', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', marginBottom: '20px', width: '100%', textAlign: 'left' }}>
+                <p style={{ fontStyle: 'italic', color: 'rgba(255,255,255,0.9)', fontSize: '1rem', lineHeight: '1.5' }}>
+                  "{currentWord.context}"
+                </p>
+              </div>
+              
+              {/* 박스 내부 하단 출처/날짜 */}
+              <div style={{ fontSize: '0.85rem', opacity: 0.8, display: 'flex', justifyContent: 'space-between', width: '100%', marginTop: 'auto', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '15px' }}>
+                <span>출처: <strong>{currentWord.source}</strong></span>
+                <span>저장일: {new Date(currentWord.dateAdded).toLocaleDateString()}</span>
+              </div>
             </div>
-          </>
-        )}
+          </div>
+        </div>
+        
+        <div className="flashcard-controls">
+          <button className="btn-prev" onClick={(e) => { e.stopPropagation(); prevCard(); }}>← 이전 카드</button>
+          <button className="btn-next" onClick={(e) => { e.stopPropagation(); nextCard(); }}>다음 카드 →</button>
+        </div>
+      </div>
+    );
+  };
+
+  const renderFlashcards = () => {
+    return (
+      <div className="app-container">
+        {renderHeader()}
+        {renderFlashcardsList(savedWords, "내 전체 단어장")}
       </div>
     );
   };
@@ -321,16 +387,21 @@ function App() {
   const renderReader = (article: Article) => {
     const paragraphs = article.content.split('\n\n');
     
+    // 기사 단어장 전용 단어 필터링 (현재 기사와 소스가 같거나 문맥이 일치하는 단어)
+    const articleWords = savedWords.filter(w => w.source === article.source);
+    
     return (
       <div className="app-container reader-view" onMouseUp={handleMouseUp}>
         <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setMainView('home'); }}>
-          ← 홈으로 가기
+          ← 대시보드로
         </button>
         
         <div className="feature-tabs">
-          <button className={`glass-button ${activeReaderTab === 'reader' ? 'active' : ''}`} onClick={() => setActiveReaderTab('reader')}>📖 Reader</button>
-          <button className={`glass-button ${activeReaderTab === 'flashcards' ? 'active' : ''}`} onClick={() => setActiveReaderTab('flashcards')}>🗂️ 기사 단어장</button>
-          <button className={`glass-button ${activeReaderTab === 'chat' ? 'active' : ''}`} onClick={() => setActiveReaderTab('chat')}>💬 Discuss</button>
+          <button className={`glass-button ${activeReaderTab === 'reader' ? 'active' : ''}`} onClick={() => setActiveReaderTab('reader')}>📖 기사 읽기</button>
+          <button className={`glass-button ${activeReaderTab === 'flashcards' ? 'active' : ''}`} onClick={() => { setActiveReaderTab('flashcards'); setCurrentCardIdx(0); setIsFlipped(false); }}>
+            🗂️ 이 기사 단어장 ({articleWords.length})
+          </button>
+          <button className={`glass-button ${activeReaderTab === 'chat' ? 'active' : ''}`} onClick={() => setActiveReaderTab('chat')}>💬 토론</button>
         </div>
 
         {selectionPos && activeReaderTab === 'reader' && (
@@ -373,11 +444,10 @@ function App() {
           </div>
         )}
 
-        {/* Reader 탭 내에서의 플래시카드는 전체 단어장 뷰 재사용 혹은 별도 처리 가능. 여기서는 전체 단어장 렌더링으로 연결 */}
+        {/* 개별 기사 단어장 작동 기능 추가 */}
         {activeReaderTab === 'flashcards' && (
-          <div style={{marginTop: '30px', textAlign: 'center'}}>
-            <p>이 기사에서 저장한 단어들을 모아볼 수 있습니다. (전체 단어장으로 이동하세요)</p>
-            <button className="glass-button" style={{marginTop: '20px'}} onClick={() => { setSelectedArticle(null); setMainView('flashcards'); }}>전체 단어장 가기</button>
+          <div className="glass-panel" style={{ padding: '20px' }}>
+             {renderFlashcardsList(articleWords, `'${article.source}' 학습 단어`)}
           </div>
         )}
 
@@ -393,7 +463,6 @@ function App() {
 
   return (
     <div className="app">
-      {/* 라우팅 로직 간소화 */}
       {selectedArticle 
         ? renderReader(selectedArticle) 
         : (mainView === 'home' ? renderHome() : mainView === 'library' ? renderLibrary() : renderFlashcards())
