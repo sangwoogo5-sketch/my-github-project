@@ -104,17 +104,43 @@ function App() {
 
   const handleMouseUp = () => {
     const selection = window.getSelection();
-    const text = selection?.toString().trim();
+    if (!selection || selection.isCollapsed) {
+      if (!isSaving) setSelectionPos(null);
+      return;
+    }
     
-    if (selection && text && text.length > 1 && text.length < 30) {
-      const range = selection.getRangeAt(0);
+    let text = selection.toString().trim();
+    const range = selection.getRangeAt(0);
+    const node = range.startContainer;
+    
+    if (node.nodeType === Node.TEXT_NODE) {
+      const fullText = node.textContent || "";
+      let start = range.startOffset;
+      let end = range.endOffset;
+      while (start > 0 && /[a-zA-Z]/.test(fullText[start - 1])) start--;
+      while (end < fullText.length && /[a-zA-Z]/.test(fullText[end])) end++;
+      const expandedWord = fullText.substring(start, end).trim();
+      if (expandedWord.length > 0) text = expandedWord;
+    }
+
+    if (text && text.length >= 1 && text.length < 50) {
       const rect = range.getBoundingClientRect();
       const parentNode = selection.anchorNode?.parentElement;
       const contextText = parentNode ? parentNode.innerText : text;
       
+      const container = document.querySelector('.reader-view');
+      let x = rect.left + window.scrollX + (rect.width / 2);
+      let y = rect.top + window.scrollY - 10;
+      
+      if (container) {
+        const containerRect = container.getBoundingClientRect();
+        x = rect.left - containerRect.left + (rect.width / 2);
+        y = rect.top - containerRect.top - 10;
+      }
+      
       setSelectionPos({ 
-        x: rect.left + window.scrollX + (rect.width / 2), 
-        y: rect.top + window.scrollY - 10, 
+        x, 
+        y, 
         text: text,
         context: contextText
       });
