@@ -1,14 +1,17 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import articlesData from './data/articles.json';
 
-type Article = {
+type ArticleIndex = {
   id: string;
   title: string;
   source: string;
   difficulty: string;
   date: string;
   coverImg: string;
+  fileUrl: string;
+};
+
+type Article = ArticleIndex & {
   content: string;
 };
 
@@ -22,20 +25,7 @@ type SavedWord = {
   dateAdded: string;
 };
 
-const translationsMap: Record<string, string> = {
-  "The global economy is facing unprecedented challenges as inflation rates hover near historical highs while central banks attempt a delicate soft landing. Analysts predict that emerging markets will bear the brunt of capital flight, though tech-driven productivity gains might offset some losses.": 
-    "세계 경제는 인플레이션율이 역사적 최고치에 근접하고 중앙은행들이 섬세한 연착륙을 시도함에 따라 전례 없는 도전에 직면해 있습니다. 분석가들은 신흥 시장이 자본 유출의 가장 큰 타격을 입을 것이라고 예측하지만, 기술 주도의 생산성 향상이 일부 손실을 상쇄할 수도 있습니다.",
-  "However, there are silver linings. The rapid adoption of artificial intelligence in corporate sectors has led to a 15% increase in operational efficiency across Fortune 500 companies. This technological renaissance could be the catalyst for the next economic supercycle.":
-    "하지만 희망적인 측면도 있습니다. 기업 부문에서 인공지능의 빠른 도입은 포춘 500대 기업 전반에 걸쳐 운영 효율성을 15% 증가시켰습니다. 이러한 기술의 부흥은 다음 경제 슈퍼사이클의 촉매제가 될 수 있습니다.",
-  "Artificial Intelligence is everywhere. We use it when we search the internet, watch movies, and even drive our cars. But with great power comes great responsibility. People are starting to ask important questions about how AI makes decisions.":
-    "인공지능은 어디에나 있습니다. 우리는 인터넷을 검색하고, 영화를 보며, 심지어 운전을 할 때도 그것을 사용합니다. 하지만 큰 힘에는 큰 책임이 따릅니다. 사람들은 AI가 어떻게 결정을 내리는지에 대한 중요한 질문을 하기 시작했습니다.",
-  "For example, if a self-driving car makes a mistake, who is responsible? The company, the programmer, or the car itself? These ethical questions are very important for our future.":
-    "예를 들어, 자율주행차가 실수를 한다면 누구의 책임일까요? 회사, 프로그래머, 아니면 자동차 자체일까요? 이러한 윤리적 질문들은 우리의 미래를 위해 매우 중요합니다.",
-  "Humanity's journey into the cosmos is accelerating at an astonishing pace. With private companies launching reusable rockets, the cost of entering low Earth orbit has dropped significantly. NASA's Artemis program aims to establish a sustainable human presence on the Moon by the end of the decade.":
-    "인류의 우주를 향한 여정은 놀라운 속도로 가속화되고 있습니다. 민간 기업들이 재사용 가능한 로켓을 발사하면서 지구 저궤도 진입 비용이 크게 떨어졌습니다. NASA의 아르테미스 프로그램은 10년 안에 달에 지속 가능한 인류의 거점을 구축하는 것을 목표로 하고 있습니다.",
-  "Beyond the Moon, the ultimate goal remains Mars. However, the psychological and physical toll of long-duration spaceflight poses significant hurdles. Scientists are developing new habitation modules and radiation shielding to protect astronauts on their journey.":
-    "달 너머, 궁극적인 목표는 여전히 화성입니다. 그러나 장기 우주 비행에 따른 심리적, 신체적 피해는 상당한 장애물이 됩니다. 과학자들은 우주 비행사들을 보호하기 위해 새로운 거주 모듈과 방사선 차폐 장치를 개발하고 있습니다."
-};
+const translationsMap: Record<string, string> = {};
 
 type MainView = 'home' | 'library' | 'flashcards';
 
@@ -43,27 +33,40 @@ function App() {
   const [mainView, setMainView] = useState<MainView>('home');
   const [filter, setFilter] = useState('All');
   
+  const [articlesData, setArticlesData] = useState<ArticleIndex[]>([]);
+  const [isLoadingIndex, setIsLoadingIndex] = useState(true);
+  
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
+  const [isLoadingArticle, setIsLoadingArticle] = useState(false);
+  
   const [activeReaderTab, setActiveReaderTab] = useState<'reader' | 'flashcards' | 'chat'>('reader');
   const [activeParagraph, setActiveParagraph] = useState<number | null>(null);
   
-  // Archive States
   const [savedWords, setSavedWords] = useState<SavedWord[]>([]);
   const [selectionPos, setSelectionPos] = useState<{x: number, y: number, text: string, context: string} | null>(null);
   const [currentCardIdx, setCurrentCardIdx] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
 
-  // Read History State
   const [readArticleIds, setReadArticleIds] = useState<string[]>([]);
 
-  // Load saved data from localStorage on mount
   useEffect(() => {
     const storedWords = localStorage.getItem('gravity_saved_words');
     if (storedWords) setSavedWords(JSON.parse(storedWords));
 
     const storedHistory = localStorage.getItem('gravity_read_history');
     if (storedHistory) setReadArticleIds(JSON.parse(storedHistory));
+    
+    fetch('/data/index.json')
+      .then(res => res.json())
+      .then(data => {
+        setArticlesData(data.articles || []);
+        setIsLoadingIndex(false);
+      })
+      .catch(err => {
+        console.error("Failed to load article index", err);
+        setIsLoadingIndex(false);
+      });
   }, []);
 
   const saveToArchive = (word: SavedWord) => {
@@ -80,27 +83,38 @@ function App() {
     }
   };
 
-  const handleArticleClick = (article: Article) => {
-    markAsRead(article.id);
-    setSelectedArticle(article);
-    setActiveReaderTab('reader');
-    setActiveParagraph(null);
+  const handleArticleClick = async (articleIndex: ArticleIndex) => {
+    setIsLoadingArticle(true);
+    try {
+      const res = await fetch(articleIndex.fileUrl);
+      const fullArticle = await res.json();
+      
+      markAsRead(fullArticle.id);
+      setSelectedArticle(fullArticle);
+      setActiveReaderTab('reader');
+      setActiveParagraph(null);
+    } catch (e) {
+      console.error("Failed to load article data", e);
+      alert("기사를 불러오는데 실패했습니다.");
+    } finally {
+      setIsLoadingArticle(false);
+    }
   };
 
   const getRecommendations = () => {
-    const unread = articlesData.articles.filter(a => !readArticleIds.includes(a.id));
+    const unread = articlesData.filter(a => !readArticleIds.includes(a.id));
     const sorted = unread.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
     if (sorted.length < 3) {
       const remaining = 3 - sorted.length;
-      const read = articlesData.articles.filter(a => readArticleIds.includes(a.id)).slice(0, remaining);
+      const read = articlesData.filter(a => readArticleIds.includes(a.id)).slice(0, remaining);
       return [...sorted, ...read];
     }
     return sorted.slice(0, 3);
   };
 
   const filteredArticles = filter === 'All' 
-    ? articlesData.articles 
-    : articlesData.articles.filter(a => a.difficulty === filter);
+    ? articlesData 
+    : articlesData.filter(a => a.difficulty === filter);
 
   const handleMouseUp = () => {
     const selection = window.getSelection();
@@ -232,7 +246,6 @@ function App() {
     }, 150);
   };
 
-  // 단어장을 누르면 뒤집히고, 뒤집힌 상태에서 누르면 다음 카드로 넘어가는 로직
   const handleCardClick = () => {
     if (isFlipped) {
       nextCard();
@@ -263,6 +276,7 @@ function App() {
   );
 
   const renderHome = () => {
+    if (isLoadingIndex) return <div className="app-container" style={{textAlign:'center', marginTop:'100px'}}><h2>데이터를 불러오는 중입니다...</h2></div>;
     const recommended = getRecommendations();
     return (
       <div className="app-container">
@@ -281,8 +295,7 @@ function App() {
                   <span className={`difficulty diff-${article.difficulty.toLowerCase()}`}>{article.difficulty}</span>
                 </div>
                 <h3 className="card-title">{article.title}</h3>
-                <p className="card-preview">{article.content}</p>
-                <div style={{ marginTop: '10px', fontSize: '0.8rem', color: 'var(--accent)' }}>추천 완료!</div>
+                <div style={{ marginTop: '10px', fontSize: '0.8rem', color: 'var(--accent)' }}>클릭해서 읽기</div>
               </div>
             ))}
           </div>
@@ -292,12 +305,13 @@ function App() {
   };
 
   const renderLibrary = () => {
+    if (isLoadingIndex) return <div className="app-container" style={{textAlign:'center', marginTop:'100px'}}><h2>데이터를 불러오는 중입니다...</h2></div>;
     return (
       <div className="app-container">
         {renderHeader()}
         <section>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px' }}>
-            <h2 style={{ fontSize: '1.8rem' }}>📚 전체 기사 탐색</h2>
+            <h2 style={{ fontSize: '1.8rem' }}>📚 전체 기사 탐색 ({filteredArticles.length}개)</h2>
             <div className="filter-group">
               {['All', 'Beginner', 'Intermediate', 'Advanced'].map(diff => (
                 <button 
@@ -313,7 +327,7 @@ function App() {
           </div>
           
           <div className="articles-grid">
-            {filteredArticles.map((article) => {
+            {filteredArticles.slice(0, 100).map((article) => { // Render only top 100 to prevent lag
               const isRead = readArticleIds.includes(article.id);
               return (
                 <div key={article.id} className="glass-panel article-card" style={{ opacity: isRead ? 0.7 : 1 }} onClick={() => handleArticleClick(article)}>
@@ -325,12 +339,14 @@ function App() {
                     <span className={`difficulty diff-${article.difficulty.toLowerCase()}`}>{article.difficulty}</span>
                   </div>
                   <h3 className="card-title">{article.title}</h3>
-                  <p className="card-preview">{article.content}</p>
                   {isRead && <div style={{ marginTop: '5px', fontSize: '0.8rem', color: 'var(--text-muted)' }}>✓ 학습 완료</div>}
                 </div>
               );
             })}
           </div>
+          {filteredArticles.length > 100 && (
+             <div style={{textAlign: 'center', marginTop: '20px', color: 'var(--text-muted)'}}>...스크롤 최적화를 위해 100개만 표시 중입니다...</div>
+          )}
         </section>
       </div>
     );
@@ -488,10 +504,13 @@ function App() {
 
   return (
     <div className="app">
-      {selectedArticle 
-        ? renderReader(selectedArticle) 
-        : (mainView === 'home' ? renderHome() : mainView === 'library' ? renderLibrary() : renderFlashcards())
-      }
+      {isLoadingArticle ? (
+        <div className="app-container" style={{textAlign:'center', marginTop:'100px'}}><h2>기사 데이터를 불러오는 중입니다...</h2></div>
+      ) : selectedArticle ? (
+        renderReader(selectedArticle) 
+      ) : (
+        mainView === 'home' ? renderHome() : mainView === 'library' ? renderLibrary() : renderFlashcards()
+      )}
     </div>
   );
 }
