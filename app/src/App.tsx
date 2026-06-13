@@ -15,7 +15,9 @@ type Article = {
 type SavedWord = {
   id: string;
   word: string;
+  meaning: string;
   context: string;
+  source: string;
   dateAdded: string;
 };
 
@@ -53,7 +55,7 @@ function App() {
     const selection = window.getSelection();
     const text = selection?.toString().trim();
     
-    if (selection && text && text.length > 1 && text.length < 30) { // Valid word length
+    if (selection && text && text.length > 1 && text.length < 30) {
       const range = selection.getRangeAt(0);
       const rect = range.getBoundingClientRect();
       const parentNode = selection.anchorNode?.parentElement;
@@ -72,16 +74,22 @@ function App() {
 
   const handleSaveWordClick = () => {
     if (!selectionPos) return;
+    
+    // Prompt for meaning
+    const userMeaning = window.prompt(`'${selectionPos.text}'의 한글 뜻을 입력해 주세요.\n(나중에 적으려면 그냥 확인을 누르세요)`);
+    
     const newWord: SavedWord = {
       id: Date.now().toString(),
       word: selectionPos.text,
+      meaning: userMeaning || "뜻 미입력",
       context: selectionPos.context,
+      source: selectedArticle?.source || "직접 입력",
       dateAdded: new Date().toISOString()
     };
+    
     saveToArchive(newWord);
     setSelectionPos(null);
     window.getSelection()?.removeAllRanges();
-    alert(`"${newWord.word}" 단어가 아카이브에 저장되었습니다!`);
   };
 
   const nextCard = () => {
@@ -112,7 +120,7 @@ function App() {
               {diff}
             </button>
           ))}
-          <button className="glass-button" style={{marginLeft: '20px', borderColor: 'var(--accent)'}} onClick={() => setActiveTab('flashcards')}>
+          <button className="glass-button" style={{marginLeft: '20px', borderColor: 'var(--accent)'}} onClick={() => { setSelectedArticle(null); setActiveTab('flashcards'); }}>
             📚 내 단어장 ({savedWords.length})
           </button>
         </div>
@@ -121,7 +129,7 @@ function App() {
       {activeTab === 'flashcards' ? renderFlashcards() : (
         <div className="articles-grid">
           {filteredArticles.map((article) => (
-            <div key={article.id} className="glass-panel article-card" onClick={() => setSelectedArticle(article)}>
+            <div key={article.id} className="glass-panel article-card" onClick={() => { setSelectedArticle(article); setActiveTab('reader'); }}>
               <div className="card-img-wrapper">
                 <img src={article.coverImg} alt={article.title} className="card-img" />
               </div>
@@ -139,47 +147,52 @@ function App() {
   );
 
   const renderFlashcards = () => {
-    if (savedWords.length === 0) {
-      return (
-        <div className="glass-panel empty-state">
-          <h2>아직 저장된 단어가 없습니다.</h2>
-          <p>기사(Reader) 화면에서 모르는 단어를 마우스로 드래그하여 아카이브해 보세요!</p>
-          <button className="glass-button" style={{marginTop: '20px'}} onClick={() => setActiveTab('reader')}>기사 읽으러 가기</button>
-        </div>
-      );
-    }
-
-    const currentWord = savedWords[currentCardIdx];
-
     return (
-      <div className="flashcards-container">
-        <h2>Flashcards ({currentCardIdx + 1} / {savedWords.length})</h2>
-        <div 
-          className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
-          onClick={() => setIsFlipped(!isFlipped)}
-        >
-          <div className="flashcard-inner">
-            <div className="flashcard-front">
-              <h2>{currentWord.word}</h2>
-              <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>클릭해서 의미 확인하기</p>
-            </div>
-            <div className="flashcard-back">
-              <h3>{currentWord.word}</h3>
-              <p>"{currentWord.context.length > 80 ? currentWord.context.substring(0, 80) + '...' : currentWord.context}"</p>
-              <div style={{ marginTop: '20px', fontSize: '0.9rem', opacity: 0.7 }}>
-                저장일: {new Date(currentWord.dateAdded).toLocaleDateString()}
+      <div className="app-container flashcards-container">
+        <div style={{ width: '100%', maxWidth: '500px', display: 'flex', justifyContent: 'flex-start', marginBottom: '20px' }}>
+          <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setActiveTab('reader'); }}>
+            ← 뒤로 가기
+          </button>
+        </div>
+
+        {savedWords.length === 0 ? (
+          <div className="glass-panel empty-state">
+            <h2>아직 저장된 단어가 없습니다.</h2>
+            <p>기사(Reader) 화면에서 모르는 단어를 마우스로 드래그하여 아카이브해 보세요!</p>
+          </div>
+        ) : (
+          <>
+            <h2>Flashcards ({currentCardIdx + 1} / {savedWords.length})</h2>
+            <div 
+              className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
+              onClick={() => setIsFlipped(!isFlipped)}
+            >
+              <div className="flashcard-inner">
+                <div className="flashcard-front">
+                  <h2>{savedWords[currentCardIdx].word}</h2>
+                  <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>클릭해서 의미 확인하기</p>
+                </div>
+                <div className="flashcard-back">
+                  <h3 style={{ fontSize: '2rem', color: '#fbbf24', marginBottom: '10px' }}>{savedWords[currentCardIdx].meaning}</h3>
+                  <p style={{ fontSize: '1.2rem', marginBottom: '20px', color: 'white' }}>{savedWords[currentCardIdx].word}</p>
+                  
+                  <div style={{ padding: '15px', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', marginBottom: '15px' }}>
+                    <p style={{ fontStyle: 'italic', color: 'rgba(255,255,255,0.9)' }}>"{savedWords[currentCardIdx].context}"</p>
+                  </div>
+                  
+                  <div style={{ fontSize: '0.85rem', opacity: 0.8, display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+                    <span>잡지명: <strong>{savedWords[currentCardIdx].source}</strong></span>
+                    <span>저장일: {new Date(savedWords[currentCardIdx].dateAdded).toLocaleDateString()}</span>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        
-        <div className="flashcard-controls">
-          <button className="btn-prev" onClick={prevCard}>← 이전 카드</button>
-          <button className="btn-next" onClick={nextCard}>다음 카드 →</button>
-        </div>
-        
-        {selectedArticle && (
-          <button className="glass-button" style={{marginTop: '20px'}} onClick={() => setActiveTab('reader')}>기사로 돌아가기</button>
+            
+            <div className="flashcard-controls">
+              <button className="btn-prev" onClick={prevCard}>← 이전 카드</button>
+              <button className="btn-next" onClick={nextCard}>다음 카드 →</button>
+            </div>
+          </>
         )}
       </div>
     );
@@ -191,7 +204,7 @@ function App() {
     return (
       <div className="app-container reader-view" onMouseUp={handleMouseUp}>
         <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setActiveTab('reader'); }}>
-          ← Back to Library
+          ← 기사 목록으로
         </button>
         
         <div className="feature-tabs">
@@ -200,7 +213,6 @@ function App() {
           <button className={`glass-button ${activeTab === 'chat' ? 'active' : ''}`} onClick={() => setActiveTab('chat')}>💬 Discuss</button>
         </div>
 
-        {/* Selection Popup */}
         {selectionPos && activeTab === 'reader' && (
           <div 
             className="selection-popup" 
@@ -216,7 +228,7 @@ function App() {
             <div className="reader-header">
               <h1>{article.title}</h1>
               <div className="reader-meta">
-                <span>{article.source}</span>
+                <span style={{ fontWeight: 700, color: '#fbbf24' }}>{article.source}</span>
                 <span>•</span>
                 <span className={`difficulty diff-${article.difficulty.toLowerCase()}`}>{article.difficulty}</span>
               </div>
@@ -246,7 +258,7 @@ function App() {
 
   return (
     <div className="app">
-      {selectedArticle || activeTab === 'flashcards' ? (selectedArticle ? renderReader(selectedArticle) : renderDashboard()) : renderDashboard()}
+      {selectedArticle || activeTab === 'flashcards' ? (selectedArticle ? renderReader(selectedArticle) : renderFlashcards()) : renderDashboard()}
     </div>
   );
 }
