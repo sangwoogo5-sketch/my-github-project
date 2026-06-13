@@ -21,23 +21,17 @@ type SavedWord = {
   dateAdded: string;
 };
 
-// Hardcoded translations for the sample articles to make it look real
 const translationsMap: Record<string, string> = {
   "The global economy is facing unprecedented challenges as inflation rates hover near historical highs while central banks attempt a delicate soft landing. Analysts predict that emerging markets will bear the brunt of capital flight, though tech-driven productivity gains might offset some losses.": 
     "세계 경제는 인플레이션율이 역사적 최고치에 근접하고 중앙은행들이 섬세한 연착륙을 시도함에 따라 전례 없는 도전에 직면해 있습니다. 분석가들은 신흥 시장이 자본 유출의 가장 큰 타격을 입을 것이라고 예측하지만, 기술 주도의 생산성 향상이 일부 손실을 상쇄할 수도 있습니다.",
-  
   "However, there are silver linings. The rapid adoption of artificial intelligence in corporate sectors has led to a 15% increase in operational efficiency across Fortune 500 companies. This technological renaissance could be the catalyst for the next economic supercycle.":
     "하지만 희망적인 측면도 있습니다. 기업 부문에서 인공지능의 빠른 도입은 포춘 500대 기업 전반에 걸쳐 운영 효율성을 15% 증가시켰습니다. 이러한 기술의 부흥은 다음 경제 슈퍼사이클의 촉매제가 될 수 있습니다.",
-  
   "Artificial Intelligence is everywhere. We use it when we search the internet, watch movies, and even drive our cars. But with great power comes great responsibility. People are starting to ask important questions about how AI makes decisions.":
     "인공지능은 어디에나 있습니다. 우리는 인터넷을 검색하고, 영화를 보며, 심지어 운전을 할 때도 그것을 사용합니다. 하지만 큰 힘에는 큰 책임이 따릅니다. 사람들은 AI가 어떻게 결정을 내리는지에 대한 중요한 질문을 하기 시작했습니다.",
-
   "For example, if a self-driving car makes a mistake, who is responsible? The company, the programmer, or the car itself? These ethical questions are very important for our future.":
     "예를 들어, 자율주행차가 실수를 한다면 누구의 책임일까요? 회사, 프로그래머, 아니면 자동차 자체일까요? 이러한 윤리적 질문들은 우리의 미래를 위해 매우 중요합니다.",
-
   "Humanity's journey into the cosmos is accelerating at an astonishing pace. With private companies launching reusable rockets, the cost of entering low Earth orbit has dropped significantly. NASA's Artemis program aims to establish a sustainable human presence on the Moon by the end of the decade.":
     "인류의 우주를 향한 여정은 놀라운 속도로 가속화되고 있습니다. 민간 기업들이 재사용 가능한 로켓을 발사하면서 지구 저궤도 진입 비용이 크게 떨어졌습니다. NASA의 아르테미스 프로그램은 10년 안에 달에 지속 가능한 인류의 거점을 구축하는 것을 목표로 하고 있습니다.",
-
   "Beyond the Moon, the ultimate goal remains Mars. However, the psychological and physical toll of long-duration spaceflight poses significant hurdles. Scientists are developing new habitation modules and radiation shielding to protect astronauts on their journey.":
     "달 너머, 궁극적인 목표는 여전히 화성입니다. 그러나 장기 우주 비행에 따른 심리적, 신체적 피해는 상당한 장애물이 됩니다. 과학자들은 우주 비행사들을 보호하기 위해 새로운 거주 모듈과 방사선 차폐 장치를 개발하고 있습니다."
 };
@@ -54,18 +48,51 @@ function App() {
   const [currentCardIdx, setCurrentCardIdx] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
 
-  // Load saved words from localStorage on mount
+  // Read History State
+  const [readArticleIds, setReadArticleIds] = useState<string[]>([]);
+
+  // Load saved data from localStorage on mount
   useEffect(() => {
-    const stored = localStorage.getItem('gravity_saved_words');
-    if (stored) {
-      setSavedWords(JSON.parse(stored));
-    }
+    const storedWords = localStorage.getItem('gravity_saved_words');
+    if (storedWords) setSavedWords(JSON.parse(storedWords));
+
+    const storedHistory = localStorage.getItem('gravity_read_history');
+    if (storedHistory) setReadArticleIds(JSON.parse(storedHistory));
   }, []);
 
   const saveToArchive = (word: SavedWord) => {
     const updated = [...savedWords, word];
     setSavedWords(updated);
     localStorage.setItem('gravity_saved_words', JSON.stringify(updated));
+  };
+
+  const markAsRead = (articleId: string) => {
+    if (!readArticleIds.includes(articleId)) {
+      const updated = [...readArticleIds, articleId];
+      setReadArticleIds(updated);
+      localStorage.setItem('gravity_read_history', JSON.stringify(updated));
+    }
+  };
+
+  const handleArticleClick = (article: Article) => {
+    markAsRead(article.id);
+    setSelectedArticle(article);
+    setActiveTab('reader');
+    setActiveParagraph(null);
+  };
+
+  // 1. Recommendations Logic (Unread -> Newest -> limit 3)
+  const getRecommendations = () => {
+    const unread = articlesData.articles.filter(a => !readArticleIds.includes(a.id));
+    // Sort by newest date (mock implementation)
+    const sorted = unread.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+    // If we have less than 3 unread, fallback to some read ones just to fill UI
+    if (sorted.length < 3) {
+      const remaining = 3 - sorted.length;
+      const read = articlesData.articles.filter(a => readArticleIds.includes(a.id)).slice(0, remaining);
+      return [...sorted, ...read];
+    }
+    return sorted.slice(0, 3);
   };
 
   const filteredArticles = filter === 'All' 
@@ -96,9 +123,7 @@ function App() {
 
   const handleSaveWordClick = () => {
     if (!selectionPos) return;
-    
     const userMeaning = window.prompt(`'${selectionPos.text}'의 한글 뜻을 입력해 주세요.\n(나중에 적으려면 그냥 확인을 누르세요)`);
-    
     const newWord: SavedWord = {
       id: Date.now().toString(),
       word: selectionPos.text,
@@ -107,7 +132,6 @@ function App() {
       source: selectedArticle?.source || "직접 입력",
       dateAdded: new Date().toISOString()
     };
-    
     saveToArchive(newWord);
     setSelectionPos(null);
     window.getSelection()?.removeAllRanges();
@@ -128,48 +152,86 @@ function App() {
   };
 
   const getTranslation = (text: string) => {
-    return translationsMap[text.trim()] || "이 문장에 대한 해석 데이터가 없습니다. (추후 AI 자동 해석이 연동될 예정입니다)";
+    return translationsMap[text.trim()] || "이 문장에 대한 해석 데이터가 없습니다. (추후 AI 자동 해석 연동 예정)";
   };
 
-  const renderDashboard = () => (
-    <div className="app-container">
-      <header className="header">
-        <h1>Study English</h1>
-        <div className="filter-group">
-          {['All', 'Beginner', 'Intermediate', 'Advanced'].map(diff => (
-            <button 
-              key={diff}
-              className={`glass-button ${filter === diff ? 'active' : ''}`}
-              onClick={() => setFilter(diff)}
-            >
-              {diff}
+  const renderDashboard = () => {
+    const recommended = getRecommendations();
+
+    return (
+      <div className="app-container">
+        <header className="header">
+          <h1>Study English</h1>
+          <div className="filter-group">
+            <button className="glass-button" style={{borderColor: 'var(--accent)'}} onClick={() => { setSelectedArticle(null); setActiveTab('flashcards'); }}>
+              📚 내 단어장 ({savedWords.length})
             </button>
-          ))}
-          <button className="glass-button" style={{marginLeft: '20px', borderColor: 'var(--accent)'}} onClick={() => { setSelectedArticle(null); setActiveTab('flashcards'); }}>
-            📚 내 단어장 ({savedWords.length})
-          </button>
-        </div>
-      </header>
-      
-      {activeTab === 'flashcards' ? renderFlashcards() : (
-        <div className="articles-grid">
-          {filteredArticles.map((article) => (
-            <div key={article.id} className="glass-panel article-card" onClick={() => { setSelectedArticle(article); setActiveTab('reader'); setActiveParagraph(null); }}>
-              <div className="card-img-wrapper">
-                <img src={article.coverImg} alt={article.title} className="card-img" />
+          </div>
+        </header>
+        
+        {/* 추천 기사 섹션 */}
+        <section style={{ marginBottom: '60px' }}>
+          <h2 style={{ fontSize: '1.8rem', marginBottom: '20px' }}>🌟 맞춤 추천 기사</h2>
+          <p style={{ color: 'var(--text-muted)', marginBottom: '20px' }}>학습하지 않은 최신 업데이트 기사를 난이도별로 추천합니다.</p>
+          <div className="articles-grid">
+            {recommended.map((article) => (
+              <div key={`rec-${article.id}`} className="glass-panel article-card" style={{ border: '1px solid var(--accent)' }} onClick={() => handleArticleClick(article)}>
+                <div className="card-img-wrapper">
+                  <img src={article.coverImg} alt={article.title} className="card-img" />
+                </div>
+                <div className="card-meta">
+                  <span className="source">{article.source}</span>
+                  <span className={`difficulty diff-${article.difficulty.toLowerCase()}`}>{article.difficulty}</span>
+                </div>
+                <h3 className="card-title">{article.title}</h3>
+                <p className="card-preview">{article.content}</p>
+                <div style={{ marginTop: '10px', fontSize: '0.8rem', color: 'var(--accent)' }}>추천 완료!</div>
               </div>
-              <div className="card-meta">
-                <span className="source">{article.source}</span>
-                <span className={`difficulty diff-${article.difficulty.toLowerCase()}`}>{article.difficulty}</span>
-              </div>
-              <h3 className="card-title">{article.title}</h3>
-              <p className="card-preview">{article.content}</p>
+            ))}
+          </div>
+        </section>
+
+        {/* 전체 기사 섹션 */}
+        <section>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+            <h2 style={{ fontSize: '1.8rem' }}>📚 전체 기사 탐색</h2>
+            <div className="filter-group">
+              {['All', 'Beginner', 'Intermediate', 'Advanced'].map(diff => (
+                <button 
+                  key={diff}
+                  className={`glass-button ${filter === diff ? 'active' : ''}`}
+                  style={{ padding: '6px 14px', fontSize: '0.9rem' }}
+                  onClick={() => setFilter(diff)}
+                >
+                  {diff}
+                </button>
+              ))}
             </div>
-          ))}
-        </div>
-      )}
-    </div>
-  );
+          </div>
+          
+          <div className="articles-grid">
+            {filteredArticles.map((article) => {
+              const isRead = readArticleIds.includes(article.id);
+              return (
+                <div key={article.id} className="glass-panel article-card" style={{ opacity: isRead ? 0.7 : 1 }} onClick={() => handleArticleClick(article)}>
+                  <div className="card-img-wrapper">
+                    <img src={article.coverImg} alt={article.title} className="card-img" style={{ filter: isRead ? 'grayscale(50%)' : 'none' }} />
+                  </div>
+                  <div className="card-meta">
+                    <span className="source">{article.source}</span>
+                    <span className={`difficulty diff-${article.difficulty.toLowerCase()}`}>{article.difficulty}</span>
+                  </div>
+                  <h3 className="card-title">{article.title}</h3>
+                  <p className="card-preview">{article.content}</p>
+                  {isRead && <div style={{ marginTop: '5px', fontSize: '0.8rem', color: 'var(--text-muted)' }}>✓ 학습 완료</div>}
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      </div>
+    );
+  };
 
   const renderFlashcards = () => {
     return (
@@ -183,7 +245,7 @@ function App() {
         {savedWords.length === 0 ? (
           <div className="glass-panel empty-state">
             <h2>아직 저장된 단어가 없습니다.</h2>
-            <p>기사(Reader) 화면에서 모르는 단어를 마우스로 드래그하여 아카이브해 보세요!</p>
+            <p>기사 화면에서 모르는 단어를 마우스로 드래그하여 아카이브해 보세요!</p>
           </div>
         ) : (
           <>
@@ -198,7 +260,6 @@ function App() {
                   <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>클릭해서 의미 확인하기</p>
                 </div>
                 <div className="flashcard-back">
-                  {/* 영어 단어 / 한글 뜻 / 예문 순서 배치 */}
                   <h3 style={{ fontSize: '2.5rem', color: 'white', marginBottom: '5px' }}>{savedWords[currentCardIdx].word}</h3>
                   <p style={{ fontSize: '1.5rem', color: '#fbbf24', marginBottom: '25px', fontWeight: 'bold' }}>{savedWords[currentCardIdx].meaning}</p>
                   
@@ -230,7 +291,7 @@ function App() {
     return (
       <div className="app-container reader-view" onMouseUp={handleMouseUp}>
         <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setActiveTab('reader'); }}>
-          ← 기사 목록으로
+          ← 대시보드로
         </button>
         
         <div className="feature-tabs">
@@ -268,7 +329,6 @@ function App() {
                   onClick={() => setActiveParagraph(activeParagraph === idx ? null : idx)}
                 >
                   <p>{p}</p>
-                  {/* 문단 클릭 시 해당 문단의 실제 한글 해석을 보여줌 */}
                   {activeParagraph === idx && (
                     <div className="translation-panel">
                       {getTranslation(p)}
@@ -285,7 +345,7 @@ function App() {
         {activeTab === 'chat' && (
           <div className="glass-panel" style={{ textAlign: 'center', padding: '60px' }}>
             <h2>Discuss with AI</h2>
-            <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>I have summarized the article. Let's practice speaking about it!</p>
+            <p style={{ marginTop: '20px', color: 'var(--text-muted)' }}>AI와 함께 이 기사의 핵심 내용을 영어로 토론해 보세요! (준비 중)</p>
           </div>
         )}
       </div>
