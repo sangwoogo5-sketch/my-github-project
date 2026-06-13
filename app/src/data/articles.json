@@ -1,0 +1,31 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "The Global Economic Outlook for 2026",
+      "source": "The Economist",
+      "difficulty": "Advanced",
+      "date": "2026-06-01",
+      "coverImg": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800",
+      "content": "The global economy is facing unprecedented challenges as inflation rates hover near historical highs while central banks attempt a delicate soft landing. Analysts predict that emerging markets will bear the brunt of capital flight, though tech-driven productivity gains might offset some losses.\n\nHowever, there are silver linings. The rapid adoption of artificial intelligence in corporate sectors has led to a 15% increase in operational efficiency across Fortune 500 companies. This technological renaissance could be the catalyst for the next economic supercycle."
+    },
+    {
+      "id": "2",
+      "title": "A Beginner's Guide to AI Ethics",
+      "source": "Time Magazine",
+      "difficulty": "Beginner",
+      "date": "2026-05-15",
+      "coverImg": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
+      "content": "Artificial Intelligence is everywhere. We use it when we search the internet, watch movies, and even drive our cars. But with great power comes great responsibility. People are starting to ask important questions about how AI makes decisions.\n\nFor example, if a self-driving car makes a mistake, who is responsible? The company, the programmer, or the car itself? These ethical questions are very important for our future."
+    },
+    {
+      "id": "3",
+      "title": "The Future of Space Exploration",
+      "source": "Scientific American",
+      "difficulty": "Intermediate",
+      "date": "2026-04-20",
+      "coverImg": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "content": "Humanity's journey into the cosmos is accelerating at an astonishing pace. With private companies launching reusable rockets, the cost of entering low Earth orbit has dropped significantly. NASA's Artemis program aims to establish a sustainable human presence on the Moon by the end of the decade.\n\nBeyond the Moon, the ultimate goal remains Mars. However, the psychological and physical toll of long-duration spaceflight poses significant hurdles. Scientists are developing new habitation modules and radiation shielding to protect astronauts on their journey."
+    }
+  ]
+}

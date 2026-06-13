@@ -6,8 +6,10 @@
     "convert": "npx kordoc docs -o md",
     "dev": "echo \"Vite dev server will be configured here soon!\""
   },
-  "dependencies": {},
   "devDependencies": {
-    "kordoc": "^1.0.0"
+    "kordoc": "^1.9.0"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^6.0.227"
   }
 }
