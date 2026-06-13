@@ -1,0 +1,13 @@
+{
+  "name": "english-study-app",
+  "version": "1.0.0",
+  "description": "English study app workspace",
+  "scripts": {
+    "convert": "npx kordoc docs -o md",
+    "dev": "echo \"Vite dev server will be configured here soon!\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "kordoc": "^1.0.0"
+  }
+}
