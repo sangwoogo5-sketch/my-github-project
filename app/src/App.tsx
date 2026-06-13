@@ -161,12 +161,10 @@ function App() {
     let autoEnMeaning = "영어 뜻 없음";
     
     try {
-      // 1. 한국어 번역 가져오기
       const resKo = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=${encodeURIComponent(wordText)}`);
       const dataKo = await resKo.json();
       autoMeaning = dataKo[0][0][0]; 
       
-      // 2. 영어 영영사전 정의 가져오기
       const resEn = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(wordText.split(' ')[0])}`);
       if (resEn.ok) {
         const dataEn = await resEn.json();
@@ -195,7 +193,7 @@ function App() {
   };
 
   const handleDeleteWord = (e: React.MouseEvent, id: string) => {
-    e.stopPropagation(); // 카드 뒤집힘 방지
+    e.stopPropagation();
     if (window.confirm("이 단어를 삭제하시겠습니까?")) {
       const updated = savedWords.filter(w => w.id !== id);
       setSavedWords(updated);
@@ -208,7 +206,7 @@ function App() {
   };
 
   const handleEditMeaning = (e: React.MouseEvent, id: string) => {
-    e.stopPropagation(); // 카드 뒤집힘 방지
+    e.stopPropagation();
     const wordToEdit = savedWords.find(w => w.id === id);
     if (!wordToEdit) return;
 
@@ -232,6 +230,15 @@ function App() {
     setTimeout(() => {
       setCurrentCardIdx((prev) => (prev - 1 + savedWords.length) % savedWords.length);
     }, 150);
+  };
+
+  // 단어장을 누르면 뒤집히고, 뒤집힌 상태에서 누르면 다음 카드로 넘어가는 로직
+  const handleCardClick = () => {
+    if (isFlipped) {
+      nextCard();
+    } else {
+      setIsFlipped(true);
+    }
   };
 
   const getTranslation = (text: string) => {
@@ -329,7 +336,6 @@ function App() {
     );
   };
 
-  // 플래시카드 공통 렌더링 함수 (전체 단어장 및 기사 전용 단어장 통합)
   const renderFlashcardsList = (words: SavedWord[], title: string) => {
     if (words.length === 0) {
       return (
@@ -347,7 +353,7 @@ function App() {
         <h2>{title} ({currentCardIdx + 1} / {words.length})</h2>
         <div 
           className={`flashcard ${isFlipped ? 'flipped' : ''}`} 
-          onClick={() => setIsFlipped(!isFlipped)}
+          onClick={handleCardClick}
         >
           <div className="flashcard-inner">
             <div className="flashcard-front">
@@ -367,24 +373,20 @@ function App() {
               <h3 style={{ fontSize: '2.5rem', color: 'white', marginBottom: '5px' }}>{currentWord.word}</h3>
               
               <div style={{ padding: '15px 0', width: '100%' }}>
-                {/* 한글 뜻: 기울임 없음, 정자체 */}
                 <p style={{ fontSize: '1.4rem', color: '#fbbf24', marginBottom: '10px', fontWeight: 'bold', fontStyle: 'normal' }}>
                   {currentWord.meaning}
                 </p>
-                {/* 영영 뜻 추가 */}
                 <p style={{ fontSize: '1rem', color: '#94a3b8', fontStyle: 'normal', marginBottom: '20px' }}>
                   {currentWord.enMeaning || "영어 뜻 없음"}
                 </p>
               </div>
               
-              {/* 예문 박스 */}
               <div style={{ padding: '15px', background: 'rgba(0,0,0,0.2)', borderRadius: '8px', marginBottom: '20px', width: '100%', textAlign: 'left' }}>
                 <p style={{ fontStyle: 'italic', color: 'rgba(255,255,255,0.9)', fontSize: '1rem', lineHeight: '1.5' }}>
                   "{currentWord.context}"
                 </p>
               </div>
               
-              {/* 박스 내부 하단 출처/날짜 */}
               <div style={{ fontSize: '0.85rem', opacity: 0.8, display: 'flex', justifyContent: 'space-between', width: '100%', marginTop: 'auto', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '15px' }}>
                 <span>출처: <strong>{currentWord.source}</strong></span>
                 <span>저장일: {new Date(currentWord.dateAdded).toLocaleDateString()}</span>
@@ -412,14 +414,12 @@ function App() {
 
   const renderReader = (article: Article) => {
     const paragraphs = article.content.split('\n\n');
-    
-    // 기사 단어장 전용 단어 필터링 (현재 기사와 소스가 같거나 문맥이 일치하는 단어)
     const articleWords = savedWords.filter(w => w.source === article.source);
     
     return (
       <div className="app-container reader-view" onMouseUp={handleMouseUp}>
         <button className="glass-button back-btn" onClick={() => { setSelectedArticle(null); setMainView('home'); }}>
-          ← 대시보드로
+          ← 홈으로
         </button>
         
         <div className="feature-tabs">
@@ -470,7 +470,6 @@ function App() {
           </div>
         )}
 
-        {/* 개별 기사 단어장 작동 기능 추가 */}
         {activeReaderTab === 'flashcards' && (
           <div className="glass-panel" style={{ padding: '20px' }}>
              {renderFlashcardsList(articleWords, `'${article.source}' 학습 단어`)}
