@@ -1,0 +1,10 @@
+{
+  "id": "restored_deep_22c94e65",
+  "title": "Their First Job Might Wipe Out Yours: Inside Mercor's AI Training",
+  "source": "Bloomberg Businessweek",
+  "issue": "Spring 2026",
+  "difficulty": "Intermediate",
+  "date": "2026-05-10T00:00:00Z",
+  "fileUrl": "/data/articles/restored_deep_22c94e65.json",
+  "content": "When Tasha Kozak, a school social worker, met a family living in their car, she immediately stepped in to help. After several months of consistent support, she helped them find stable housing and witnessed the children's grades improve. Moments like that are exactly why Kozak remains deeply passionate about her career in social work. She believes that the majority of effective social work relies heavily on human connection and relationship building. However, like many in her underpaid profession, Kozak found herself looking for ways to supplement her income.\n\nDuring her summer break, Kozak discovered a gig-work platform called Mercor that recruits experts to train artificial intelligence. She was interviewed by an AI agent that asked probing, detailed questions, much like a human supervisor would. Soon, she was earning as much money training AI part-time as she did working full-time with actual families. Her task involved writing specific prompts for an AI model to generate social developmental histories based on fictitious case files. Kozak is now part of a large, segmented team of contractors actively translating their professional judgment into AI training data.\n\nAcross the country, many other skilled professionals are performing similar tasks for the tech industry. Doctors, novelists, and investment bankers are spending their off-hours evaluating and refining AI-generated content in their respective fields. Mercor has successfully built a massive workforce of tens of thousands of specialized experts using this exact model. In just three years, the startup has raised hundreds of millions in venture capital and achieved a massive valuation. The company argues that feeding models high-quality, expert-driven training data is crucial for making AI truly economically useful."
+}

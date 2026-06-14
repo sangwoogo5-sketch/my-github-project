@@ -1,0 +1,2785 @@
+{
+  "articles": [
+    {
+      "id": "restored_511ef31b",
+      "title": "Amazon Dethrones Walmart as America's Largest Company",
+      "source": "Other Reports",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_511ef31b.json"
+    },
+    {
+      "id": "restored_092f07e4",
+      "title": "Netanyahu Balances National Security With Political Survival",
+      "source": "The Guardian Weekly",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_092f07e4.json"
+    },
+    {
+      "id": "restored_02cb8c60",
+      "title": "Russia's Return to the Cultural and Sporting Stage",
+      "source": "Newsweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_02cb8c60.json"
+    },
+    {
+      "id": "restored_deep_4b325487",
+      "title": "The Impact of Iran's Actions on Global Oil Prices and Shipping",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_4b325487.json"
+    },
+    {
+      "id": "restored_c62fdd65",
+      "title": "Can Copilot Put Microsoft Back on Course in the AI Race?",
+      "source": "Other Reports",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_c62fdd65.json"
+    },
+    {
+      "id": "restored_deep_aec39792",
+      "title": "Building Cohesive Business Systems: Value Creation and AI",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_aec39792.json"
+    },
+    {
+      "id": "restored_deep_861f904e",
+      "title": "Surviving the Strike: The Rare and Recurring Experiences of Lightning Survivors",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_861f904e.json"
+    },
+    {
+      "id": "restored_deep_69e4a799",
+      "title": "The Competitiveness Challenge Facing Europe and Mario Draghi's Reforms",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_69e4a799.json"
+    },
+    {
+      "id": "restored_deep_29ad832b",
+      "title": "American Express Under Squeri: Playing Offense During Crisis",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_29ad832b.json"
+    },
+    {
+      "id": "restored_deep_fe08d611",
+      "title": "Marquis Who's Who Honors Top Professionals in Various Fields",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_fe08d611.json"
+    },
+    {
+      "id": "restored_deep_392f8cbb",
+      "title": "Transforming the Workforce: Is AI Getting Good Enough to Train Itself?",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_392f8cbb.json"
+    },
+    {
+      "id": "restored_deep_74dc4175",
+      "title": "College Grads Return to School Amid Tough Job Market and Student Loan Caps",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_74dc4175.json"
+    },
+    {
+      "id": "restored_deep_e7970134",
+      "title": "Revitalizing the US Techno-Industrial Base",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e7970134.json"
+    },
+    {
+      "id": "restored_deep_35d90c58",
+      "title": "Cross-Straits Relations: The Lingering Legacy of the KMT's 1949 Retreat",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_35d90c58.json"
+    },
+    {
+      "id": "restored_deep_539ae6a8",
+      "title": "The Shift to Fluid Resource Management in Project-Driven Organizations",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_539ae6a8.json"
+    },
+    {
+      "id": "restored_95a00542",
+      "title": "World Cups Radiate Hope, But This One Also Has a Shadow",
+      "source": "NYT",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_95a00542.json"
+    },
+    {
+      "id": "restored_deep_9d2ee9e6",
+      "title": "A Family's Decision to Self-Deport to Mexico Amidst ICE Threats",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_9d2ee9e6.json"
+    },
+    {
+      "id": "restored_deep_74928ba2",
+      "title": "AI in the Delingpole Household: Grayson Perry Explores the AIpocalypse",
+      "source": "The Spectator",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_74928ba2.json"
+    },
+    {
+      "id": "restored_deep_45bde5c3",
+      "title": "The Cost of Togetherness: Why the Gulf States Must Renegotiate Defense Pacts",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_45bde5c3.json"
+    },
+    {
+      "id": "restored_deep_8d886840",
+      "title": "Vote of Confusion: Shifting Election Laws Ahead of the Midterms",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_8d886840.json"
+    },
+    {
+      "id": "restored_deep_a88070db",
+      "title": "Edappadi K Palaniswami and AIADMK's New Era in Tamil Nadu",
+      "source": "Open",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_a88070db.json"
+    },
+    {
+      "id": "restored_deep_a2f878f8",
+      "title": "Closing the Gap: Structured Experimentation for Generative AI Adoption",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_a2f878f8.json"
+    },
+    {
+      "id": "restored_deep_9ea138f0",
+      "title": "Chuck Schumer's Last Stand: High-Stakes Primaries Test the Senate Leader",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_9ea138f0.json"
+    },
+    {
+      "id": "restored_deep_9f1f1c1a",
+      "title": "Detecting Emerging Realities Before Transformations Become the Only Options",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_9f1f1c1a.json"
+    },
+    {
+      "id": "restored_deep_586ce1de",
+      "title": "The Importance of Objective Successor Evaluation in Founder Transitions",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_586ce1de.json"
+    },
+    {
+      "id": "restored_a2934dc0",
+      "title": "How Microsoft Fumbled Its Early AI Lead and Is Trying to Catch Up",
+      "source": "Other Reports",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_a2934dc0.json"
+    },
+    {
+      "id": "restored_fb883334",
+      "title": "Anjimile's Musical Rebirth: Vulnerability and Transformation",
+      "source": "NYT",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_fb883334.json"
+    },
+    {
+      "id": "restored_deep_f6579b63",
+      "title": "How North Korea Won: Advancing Nuclear Goals and Ties with China",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f6579b63.json"
+    },
+    {
+      "id": "restored_0eaefa8f",
+      "title": "The Dark Side of Legalized Sports Betting",
+      "source": "The Atlantic",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_0eaefa8f.json"
+    },
+    {
+      "id": "restored_deep_4b89dfa6",
+      "title": "Managing the Emotions and Strategies of Founder Transitions",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_4b89dfa6.json"
+    },
+    {
+      "id": "restored_503ef359",
+      "title": "Teyana Taylor: Balancing Oscars, Motherhood, and Future Ambitions",
+      "source": "Time",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_503ef359.json"
+    },
+    {
+      "id": "restored_deep_16ac7f53",
+      "title": "The Addictive Allure of Online Sports Betting",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_16ac7f53.json"
+    },
+    {
+      "id": "restored_deep_9eab282e",
+      "title": "An Abundance Foreign Policy: Rebooting US Industrial Capacity and National Security",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_9eab282e.json"
+    },
+    {
+      "id": "restored_deep_27443fd0",
+      "title": "Economic Missteps and Recovery: UK's Path Forward After Truss and Brexit",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_27443fd0.json"
+    },
+    {
+      "id": "restored_deep_3d6026c4",
+      "title": "Anduril's Barracuda Missile and the Race for Lethal Autonomous Weapons",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_3d6026c4.json"
+    },
+    {
+      "id": "restored_deep_c8e582e1",
+      "title": "The Surprising Rise of American Express CEO Stephen Squeri",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c8e582e1.json"
+    },
+    {
+      "id": "restored_a24b2d7d",
+      "title": "The Battle Over Election Laws Moves to the States",
+      "source": "Newsweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_a24b2d7d.json"
+    },
+    {
+      "id": "restored_deep_d24d76e9",
+      "title": "The Signalgate Scandal: How the Trump Administration Leaked Intel",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_d24d76e9.json"
+    },
+    {
+      "id": "restored_9f346ce3",
+      "title": "Preserving the Past: A New Archive Protects Nigeria's History",
+      "source": "The Guardian Weekly",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_9f346ce3.json"
+    },
+    {
+      "id": "restored_deep_9d454951",
+      "title": "Transforming Negotiation Strategy: From Consensus to Problem-Solving",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_9d454951.json"
+    },
+    {
+      "id": "restored_deep_28c7823f",
+      "title": "Iran's Resilience: Controlling the Conflict and Its Strategic Impact",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_28c7823f.json"
+    },
+    {
+      "id": "restored_deep_ae7c8a99",
+      "title": "Return to Competence: Democrats to Watch in 2028 and Beyond",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ae7c8a99.json"
+    },
+    {
+      "id": "restored_deep_2d77de0e",
+      "title": "Corporate Comebacks: How Boeing, Intel, and Macy's Are Rebuilding",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_2d77de0e.json"
+    },
+    {
+      "id": "restored_deep_138496c5",
+      "title": "How Project-Driven Organizations Reconfigure Value Delivery",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_138496c5.json"
+    },
+    {
+      "id": "restored_deep_0c773c91",
+      "title": "The Wealth Bias in Elite University Admissions",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0c773c91.json"
+    },
+    {
+      "id": "last_days_of_franco",
+      "title": "The Last Days of Franco",
+      "source": "The Atlantic",
+      "issue": "April 2026",
+      "difficulty": "Hard",
+      "date": "2026-04-01",
+      "fileUrl": "/data/articles/last_days_of_franco_v5.json"
+    },
+    {
+      "id": "restored_deep_50c23935",
+      "title": "China's Generational Shift in Manufacturing and Other News",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_50c23935.json"
+    },
+    {
+      "id": "restored_4ade7b09",
+      "title": "Stock Market Data and Fund Listings",
+      "source": "Barrons",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_4ade7b09.json"
+    },
+    {
+      "id": "restored_93e7cfe2",
+      "title": "Spiralling Out of Control: Netanyahu and the War on Iran",
+      "source": "The Guardian Weekly",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_93e7cfe2.json"
+    },
+    {
+      "id": "restored_deep_1a00534e",
+      "title": "Training the Machines: Workers Feeding AI Their Own Replacements",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1a00534e.json"
+    },
+    {
+      "id": "restored_deep_dcd31fb2",
+      "title": "Mastering Fastvertising: Relevance Over Production Value",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_dcd31fb2.json"
+    },
+    {
+      "id": "restored_deep_f499ba58",
+      "title": "Antisemitic Threats and the Complex Journey of IVF",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f499ba58.json"
+    },
+    {
+      "id": "restored_42d5e503",
+      "title": "The Controversy Over Hegseth's Security Breach and Trump's Atlantic Interview",
+      "source": "The Atlantic",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_42d5e503.json"
+    },
+    {
+      "id": "restored_deep_a2b0e30c",
+      "title": "Trump's Term Echoes a Grim Past: The Legacy of Woodrow Wilson",
+      "source": "NYT",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_a2b0e30c.json"
+    },
+    {
+      "id": "restored_deep_15cfc265",
+      "title": "Teyana Taylor on Oscars, Motherhood, and Never Caging a Creative",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_15cfc265.json"
+    },
+    {
+      "id": "restored_df6e1b41",
+      "title": "Economic Turbulence Looms Amid Surging Oil Prices and Unrest",
+      "source": "Barrons",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_df6e1b41.json"
+    },
+    {
+      "id": "restored_deep_e6768298",
+      "title": "Inside Xi's System: The New Face of Totalitarianism",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e6768298.json"
+    },
+    {
+      "id": "restored_6d140f38",
+      "title": "The Pros and Cons of the $599 MacBook Neo",
+      "source": "The Wall Street Journal",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_6d140f38.json"
+    },
+    {
+      "id": "restored_deep_fdc1dc8e",
+      "title": "Nuclear Power for Data Centers and Robyn's Triumphant Return",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_fdc1dc8e.json"
+    },
+    {
+      "id": "restored_deep_8de9d856",
+      "title": "Vladimir Putin Faces Open Criticism as Allies Break Silence",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_8de9d856.json"
+    },
+    {
+      "id": "restored_deep_ad73428e",
+      "title": "Graduating into an AI World: Finding First Jobs Today",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ad73428e.json"
+    },
+    {
+      "id": "restored_deep_4d2db78a",
+      "title": "The Future of Health in China: Innovative and Inclusive",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_4d2db78a.json"
+    },
+    {
+      "id": "restored_deep_0ac3bf76",
+      "title": "Qatar LNG Plant Drone Attack Triggers Global Energy Shock",
+      "source": "Barrons",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0ac3bf76.json"
+    },
+    {
+      "id": "restored_15a533d1",
+      "title": "The HBR Interview: Bob Sternfels on Shaping McKinsey's Next Century",
+      "source": "Harvard Business Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_15a533d1.json"
+    },
+    {
+      "id": "restored_f844a78c",
+      "title": "Global Issues, U.S. Politics, and the Mystery of Consciousness",
+      "source": "The Week",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_f844a78c.json"
+    },
+    {
+      "id": "vigdis_hjorth_family_secrets",
+      "title": "Vigdis Hjorth\u2019s Family Secrets",
+      "source": "The Atlantic",
+      "issue": "April 2026",
+      "difficulty": "Medium",
+      "date": "2026-04-01",
+      "fileUrl": "/data/articles/vigdis_hjorth_family_secrets_v5.json"
+    },
+    {
+      "id": "restored_deep_b2d80095",
+      "title": "Changing Tides for American Express: Corporate Comp Plans",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_b2d80095.json"
+    },
+    {
+      "id": "restored_dbabcc17",
+      "title": "Finding the Real Ireland Amidst Tourist Complaints",
+      "source": "The Spectator",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_dbabcc17.json"
+    },
+    {
+      "id": "restored_deep_f1fa860e",
+      "title": "Aligning Marketing and Finance for Business Growth",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f1fa860e.json"
+    },
+    {
+      "id": "restored_deep_1dc56c6e",
+      "title": "Fastvertising: Agility, Tone, and the Power of Real-Time Marketing",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1dc56c6e.json"
+    },
+    {
+      "id": "restored_deep_42194253",
+      "title": "North Korea as It Is: The Chilling Case for a Cold Peace",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_42194253.json"
+    },
+    {
+      "id": "restored_deep_27c1791f",
+      "title": "China's Arctic Ambitions and the Growing Security Concerns in the High North",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_27c1791f.json"
+    },
+    {
+      "id": "restored_deep_f63c841b",
+      "title": "Political Debates, News Round-Up, and Italy's World Cup Miss",
+      "source": "Open",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f63c841b.json"
+    },
+    {
+      "id": "restored_deep_df73ca57",
+      "title": "What Does It Feel Like to Be Struck by Lightning?",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_df73ca57.json"
+    },
+    {
+      "id": "restored_2767a31a",
+      "title": "Milan Fashion Week: Signs of Spring on the Streets",
+      "source": "NYT",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_2767a31a.json"
+    },
+    {
+      "id": "restored_deep_02243bf3",
+      "title": "Designing an Effective Deal Review Process for Complex Negotiations",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_02243bf3.json"
+    },
+    {
+      "id": "restored_deep_ebe8e2b7",
+      "title": "Gambling It All: The Cruz Family's Journey",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ebe8e2b7.json"
+    },
+    {
+      "id": "spains-slower-side",
+      "title": "Spain's Slower Side",
+      "source": "Bloomberg Businessweek",
+      "issue": "May 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-01",
+      "fileUrl": "/data/articles/spains-slower-side_v5.json"
+    },
+    {
+      "id": "restored_628defc3",
+      "title": "Stablecoins Find Practical Use Cases Across Asia",
+      "source": "Economist",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_628defc3.json"
+    },
+    {
+      "id": "restored_deep_db334a13",
+      "title": "Iran's Internal Politics and the Future of the IRGC",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_db334a13.json"
+    },
+    {
+      "id": "restored_deep_18737b7c",
+      "title": "Fascism, Equality, and Liberalism: Global Political Trends",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_18737b7c.json"
+    },
+    {
+      "id": "restored_deep_b84580e3",
+      "title": "Reshma Saujani on the Childcare Affordability Crisis",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_b84580e3.json"
+    },
+    {
+      "id": "restored_deep_db1ed68b",
+      "title": "Elon Musk, Empathy Exploits, and Political Conspiracies",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_db1ed68b.json"
+    },
+    {
+      "id": "restored_deep_cfdabad9",
+      "title": "The Nuremberg Women: Hidden Histories and the Shadows of War",
+      "source": "The Spectator",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_cfdabad9.json"
+    },
+    {
+      "id": "restored_deep_0a8cdd27",
+      "title": "Renewing the Alliance: Navigating the Future of Trans-Atlantic Relations",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0a8cdd27.json"
+    },
+    {
+      "id": "restored_deep_a62fca5a",
+      "title": "Where the Boss Got Started: CEOs Reflect on First Jobs",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_a62fca5a.json"
+    },
+    {
+      "id": "restored_deep_bdc62e9d",
+      "title": "Diagnosing Britain: Pageantry Abroad Masks Decline at Home",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_bdc62e9d.json"
+    },
+    {
+      "id": "restored_deep_04178c21",
+      "title": "Maximizing Engagement: The Power of Hybrid Work and Unlocked Projects",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_04178c21.json"
+    },
+    {
+      "id": "restored_36c3bca3",
+      "title": "Learning the Ropes of Sports Betting the Hard Way",
+      "source": "The Atlantic",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_36c3bca3.json"
+    },
+    {
+      "id": "restored_deep_f804261a",
+      "title": "Embracing Real-World Experimentation for Generative AI in the Workplace",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f804261a.json"
+    },
+    {
+      "id": "restored_deep_0a2b9911",
+      "title": "The Insatiable Beast: Layoffs and the Extraordinary Cost of the AI Race",
+      "source": "Open",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0a2b9911.json"
+    },
+    {
+      "id": "restored_deep_e53fa409",
+      "title": "The Path to Regime Change in Iran: A New Middle East",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e53fa409.json"
+    },
+    {
+      "id": "restored_deep_4f1fc76e",
+      "title": "Mercor's Rapid Rise and the Controversies of AI Contract Work",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_4f1fc76e.json"
+    },
+    {
+      "id": "restored_deep_2236b68d",
+      "title": "2026 Best and Brightest Companies to Work For in the Nation",
+      "source": "The Wall Street Journal",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_2236b68d.json"
+    },
+    {
+      "id": "how_toni_morrison_saw_history",
+      "title": "How Toni Morrison Saw History",
+      "source": "The Atlantic",
+      "issue": "March 2026",
+      "difficulty": "Medium",
+      "date": "2026-03-01",
+      "fileUrl": "/data/articles/how_toni_morrison_saw_history_v5.json"
+    },
+    {
+      "id": "restored_deep_8e1a3c57",
+      "title": "The Weak Case and Uncertain Benefits of Social Media Bans for Kids",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_8e1a3c57.json"
+    },
+    {
+      "id": "restored_deep_22c94e65",
+      "title": "Their First Job Might Wipe Out Yours: Inside Mercor's AI Training",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_22c94e65.json"
+    },
+    {
+      "id": "restored_88f3e3cc",
+      "title": "Thailand's Conservatives Win a Surprise General Election Victory",
+      "source": "Economist",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_88f3e3cc.json"
+    },
+    {
+      "id": "restored_deep_af809412",
+      "title": "Where the Jobs Are: The Disconnect in Entry-Level Roles",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_af809412.json"
+    },
+    {
+      "id": "restored_deep_3592bd26",
+      "title": "Michael Pollan's 'A World Appears': Unraveling the Mystery of Consciousness",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_3592bd26.json"
+    },
+    {
+      "id": "restored_62a1624e",
+      "title": "Breaking the Cycle of Chronic Corporate Transformations",
+      "source": "Harvard Business Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_62a1624e.json"
+    },
+    {
+      "id": "restored_dcd8032b",
+      "title": "Jane Fraser's Impact: Five Years Leading Citi as Wall Street's First Woman CEO",
+      "source": "Other Reports",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_dcd8032b.json"
+    },
+    {
+      "id": "true-north-believers",
+      "title": "True North Believers",
+      "source": "Bloomberg Businessweek",
+      "issue": "May 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-01",
+      "fileUrl": "/data/articles/true-north-believers_v5.json"
+    },
+    {
+      "id": "restored_8d78ce74",
+      "title": "Political Changes and Rights for Tea Garden Labourers in Assam",
+      "source": "Open",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_8d78ce74.json"
+    },
+    {
+      "id": "restored_deep_8d766319",
+      "title": "Dave Grohl's Addiction to Achievement and His Search for Balance",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_8d766319.json"
+    },
+    {
+      "id": "restored_912c6507",
+      "title": "The Overlooked Women of the Nuremberg Trials",
+      "source": "The Spectator",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_912c6507.json"
+    },
+    {
+      "id": "restored_deep_993d609a",
+      "title": "How Stephen Squeri Got American Express Charging Ahead",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_993d609a.json"
+    },
+    {
+      "id": "greek-summer-reaches-peak",
+      "title": "Greek Summer Reaches a Peak",
+      "source": "Bloomberg Businessweek",
+      "issue": "May 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-01",
+      "fileUrl": "/data/articles/greek-summer-reaches-peak_v5.json"
+    },
+    {
+      "id": "hbr_2026_01_negotiation_struggles",
+      "title": "Why Big Companies Struggle to Negotiate Great Deals",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Advanced",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_negotiation_struggles_v5.json"
+    },
+    {
+      "id": "restored_deep_2066a13a",
+      "title": "The Iran Imperative: Reshaping the Middle East After Conflict",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_2066a13a.json"
+    },
+    {
+      "id": "restored_deep_f7a5e634",
+      "title": "Navigating Human and Agentic Workforces: Change Management Strategies",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f7a5e634.json"
+    },
+    {
+      "id": "restored_d9306f9a",
+      "title": "Market Impacts: War Affects LNG Decisions While Trade Desk Soars",
+      "source": "Barrons",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_d9306f9a.json"
+    },
+    {
+      "id": "restored_deep_eafa2bed",
+      "title": "The $2M Award: Changing Guidelines for Detransitioners",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_eafa2bed.json"
+    },
+    {
+      "id": "restored_deep_ee88439e",
+      "title": "The Succession Challenge for China's Family Businesses",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ee88439e.json"
+    },
+    {
+      "id": "restored_deep_0000e1c9",
+      "title": "Software-mageddon: Agentic AI Wipes Out Billions in Outsourcing Stocks",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0000e1c9.json"
+    },
+    {
+      "id": "6a4445a6-f2b1-4ee2-9669-30ac6e8386ba",
+      "title": "When it came to choosing a side, sports Carr\u2019s Trump Bump were front and center,...",
+      "source": "Bloomberg Businessweek",
+      "issue": "May 2026",
+      "difficulty": "Medium",
+      "date": "2026-05-01",
+      "fileUrl": "/data/articles/6a4445a6-f2b1-4ee2-9669-30ac6e8386ba_v4.json"
+    },
+    {
+      "id": "restored_deep_0c51a21c",
+      "title": "A Systematic Approach to Experimenting with Gen AI",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0c51a21c.json"
+    },
+    {
+      "id": "restored_deep_cb357452",
+      "title": "The People vs. AI: Behind the Cover",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_cb357452.json"
+    },
+    {
+      "id": "restored_ffb322f1",
+      "title": "The New Metabolic World Order and the Ecological Cold War",
+      "source": "Foreign Policy",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_ffb322f1.json"
+    },
+    {
+      "id": "restored_deep_f2f2dd2d",
+      "title": "The Battle Over Redistricting and Black Voting Power",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f2f2dd2d.json"
+    },
+    {
+      "id": "restored_bd456136",
+      "title": "KKR Co-CEOs Buy the Dip Amidst Shifting Activist Holdings",
+      "source": "Barrons",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_bd456136.json"
+    },
+    {
+      "id": "restored_deep_6a24ecb8",
+      "title": "The Security Implications of Hegseth's Signal App Usage",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_6a24ecb8.json"
+    },
+    {
+      "id": "restored_deep_ab49acc3",
+      "title": "Can Europe Thrive Again? Assessing Global Leadership",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ab49acc3.json"
+    },
+    {
+      "id": "restored_deep_23746c68",
+      "title": "Weaponizing Cricket: How Geopolitics Hijacked South Asian Sports",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_23746c68.json"
+    },
+    {
+      "id": "restored_5751147e",
+      "title": "The Challenging Job Market for Recent College Graduates",
+      "source": "Bloomberg Businessweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_5751147e.json"
+    },
+    {
+      "id": "restored_deep_77246da2",
+      "title": "Montserrat Roig's Classic Novel The Time of Cherries Finally in English",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_77246da2.json"
+    },
+    {
+      "id": "restored_5e7382e9",
+      "title": "A Critique of Western Myths and India's Muscular Doctrine",
+      "source": "Open",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_5e7382e9.json"
+    },
+    {
+      "id": "foreign_affairs_grand_strategy_v5",
+      "title": "A Grand Strategy of Consolidation: How Trump Can Revitalize American Power",
+      "source": "Foreign Affairs",
+      "issue": "May/June 2026",
+      "difficulty": "Hard",
+      "date": "2026-05-01",
+      "fileUrl": "Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+    },
+    {
+      "id": "restored_c62faf9b",
+      "title": "The K-Shaped Economy and the Threat of Autocracy",
+      "source": "The Week",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_c62faf9b.json"
+    },
+    {
+      "id": "restored_deep_0f972f15",
+      "title": "A 20-Year Chase: The Self-Taught Mechanic Behind a World-Leading Motorcycle",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0f972f15.json"
+    },
+    {
+      "id": "restored_deep_311ec9a2",
+      "title": "DeepSeek's Rise: The Illusion of Excluding China from AI Governance",
+      "source": "The Spectator",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_311ec9a2.json"
+    },
+    {
+      "id": "restored_c5cf0f62",
+      "title": "How to Fight an Economic War: China's Parallel Financial System",
+      "source": "Foreign Affairs",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_c5cf0f62.json"
+    },
+    {
+      "id": "restored_deep_599ba8a2",
+      "title": "The Emotional Toll of Returning to Mexico After Years in the U.S.",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_599ba8a2.json"
+    },
+    {
+      "id": "restored_deep_313b0787",
+      "title": "Future of Warfare: Drones, Distributed Sensors, and the AI Advantage",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_313b0787.json"
+    },
+    {
+      "id": "restored_deep_df51a366",
+      "title": "Observations on China's Society and Global Strategy",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_df51a366.json"
+    },
+    {
+      "id": "restored_de3dd269",
+      "title": "UK Elections: What Major Council Losses Could Mean for Starmer",
+      "source": "The Guardian Weekly",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_de3dd269.json"
+    },
+    {
+      "id": "restored_5c99a899",
+      "title": "The Necessity of Including China in Global AI Governance",
+      "source": "The Spectator",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_5c99a899.json"
+    },
+    {
+      "id": "restored_deep_b60c06bf",
+      "title": "A Heavy Price: Impact of Energy Costs on Britain's Industry",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_b60c06bf.json"
+    },
+    {
+      "id": "restored_deep_0370f518",
+      "title": "The Shock Waves of Iran: Navigating Energy Weaponization and Inflation",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0370f518.json"
+    },
+    {
+      "id": "restored_deep_0d9a9fac",
+      "title": "North Korea as It Is: Rethinking U.S. Nuclear Strategy",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0d9a9fac.json"
+    },
+    {
+      "id": "restored_deep_28e38d0c",
+      "title": "War on Iran: Netanyahu's Political Survival vs. National Security",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_28e38d0c.json"
+    },
+    {
+      "id": "hbr_2026_01_ai_strategy",
+      "title": "Match Your AI Strategy to Your Organization's Reality",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Advanced",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_ai_strategy_v5.json"
+    },
+    {
+      "id": "restored_deep_5f54b837",
+      "title": "The Ugly Side of Legalized Sports Betting for Athletes",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_5f54b837.json"
+    },
+    {
+      "id": "restored_deep_914453b1",
+      "title": "The Global Shortage of Tenor Singers: A Voice Made, Not Found",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_914453b1.json"
+    },
+    {
+      "id": "restored_deep_5f09d9bf",
+      "title": "New Graduates Struggle and Adapt in a Demanding Job Market",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_5f09d9bf.json"
+    },
+    {
+      "id": "restored_deep_792d824e",
+      "title": "The 55th Anniversary of Ping-Pong Diplomacy: Navigating China-U.S. Relations",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_792d824e.json"
+    },
+    {
+      "id": "restored_acd2716f",
+      "title": "The Rise of Edappadi K Palaniswami and AIADMK 3.0",
+      "source": "Open",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_acd2716f.json"
+    },
+    {
+      "id": "restored_deep_fe7a1bff",
+      "title": "A Novice's Journey Through the Slippery Slopes of Sports Betting",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_fe7a1bff.json"
+    },
+    {
+      "id": "restored_deep_f88dd015",
+      "title": "The Fractured Post-American World and the Future of Democracy",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f88dd015.json"
+    },
+    {
+      "id": "restored_deep_a7af1941",
+      "title": "Mariska Hargitay Explores Her Mother's Legacy in New Film",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_a7af1941.json"
+    },
+    {
+      "id": "hbr_2026_01_gen_ai_experiments",
+      "title": "A Systematic Approach to Experimenting with Gen AI",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Advanced",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_gen_ai_experiments_v5.json"
+    },
+    {
+      "id": "restored_deep_04bcfbc7",
+      "title": "Global Tariffs Rise to 15% as Trump Administration Enforces Duties",
+      "source": "NYT",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_04bcfbc7.json"
+    },
+    {
+      "id": "restored_deep_12a4d4e9",
+      "title": "Mifepristone Legal Fight Threatens Routine Medical Care",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_12a4d4e9.json"
+    },
+    {
+      "id": "shortcut-seclusion",
+      "title": "A Shortcut To Seclusion",
+      "source": "Bloomberg Businessweek",
+      "issue": "May 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-01",
+      "fileUrl": "/data/articles/shortcut-seclusion_v5.json"
+    },
+    {
+      "id": "restored_deep_319f9386",
+      "title": "Living in the Shadows: One Family's Endless Battle With ICE Panic",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_319f9386.json"
+    },
+    {
+      "id": "restored_1feb64db",
+      "title": "In South Asia, Sports is Geopolitics by Other Means",
+      "source": "Economist",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_1feb64db.json"
+    },
+    {
+      "id": "restored_deep_f0e45161",
+      "title": "Tragedy in Darfur: 64 Killed in Hospital Strike",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f0e45161.json"
+    },
+    {
+      "id": "restored_deep_79c05961",
+      "title": "Why Banning Under-16s from Social Media Will Do More Harm Than Good",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_79c05961.json"
+    },
+    {
+      "id": "restored_deep_bc7837d6",
+      "title": "The Shock Waves of Iran: Working with Insiders for Change",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_bc7837d6.json"
+    },
+    {
+      "id": "restored_deep_11c6dbf6",
+      "title": "The Tech High Ground: U.S. Leadership in AI and Tech Standards",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_11c6dbf6.json"
+    },
+    {
+      "id": "restored_02bf7515",
+      "title": "RNC Ballot Strategy and the Push for Election Integrity",
+      "source": "Newsweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_02bf7515.json"
+    },
+    {
+      "id": "restored_deep_ff486f5c",
+      "title": "The High-Stakes Reality and Risks of Professional Sports Betting",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ff486f5c.json"
+    },
+    {
+      "id": "college_educated_working_class",
+      "title": "The College-Educated Working Class",
+      "source": "The Atlantic",
+      "issue": "April 2026",
+      "difficulty": "Hard",
+      "date": "2026-04-01",
+      "fileUrl": "/data/articles/college_educated_working_class_v5.json"
+    },
+    {
+      "id": "restored_deep_243cc6dc",
+      "title": "Red Lobster's Turnaround Challenge: Navigating Leases and Bankruptcy",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_243cc6dc.json"
+    },
+    {
+      "id": "restored_deep_e98d4ac4",
+      "title": "The New Trade Order: Restoring a Broken Global Economy",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e98d4ac4.json"
+    },
+    {
+      "id": "restored_a8cfd71d",
+      "title": "The Future of College: Wealth vs. Meritocracy in Elite Admissions",
+      "source": "Time",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_a8cfd71d.json"
+    },
+    {
+      "id": "restored_deep_8dccecdf",
+      "title": "The K-Shaped Economy and the Threat of Sleepwalking into Autocracy",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_8dccecdf.json"
+    },
+    {
+      "id": "restored_deep_314eca70",
+      "title": "The Competency Crisis: Why Nobody Seems to Know How to Do Their Jobs Anymore",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_314eca70.json"
+    },
+    {
+      "id": "hbr_2026_01_csuite_recruiters",
+      "title": "How to Stand Out to C-Suite Recruiters",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_csuite_recruiters_v5.json"
+    },
+    {
+      "id": "restored_deep_3d7a144f",
+      "title": "Rethinking Retirement: Will Trump's Plan Bridge the Savings Gap?",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_3d7a144f.json"
+    },
+    {
+      "id": "restored_deep_42340a24",
+      "title": "Microsoft's AI Push: Satya Nadella Sets the Pace for Copilot's Future",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_42340a24.json"
+    },
+    {
+      "id": "restored_deep_46cf57b0",
+      "title": "Tragic Legacy: Living With the Lasting Impact of the Chernobyl Disaster",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_46cf57b0.json"
+    },
+    {
+      "id": "restored_deep_9a30c9b7",
+      "title": "Gainsborough: The Fashion of Portraiture at the Frick Collection",
+      "source": "The Wall Street Journal",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_9a30c9b7.json"
+    },
+    {
+      "id": "restored_deep_7883aa97",
+      "title": "The Appeal of Kokuho: Empathy and Human Flaws in Kabuki",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_7883aa97.json"
+    },
+    {
+      "id": "restored_e71bc646",
+      "title": "The Allure and Danger of Online Sports Gambling",
+      "source": "The Atlantic",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_e71bc646.json"
+    },
+    {
+      "id": "restored_deep_bcf3b955",
+      "title": "Infrastructure as Power: The New Global Battleground",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_bcf3b955.json"
+    },
+    {
+      "id": "restored_deep_fc8554c6",
+      "title": "Hard Fork Podcast: AI's Economic Impact and Cleaning Tech",
+      "source": "NYT",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_fc8554c6.json"
+    },
+    {
+      "id": "restored_deep_59a68a64",
+      "title": "The Geopolitics of Chagos, Afghanistan's Apartheid, and the Gulf",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_59a68a64.json"
+    },
+    {
+      "id": "restored_93298092",
+      "title": "AI, Grayson Perry, and the Future of Work",
+      "source": "The Spectator",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_93298092.json"
+    },
+    {
+      "id": "restored_deep_5e4de4a2",
+      "title": "The Controversy Over Trump's Iran Stance and Cultural Snippets",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_5e4de4a2.json"
+    },
+    {
+      "id": "restored_deep_d8f2ae55",
+      "title": "The Decline of Single-Earner Homebuyers in America",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_d8f2ae55.json"
+    },
+    {
+      "id": "restored_deep_c6d9f8c8",
+      "title": "Solutions to Snoring and Sleep Apnoea",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c6d9f8c8.json"
+    },
+    {
+      "id": "restored_deep_81440784",
+      "title": "Science-Based Ecotourism: Swimming With Sperm Whales in Dominica",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_81440784.json"
+    },
+    {
+      "id": "hbr_2026_01_transformation_treadmill",
+      "title": "Get Off the Transformation Treadmill",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Advanced",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_transformation_treadmill_v5.json"
+    },
+    {
+      "id": "restored_deep_4b0e318e",
+      "title": "Mercor: Redefining the Labor Market with AI",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_4b0e318e.json"
+    },
+    {
+      "id": "restored_ae686342",
+      "title": "The Inevitable Decline of the US Oil and Gas Settler Era",
+      "source": "Bloomberg Businessweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_ae686342.json"
+    },
+    {
+      "id": "restored_deep_32c43c0a",
+      "title": "Satire Meets Slop: The Onion's Bold Play for Control of Alex Jones's Infowars",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_32c43c0a.json"
+    },
+    {
+      "id": "restored_ea1c1c3c",
+      "title": "The Contemporary World is an American Creation",
+      "source": "Foreign Policy",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_ea1c1c3c.json"
+    },
+    {
+      "id": "restored_deep_12ae1702",
+      "title": "US-Israel Strikes on Iran Trigger Fears of Global Economic Crisis",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_12ae1702.json"
+    },
+    {
+      "id": "restored_e5e011bc",
+      "title": "China-U.S. Relations: Ping-Pong Diplomacy and the Realities of Rivalry",
+      "source": "Beijing Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_e5e011bc.json"
+    },
+    {
+      "id": "restored_deep_6ab1a467",
+      "title": "The Nature of Time: From Perception to Physics",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_6ab1a467.json"
+    },
+    {
+      "id": "restored_deep_f9b31bb6",
+      "title": "Farah Khan's Culinary Show Shines a Light on the Real Heroes: Cooks",
+      "source": "Open",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f9b31bb6.json"
+    },
+    {
+      "id": "restored_f286d882",
+      "title": "Sponsored: Top Business Resources and Companies",
+      "source": "The Wall Street Journal",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_f286d882.json"
+    },
+    {
+      "id": "restored_deep_c28f5a88",
+      "title": "Review: The Complexities of DTF: St. Louis",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c28f5a88.json"
+    },
+    {
+      "id": "restored_deep_914c3279",
+      "title": "Can We Finally Retire the Vacation Cruise? And Other Global Developments",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_914c3279.json"
+    },
+    {
+      "id": "marc-to-market",
+      "title": "Marc to Market",
+      "source": "Bloomberg Businessweek",
+      "issue": "May 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-01",
+      "fileUrl": "/data/articles/marc-to-market_v5.json"
+    },
+    {
+      "id": "restored_deep_1afb2421",
+      "title": "Global Debt Crisis and the IMF's Diminishing Firepower",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1afb2421.json"
+    },
+    {
+      "id": "restored_0f34592b",
+      "title": "An Effective American Technology Strategy",
+      "source": "Foreign Affairs",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_0f34592b.json"
+    },
+    {
+      "id": "restored_b8d8615e",
+      "title": "Securing the Hemispheric Infrastructure Battleground",
+      "source": "Foreign Policy",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_b8d8615e.json"
+    },
+    {
+      "id": "restored_deep_b12bff99",
+      "title": "Rethinking the Nine-to-Five: Flexible Work and Peak Focus",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_b12bff99.json"
+    },
+    {
+      "id": "restored_deep_eafa24ff",
+      "title": "Anjimile's Climb from Rock Bottom to Musical Renewal",
+      "source": "NYT",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_eafa24ff.json"
+    },
+    {
+      "id": "restored_8d637362",
+      "title": "Sri Lanka's Fragile Recovery Under a Former Marxist Leader",
+      "source": "Economist",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_8d637362.json"
+    },
+    {
+      "id": "foreign_affairs_north_korea_v5",
+      "title": "How North Korea Won: The Strange Triumph of Kim Jong Un",
+      "source": "Foreign Affairs",
+      "issue": "May/June 2026",
+      "difficulty": "Hard",
+      "date": "2026-05-01",
+      "fileUrl": "Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+    },
+    {
+      "id": "restored_deep_8b369379",
+      "title": "Sri Lanka's Fragile Recovery: Rebuilding After Cyclone Ditwah and Economic Crisis",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_8b369379.json"
+    },
+    {
+      "id": "restored_e5720255",
+      "title": "Scoring Internships: Navigating the Brutal Job Market",
+      "source": "Bloomberg Businessweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_e5720255.json"
+    },
+    {
+      "id": "restored_83d4e974",
+      "title": "Bridging the Gap Between HR and Tech Leadership",
+      "source": "Harvard Business Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_83d4e974.json"
+    },
+    {
+      "id": "restored_e6e7b81a",
+      "title": "Leadership in the Age of AI: Judgment Over Prediction",
+      "source": "Foreign Affairs",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_e6e7b81a.json"
+    },
+    {
+      "id": "restored_deep_f6f2d7db",
+      "title": "Art & Music: William Eggleston and a Recipe for Meen Moilee",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f6f2d7db.json"
+    },
+    {
+      "id": "restored_deep_94fda93b",
+      "title": "Prosecutors Have Moved Far Too Slowly in the Jeffrey Epstein Case",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_94fda93b.json"
+    },
+    {
+      "id": "restored_ab59f239",
+      "title": "The Anarchy of 2026: Iran, America, and a New World Order",
+      "source": "Open",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_ab59f239.json"
+    },
+    {
+      "id": "restored_deep_f30a7f39",
+      "title": "Women Are Changing the Key of Radiohead",
+      "source": "NYT",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f30a7f39.json"
+    },
+    {
+      "id": "restored_deep_0c105d76",
+      "title": "The Project-Driven Organization: A New Enterprise Model",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0c105d76.json"
+    },
+    {
+      "id": "restored_deep_e939479f",
+      "title": "Lucy Liu's Lasting Legacy & Brandi Carlile",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e939479f.json"
+    },
+    {
+      "id": "restored_67a42309",
+      "title": "The Fall and Rise of Billy Idol",
+      "source": "The Week",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_67a42309.json"
+    },
+    {
+      "id": "restored_957b2c30",
+      "title": "Beware the Placeholder Relationship",
+      "source": "Time",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_957b2c30.json"
+    },
+    {
+      "id": "restored_deep_66c901f7",
+      "title": "The Republican Effort to Remake State Election Laws",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_66c901f7.json"
+    },
+    {
+      "id": "restored_cd12ac8b",
+      "title": "Defying the E-Commerce Curse: How Quince is Winning Over Shoppers",
+      "source": "Bloomberg Businessweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_cd12ac8b.json"
+    },
+    {
+      "id": "restored_aa837626",
+      "title": "Building a Winning Spirit: The Boston Scientific Turnaround",
+      "source": "Harvard Business Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_aa837626.json"
+    },
+    {
+      "id": "restored_deep_7db9e1a5",
+      "title": "Microsoft's AI Push: The Challenges of Scaling Copilot in the Enterprise",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_7db9e1a5.json"
+    },
+    {
+      "id": "restored_deep_29130e7e",
+      "title": "Powering AI: The Massive Energy Demands of Musk's Colossus Data Center",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_29130e7e.json"
+    },
+    {
+      "id": "restored_deep_43a25015",
+      "title": "Fight the Power: Local Battles Over Solar Energy and Climate Denial",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_43a25015.json"
+    },
+    {
+      "id": "restored_deep_f85e8ce4",
+      "title": "Global Fiction Reviews: Authoritarian Realities and Postcolonial Murder",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f85e8ce4.json"
+    },
+    {
+      "id": "restored_deep_5198d1cd",
+      "title": "Kim Jong Un's Strategic Maneuvers Between World Powers",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_5198d1cd.json"
+    },
+    {
+      "id": "restored_deep_1697da57",
+      "title": "Has Spanish Peaked in America?",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1697da57.json"
+    },
+    {
+      "id": "restored_deep_547afb46",
+      "title": "The Real-World Applications and Limitations of AI in the Workplace",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_547afb46.json"
+    },
+    {
+      "id": "restored_deep_58d43479",
+      "title": "The Battle Over Mega Solar Farms in the English Countryside",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_58d43479.json"
+    },
+    {
+      "id": "restored_deep_cffacb63",
+      "title": "Brazil's Vanishing Lagoons and Other Travel Destinations",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_cffacb63.json"
+    },
+    {
+      "id": "restored_e71ee15f",
+      "title": "Gainsborough: The Fashion of Portraiture",
+      "source": "The Wall Street Journal",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_e71ee15f.json"
+    },
+    {
+      "id": "restored_deep_eaa2a679",
+      "title": "Takaichi's Triumph: Reshaping Japanese Politics",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_eaa2a679.json"
+    },
+    {
+      "id": "madness_of_lord_tennyson",
+      "title": "The Madness of Lord Tennyson",
+      "source": "The Atlantic",
+      "issue": "March 2026",
+      "difficulty": "Medium",
+      "date": "2026-03-01",
+      "fileUrl": "/data/articles/madness_of_lord_tennyson_v5.json"
+    },
+    {
+      "id": "restored_deep_1709e840",
+      "title": "The Roots of American Conflict: Power Over Culture Wars",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1709e840.json"
+    },
+    {
+      "id": "restored_deep_962caba6",
+      "title": "Stablecoins Find Their Feet Across Asia as Speculative Crypto Totters",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_962caba6.json"
+    },
+    {
+      "id": "restored_deep_118fd11d",
+      "title": "Climate Policy Reversals & The Rise of Placeholder Relationships",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_118fd11d.json"
+    },
+    {
+      "id": "restored_deep_e2dccc5a",
+      "title": "Frozen Out: How the United States Forgot Its Far North",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e2dccc5a.json"
+    },
+    {
+      "id": "restored_deep_fc221572",
+      "title": "Dear Mary: Navigating Tricky Etiquette in Social Gatherings",
+      "source": "The Spectator",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_fc221572.json"
+    },
+    {
+      "id": "restored_deep_fafe83f7",
+      "title": "America's CEO-in-Chief: Tariffs and the New Face of Warfare",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_fafe83f7.json"
+    },
+    {
+      "id": "hbr_2026_01_prologis_ceo",
+      "title": "The Founder and CEO of Prologis on Staying Ahead of Disruptive Change",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_prologis_ceo_v5.json"
+    },
+    {
+      "id": "restored_deep_f1c913c5",
+      "title": "Rethinking the C-Suite & Using Copycats to Your Advantage",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f1c913c5.json"
+    },
+    {
+      "id": "restored_deep_a384b391",
+      "title": "Top Companies and National Elite Honorees List",
+      "source": "The Wall Street Journal",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_a384b391.json"
+    },
+    {
+      "id": "restored_deep_d8b331bb",
+      "title": "EarthRanger: AI-Powered Wildlife Conservation",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_d8b331bb.json"
+    },
+    {
+      "id": "restored_deep_99b9b6eb",
+      "title": "A Strategic Choice for Cuba's Economy and the Future of US Oil Production",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_99b9b6eb.json"
+    },
+    {
+      "id": "restored_deep_91c4c8e5",
+      "title": "The Impact of AI on Society and the Future of Higher Education",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_91c4c8e5.json"
+    },
+    {
+      "id": "restored_deep_86160e7a",
+      "title": "Scoring Internships: Navigating the High Stakes of the First Job Pathway",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_86160e7a.json"
+    },
+    {
+      "id": "robyn_dancing",
+      "title": "Robyn Is Still Dancing On Her Own",
+      "source": "The Atlantic",
+      "issue": "April 2026",
+      "difficulty": "Medium",
+      "date": "2026-04-01",
+      "fileUrl": "/data/articles/robyn_dancing_v5.json"
+    },
+    {
+      "id": "restored_deep_3e09ec34",
+      "title": "A Cautionary Tale: Brazil's Warning to the Global Economy on High Interest Rates",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_3e09ec34.json"
+    },
+    {
+      "id": "restored_deep_0b463028",
+      "title": "Microsoft's High-Stakes Gamble on AI Agents and Gigawatt Scale",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0b463028.json"
+    },
+    {
+      "id": "restored_d9b9efaa",
+      "title": "A Journey of Peace: Cross-Straits Dialogue and Resource Sharing",
+      "source": "Beijing Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_d9b9efaa.json"
+    },
+    {
+      "id": "restored_a8977f39",
+      "title": "Top Companies and National Elite Honorees List",
+      "source": "The Wall Street Journal",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_a8977f39.json"
+    },
+    {
+      "id": "restored_f11f1271",
+      "title": "International Columns: The Chagos Dispute and Taliban Rule",
+      "source": "The Week",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_f11f1271.json"
+    },
+    {
+      "id": "restored_deep_d4ef73ed",
+      "title": "Vigdis Hjorth's Repetition: Autofiction and the Limits of Storytelling",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_d4ef73ed.json"
+    },
+    {
+      "id": "restored_deep_c4b01124",
+      "title": "Sydney McLaughlin-Levrone and Wuthering Heights Reimaginings",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c4b01124.json"
+    },
+    {
+      "id": "restored_908cf3a4",
+      "title": "The Varied Impacts of AI on Modern Society",
+      "source": "Time",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_908cf3a4.json"
+    },
+    {
+      "id": "restored_deep_c46d01b3",
+      "title": "A Lavish New Adaptation of The Master and Margarita",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c46d01b3.json"
+    },
+    {
+      "id": "restored_deep_0db9d65a",
+      "title": "The 2026 US Invasion of Iran and the Dawn of a New World Order",
+      "source": "Open",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0db9d65a.json"
+    },
+    {
+      "id": "restored_deep_5765fd39",
+      "title": "The Growing Movement to Regulate the Booming Sports Betting Industry",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_5765fd39.json"
+    },
+    {
+      "id": "restored_deep_aa0c97ab",
+      "title": "The New Metabolic World Order and the Green Entente",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_aa0c97ab.json"
+    },
+    {
+      "id": "restored_deep_ab719637",
+      "title": "55 Years of Ping-Pong Diplomacy: China-U.S. Relations",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ab719637.json"
+    },
+    {
+      "id": "restored_deep_3ddefcac",
+      "title": "How to Fight an Economic War: China's Plan to Bypass Western Financial Control",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_3ddefcac.json"
+    },
+    {
+      "id": "restored_deep_00d218ca",
+      "title": "Restrain or Abolish? The Debate Over Border Enforcement Tactics",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_00d218ca.json"
+    },
+    {
+      "id": "restored_deep_113297bb",
+      "title": "Venezuela Needs Regime Change: The Narrow Path to Democracy",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_113297bb.json"
+    },
+    {
+      "id": "restored_deep_c9832937",
+      "title": "The Environmental Impact of the Global AI Data Center Rush",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c9832937.json"
+    },
+    {
+      "id": "restored_50b3345d",
+      "title": "Trump's Term Echoes the Racist Past of Woodrow Wilson",
+      "source": "NYT",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_50b3345d.json"
+    },
+    {
+      "id": "restored_deep_8b39669b",
+      "title": "Are America and China Condemned to Repeat History? Warnings of Great-Power Wars",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_8b39669b.json"
+    },
+    {
+      "id": "restored_deep_b233e942",
+      "title": "China's Ambitious Drives: Water Conservancy and AI Education",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_b233e942.json"
+    },
+    {
+      "id": "restored_78793c9b",
+      "title": "Achieving Work-Life Balance: Finding the Rhythm",
+      "source": "Beijing Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_78793c9b.json"
+    },
+    {
+      "id": "restored_deep_880be766",
+      "title": "Iran War Impacts India: How the Conflict is Affecting the Rupee and Economy",
+      "source": "Barrons",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_880be766.json"
+    },
+    {
+      "id": "restored_deep_15bb2054",
+      "title": "RNC Election Lawsuits and the Struggle for MAGA Voter Trust",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_15bb2054.json"
+    },
+    {
+      "id": "restored_deep_20243ee7",
+      "title": "Letters to the Editor: Ed-Tech, Arctic Refreezing, and Historical Empires",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_20243ee7.json"
+    },
+    {
+      "id": "restored_deep_ee151b0a",
+      "title": "War on Iran: Spiralling Out of Control Under Trump",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_ee151b0a.json"
+    },
+    {
+      "id": "restored_deep_074273b6",
+      "title": "The Founder's Next Chapter: Transitioning Roles for Long-Term Value",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_074273b6.json"
+    },
+    {
+      "id": "restored_deep_a543af22",
+      "title": "Elon Musk's Doge Project and the Automation of Government",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_a543af22.json"
+    },
+    {
+      "id": "restored_deep_e7d4c779",
+      "title": "Will India's Tech Graduates Pass the AI Test?",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e7d4c779.json"
+    },
+    {
+      "id": "restored_deep_1616630e",
+      "title": "Rethinking the C-Suite & Bob Sternfels on McKinsey's Future",
+      "source": "Harvard Business Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1616630e.json"
+    },
+    {
+      "id": "restored_deep_13180de9",
+      "title": "American Addresses: The Price of Hosting US Forces in the Gulf",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_13180de9.json"
+    },
+    {
+      "id": "restored_deep_b74e8efa",
+      "title": "Can Red Lobster Stay Afloat? Inside the Turnaround Fight",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_b74e8efa.json"
+    },
+    {
+      "id": "restored_deep_c441d1e3",
+      "title": "A Wild Texas Primary and the Climate Threat to Winter Sports",
+      "source": "Time",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c441d1e3.json"
+    },
+    {
+      "id": "restored_deep_c1bab570",
+      "title": "The Booming Industry of Career Coaching for Students",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c1bab570.json"
+    },
+    {
+      "id": "restored_deep_2e2aeb0f",
+      "title": "The Decline of Liberalism in an Era of Autopsies and Prophecies",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_2e2aeb0f.json"
+    },
+    {
+      "id": "restored_fdf4945d",
+      "title": "The New Trade Order: Restoring Balance to a Broken Global Economy",
+      "source": "Foreign Affairs",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_fdf4945d.json"
+    },
+    {
+      "id": "restored_deep_7d9b4667",
+      "title": "UK Elections: What's at Stake for Keir Starmer and the Major Parties",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_7d9b4667.json"
+    },
+    {
+      "id": "restored_deep_9c492d72",
+      "title": "Vigdis Hjorth\u2019s Family Secrets: A Review of 'Repetition'",
+      "source": "The Atlantic",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_9c492d72.json"
+    },
+    {
+      "id": "hbr_2026_01_beauty_marketing",
+      "title": "When High-Tech Beauty Marketing Harms Teen Health",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_beauty_marketing_v5.json"
+    },
+    {
+      "id": "restored_deep_35ccf19c",
+      "title": "Reprogramming the Matrix: Elon Musk's Red Pill Vision for the Digital Era",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_35ccf19c.json"
+    },
+    {
+      "id": "restored_deep_7bda6f0f",
+      "title": "Political Dynamics in Assam: Rupjyoti Kurmi and the Road to Jorhat",
+      "source": "Open",
+      "issue": "Spring 2026",
+      "difficulty": "Advanced",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_7bda6f0f.json"
+    },
+    {
+      "id": "restored_deep_7ddd30c6",
+      "title": "Amazon Tops the Fortune 500: The Power of Scale and Customer Loyalty",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_7ddd30c6.json"
+    },
+    {
+      "id": "restored_deep_391585a2",
+      "title": "Kim's Dangerous Liaisons: Putin's Pyongyang Visit and the New Northern Threat",
+      "source": "Foreign Affairs",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_391585a2.json"
+    },
+    {
+      "id": "restored_deep_83f6f494",
+      "title": "One Man's Meat: How High Prices Are Swapping Donkey for Horse in China",
+      "source": "Foreign Policy",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_83f6f494.json"
+    },
+    {
+      "id": "restored_18534720",
+      "title": "Renewing the Alliance: A Healthier Trans-Atlantic Relationship",
+      "source": "Foreign Policy",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_18534720.json"
+    },
+    {
+      "id": "restored_deep_096be9ab",
+      "title": "From Schoolyard Swaps to Ancient Egypt: The Enduring History of Liquorice",
+      "source": "The Spectator",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_096be9ab.json"
+    },
+    {
+      "id": "new-kind-book-club",
+      "title": "A New Kind of Book Club",
+      "source": "Bloomberg Businessweek",
+      "issue": "May 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-01",
+      "fileUrl": "/data/articles/new-kind-book-club_v5.json"
+    },
+    {
+      "id": "restored_deep_f69f3828",
+      "title": "RFK Jr. as Health Secretary: Paranoia and the MAHA Movement",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_f69f3828.json"
+    },
+    {
+      "id": "hbr_2026_01_fastvertising",
+      "title": "Marketing at the Speed of Culture",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_fastvertising_v5.json"
+    },
+    {
+      "id": "restored_deep_0e927dea",
+      "title": "Alabama Offers Three Tricks to Fix Poor Urban Schools",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_0e927dea.json"
+    },
+    {
+      "id": "restored_deep_78f554e9",
+      "title": "Homes in Hawaii: A Selection of Premium Real Estate Properties",
+      "source": "The Week",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_78f554e9.json"
+    },
+    {
+      "id": "restored_deep_c56028a5",
+      "title": "The Small-Cap Stock Revival May Just Be Starting",
+      "source": "Barrons",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_c56028a5.json"
+    },
+    {
+      "id": "restored_efc3cdfe",
+      "title": "China in Focus: Publishing, Fishing, and Succession",
+      "source": "Beijing Review",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_efc3cdfe.json"
+    },
+    {
+      "id": "restored_deep_d7b05015",
+      "title": "Corporate Change Agents: Kelly Ortberg at Boeing and Lip-Bu Tan at Intel",
+      "source": "Other Reports",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_d7b05015.json"
+    },
+    {
+      "id": "restored_deep_990ba1cf",
+      "title": "Traditional Chinese Medicine Meets Modernity and China's Concert Boom",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_990ba1cf.json"
+    },
+    {
+      "id": "restored_deep_e6706796",
+      "title": "Weakened Starmer: Britain's Government Drifts Left",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_e6706796.json"
+    },
+    {
+      "id": "restored_deep_10ca309b",
+      "title": "China's Economy Starts 2026 on Solid Footing",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_10ca309b.json"
+    },
+    {
+      "id": "restored_deep_1059e1a3",
+      "title": "The Escalating Iran War and Its Global Consequences",
+      "source": "The Guardian Weekly",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1059e1a3.json"
+    },
+    {
+      "id": "restored_01ba18d9",
+      "title": "Vote of Confusion: Republican Election-Law Strategy and Shifting Rules",
+      "source": "Newsweek",
+      "issue": "Recent Issue",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_01ba18d9.json"
+    },
+    {
+      "id": "restored_deep_fae71798",
+      "title": "Race to the Top: How the Xiamen Marathon is Shaping the City's Future",
+      "source": "Beijing Review",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_fae71798.json"
+    },
+    {
+      "id": "hbr_2026_01_leading_after_founder",
+      "title": "Leading After the Founder",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_leading_after_founder_v5.json"
+    },
+    {
+      "id": "restored_deep_90c0eda6",
+      "title": "How Prime Minister Anutin Revived the Thai Right's Electoral Fortunes",
+      "source": "Economist",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_90c0eda6.json"
+    },
+    {
+      "id": "hbr_2026_01_project_driven",
+      "title": "The Project-Driven Organization",
+      "source": "Harvard Business Review",
+      "issue": "January-February 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-01-01",
+      "fileUrl": "/data/articles/hbr_2026_01_project_driven_v5.json"
+    },
+    {
+      "id": "restored_deep_bef7b1af",
+      "title": "The $599 MacBook Neo: Apple's Latest Hardware Innovations",
+      "source": "The Wall Street Journal",
+      "issue": "Spring 2026",
+      "difficulty": "Beginner",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_bef7b1af.json"
+    },
+    {
+      "id": "restored_deep_21a566e0",
+      "title": "How Quince is Defying the E-Commerce Curse with Affordable Luxury",
+      "source": "Bloomberg Businessweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_21a566e0.json"
+    },
+    {
+      "id": "restored_deep_1e249208",
+      "title": "Schumer's Dilemma and the Evolution of Democratic Leadership",
+      "source": "Newsweek",
+      "issue": "Spring 2026",
+      "difficulty": "Intermediate",
+      "date": "2026-05-10T00:00:00Z",
+      "fileUrl": "/data/articles/restored_deep_1e249208.json"
+    }
+  ]
+}
