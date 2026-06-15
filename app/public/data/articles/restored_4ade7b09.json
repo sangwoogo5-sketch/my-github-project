@@ -1,0 +1,10 @@
+{
+  "id": "restored_4ade7b09",
+  "title": "Stock Market Data and Fund Listings",
+  "source": "Barrons",
+  "issue": "Recent Issue",
+  "difficulty": "Intermediate",
+  "date": "2026-05-10T00:00:00Z",
+  "fileUrl": "/data/articles/restored_4ade7b09.json",
+  "content": "Financial publications frequently provide comprehensive listings of the top open-end mutual funds ranked by total assets. These funds diligently value their expansive portfolios on a daily basis to ensure accurate reporting for investors. They calculate and report their net asset values to the National Association of Securities Dealers by dividing the total dollar amount of their holdings by the number of outstanding shares. When evaluating these funds, total return figures reflect both market price changes and any issued dividends. To provide a standardized metric, these return calculations assume that all financial distributions are immediately reinvested back into the fund itself.\n\nBecause analytical firms like Lipper are constantly updating their vast databases, recently published returns may occasionally differ from previously calculated figures. It is important for investors to note that three-year returns are typically presented as cumulative values over that period. Additionally, the listed Net Asset Value (NAV) always represents the last reported closing price for the respective trading week. To help readers navigate the complex data, publications include a detailed footnotes section explaining various abbreviations and financial conditions. These footnotes clarify everything from missing performance data to specific fee structures, ensuring that investors can make fully informed financial decisions."
+}

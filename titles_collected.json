@@ -1,0 +1,2686 @@
+[
+  {
+    "id": "wsj_chatbot_2026",
+    "title": "Father Blames Chatbot for Son\u2019s Death",
+    "source": "The Wall Street Journal",
+    "issue": "March 05, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-03-05T00:00:00Z",
+    "fileUrl": "/data/articles/wsj_chatbot_2026.json"
+  },
+  {
+    "id": "wsj_tariffs_2026",
+    "title": "Trade Court Orders Refund of Tariffs",
+    "source": "The Wall Street Journal",
+    "issue": "March 05, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-03-05T00:00:00Z",
+    "fileUrl": "/data/articles/wsj_tariffs_2026.json"
+  },
+  {
+    "id": "theweek_iran_2026",
+    "title": "Trump looks for the exits in Iran",
+    "source": "The Week",
+    "issue": "April 10, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-10T00:00:00Z",
+    "fileUrl": "/data/articles/theweek_iran_2026.json"
+  },
+  {
+    "id": "theweek_scotus_2026",
+    "title": "Supreme Court weighs birthright citizenship",
+    "source": "The Week",
+    "issue": "April 10, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-10T00:00:00Z",
+    "fileUrl": "/data/articles/theweek_scotus_2026.json"
+  },
+  {
+    "id": "time_science_2026",
+    "title": "The Science of Skepticism",
+    "source": "Time",
+    "issue": "April 6, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-06T00:00:00Z",
+    "fileUrl": "/data/articles/time_science_2026.json"
+  },
+  {
+    "id": "time_cold_2026",
+    "title": "Investigating the Common Cold",
+    "source": "Time",
+    "issue": "April 6, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-06T00:00:00Z",
+    "fileUrl": "/data/articles/time_cold_2026.json"
+  },
+  {
+    "id": "atl-health-insurance",
+    "title": "The Cost of Not Having Health Insurance",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-01T00:00:00Z",
+    "fileUrl": "/data/articles/atl-health-insurance.json"
+  },
+  {
+    "id": "atl-self-driving-crash",
+    "title": "My Self-Driving Car Crash",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-01T00:00:00Z",
+    "fileUrl": "/data/articles/atl-self-driving-crash.json"
+  },
+  {
+    "id": "gw-diplomacy-royal-touch-2026",
+    "title": "Diplomacy: Royal touch",
+    "source": "The Guardian Weekly",
+    "issue": "8 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-08T00:00:00Z",
+    "fileUrl": "/data/articles/gw-diplomacy-royal-touch-2026.json"
+  },
+  {
+    "id": "gw-new-york-unfazed-2026",
+    "title": "A visit by King Charles leaves New Yorkers unfazed",
+    "source": "The Guardian Weekly",
+    "issue": "8 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-08T00:00:00Z",
+    "fileUrl": "/data/articles/gw-new-york-unfazed-2026.json"
+  },
+  {
+    "id": "spec-red-alert-2026",
+    "title": "Red alert: Who will decide Labour\u2019s fate?",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-16T00:00:00Z",
+    "fileUrl": "/data/articles/spec-red-alert-2026.json"
+  },
+  {
+    "id": "spec-farage-carte-2026",
+    "title": "Farage \u00e0 la carte",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-16T00:00:00Z",
+    "fileUrl": "/data/articles/spec-farage-carte-2026.json"
+  },
+  {
+    "id": "fp_ambitions_2026",
+    "title": "How Far Do Beijing's Ambitions Reach?",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Advanced",
+    "date": "2026-03-01T00:00:00Z",
+    "fileUrl": "/data/articles/fp_ambitions_2026.json"
+  },
+  {
+    "id": "fp_vibeshift_2026",
+    "title": "China's Vibe Shift",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-03-01T00:00:00Z",
+    "fileUrl": "/data/articles/fp_vibeshift_2026.json"
+  },
+  {
+    "id": "hbr_talent_markets_2026",
+    "title": "A Better Way to Manage Internal Talent Markets",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01T00:00:00Z",
+    "fileUrl": "/data/articles/hbr_talent_markets_2026.json"
+  },
+  {
+    "id": "hbr_pitch_suit_2026",
+    "title": "To Crush the Pitch, Skip the Suit",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01T00:00:00Z",
+    "fileUrl": "/data/articles/hbr_pitch_suit_2026.json"
+  },
+  {
+    "id": "460f3351-8598-4fb0-84be-b803f5c69c9b",
+    "title": "German Military Spending Alarms Neighbors",
+    "source": "NYT",
+    "issue": "March 5, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-03-05T00:00:00Z",
+    "fileUrl": "/data/articles/460f3351-8598-4fb0-84be-b803f5c69c9b.json"
+  },
+  {
+    "id": "619424a3-25ae-4e63-932d-1bf40f944de2",
+    "title": "In Departure From Allies, Spain Leader Defies Trump",
+    "source": "NYT",
+    "issue": "March 5, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-03-05T00:00:00Z",
+    "fileUrl": "/data/articles/619424a3-25ae-4e63-932d-1bf40f944de2.json"
+  },
+  {
+    "id": "29c17c70-8205-4cfe-ba4b-3089984185f6",
+    "title": "Vote of Confusion: Changing Election Rules",
+    "source": "Newsweek",
+    "issue": "May 22, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-22T00:00:00Z",
+    "fileUrl": "/data/articles/29c17c70-8205-4cfe-ba4b-3089984185f6.json"
+  },
+  {
+    "id": "81ecf071-39dc-45eb-8a28-4134b1f91c28",
+    "title": "Let's Talk About Kevins",
+    "source": "Newsweek",
+    "issue": "May 22, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-22T00:00:00Z",
+    "fileUrl": "/data/articles/81ecf071-39dc-45eb-8a28-4134b1f91c28.json"
+  },
+  {
+    "id": "85bb09dc-846a-4a95-8605-2a3c113396ab",
+    "title": "Definitions, Dammit! The Semantic War",
+    "source": "Open",
+    "issue": "20 April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-20T00:00:00Z",
+    "fileUrl": "/data/articles/85bb09dc-846a-4a95-8605-2a3c113396ab.json"
+  },
+  {
+    "id": "7423a023-bd9f-4ea8-bad0-3978cc2ddbb0",
+    "title": "Public Interest Litigation: A Tool for Politics?",
+    "source": "Open",
+    "issue": "20 April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-20T00:00:00Z",
+    "fileUrl": "/data/articles/7423a023-bd9f-4ea8-bad0-3978cc2ddbb0.json"
+  },
+  {
+    "id": "94e59f16-6477-4a46-9f0b-a0b758e35928",
+    "title": "5 Predictions From An Investor For 2026",
+    "source": "Other Reports",
+    "issue": "2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01T00:00:00Z",
+    "fileUrl": "/data/articles/94e59f16-6477-4a46-9f0b-a0b758e35928.json"
+  },
+  {
+    "id": "916e020e-54f4-4c4e-bd5b-7e98dc1defeb",
+    "title": "AI and Reshoring to Boost Robotics Adoption",
+    "source": "Other Reports",
+    "issue": "2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01T00:00:00Z",
+    "fileUrl": "/data/articles/916e020e-54f4-4c4e-bd5b-7e98dc1defeb.json"
+  },
+  {
+    "id": "Barrons_Article_1",
+    "title": "Coca-Cola Keeps Beating PepsiCo. Buffett\u2019s Still a Fan.",
+    "source": "Barrons",
+    "issue": "May 11, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-11T00:00:00Z",
+    "fileUrl": "/data/articles/Barrons_Article_1.json"
+  },
+  {
+    "id": "Barrons_Article_2",
+    "title": "Behind the Push to Free Fannie, Freddie",
+    "source": "Barrons",
+    "issue": "May 11, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-11T00:00:00Z",
+    "fileUrl": "/data/articles/Barrons_Article_2.json"
+  },
+  {
+    "id": "BeijingReview_Article_1",
+    "title": "A Long March Toward Stability",
+    "source": "Beijing Review",
+    "issue": "May 21, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-21T00:00:00Z",
+    "fileUrl": "/data/articles/BeijingReview_Article_1.json"
+  },
+  {
+    "id": "BeijingReview_Article_2",
+    "title": "A Milestone Visit",
+    "source": "Beijing Review",
+    "issue": "May 21, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-21T00:00:00Z",
+    "fileUrl": "/data/articles/BeijingReview_Article_2.json"
+  },
+  {
+    "id": "BloombergBusinessweek_Article_1",
+    "title": "The World Can\u2019t Afford A Recession",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01T00:00:00Z",
+    "fileUrl": "/data/articles/BloombergBusinessweek_Article_1.json"
+  },
+  {
+    "id": "BloombergBusinessweek_Article_2",
+    "title": "Why Elon\u2019s Internet Isn\u2019t in South Africa",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01T00:00:00Z",
+    "fileUrl": "/data/articles/BloombergBusinessweek_Article_2.json"
+  },
+  {
+    "id": "wsj_oilmen_v2",
+    "title": "U.S. Oilmen Ignore Price Increase",
+    "source": "The Wall Street Journal",
+    "issue": "March 05, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-03-05",
+    "fileUrl": "docs/The Wall Street Journal/The Wall Street Journal - March 05, 2026.pdf",
+    "content": "U.S. output is estimated to have hit about 13.7 million barrels a day in February, up nearly 600,000 barrels from when Trump took office. But these gains have been the fruit of technical prowess in the field, not the pursuit of growth. Shale companies have become proficient at drilling fewer but much longer horizontal wells, which allows them to trim costs and still extract more crude. They routinely frack multiple wells at the same time and do so virtually around the clock, which also saves on costs.\n\nDays before hostilities broke out against Iran, large oil-and-gas producers made it clear in earnings calls that they planned to stick to this conservative approach. ConocoPhillips, Occidental Petroleum and EOG Resources said they were planning for modest oil growth this year. Diamondback Energy said it would keep production flat and maximize free cash flow.\n\n\u201cWe don\u2019t like to whipsaw these programs up or down,\u201d ConocoPhillips Chief Executive Ryan Lance told analysts.\n\nThe sector has been on a roller coaster in the past four years. The price of a barrel of U.S. crude topped $120 in early 2022 and fetched as little as $55 in December. Operators have learned to control what they can, focus on returning cash to shareholders via buybacks and dividends, and bolster their balance sheets, said Raoul LeBlanc, vice president, global upstream at S&P Global Energy.\n\n\u201cIf you look back at, you know, volatile prices in the last couple years, they feel like that\u2019s been a winning strategy,\u201d he said.\n\nWhen oil prices rebounded from the Covid-19 pandemic lows and hit $123.70 a barrel after Russia\u2019s invasion of Ukraine, it was mostly private drillers who hurried to add rigs. By mid-2023, when production finally recovered from a steep pandemic drop, all public companies except three were extracting less crude than they were before the lockdowns, LeBlanc said.\n\nA frenzy of mergers has since thinned the ranks of private operators, leaving most of U.S. crude production in the hands of disciplined, slow-moving public players. These companies now run 73% of the rigs in the most productive parts of the Permian Basin, the largest oil field in the country, according to Enverus\u2019s Gregoris.\n\nBryan Sheffield, the managing partner of oil-and-gas producer Formentera Partners, said companies risk making their operations less efficient by adding rigs they haven\u2019t planned on deploying. He said it can take six weeks to contract for a new rig.\n\n\u201cDo you really want to sign a contract at $75 plus oil, or let\u2019s just say $90, and by the time you sign the rig contract, get the rig out there 90 days later, oil is straight back to $50?\u201d he said.\n\nFor now, companies are availing themselves of the latest spike in crude prices to lock in a price for their output, he said. Formentera on Tuesday hedged 80% of its production through early 2027 at $70. \u201cIt\u2019s hedging time,\u201d Sheffield said."
+  },
+  {
+    "id": "theweek_jetfuel_v2",
+    "title": "Jet fuel: The other energy crisis hitting your wallet",
+    "source": "The Week",
+    "issue": "April 10, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-10",
+    "fileUrl": "docs/The Week/The Week USA \u2013 April 10, 2026.pdf",
+    "content": "The fuel crisis sparked by the war in Iran has reached the airline industry, said Christopher Jasper in Bloomberg. In addition to wondering about the war's impact on oil and gas, much of the world's supply of kerosene\u2014the base product for jet fuel\u2014passes through the Strait of Hormuz. But with the waterway effectively closed since early March, jet fuel prices have soared by more than 58%. Airlines, \"which have always had razor-thin margins,\" immediately felt the strain. They have already needed to reroute many flight paths away from the war-torn Middle East, \"using up more fuel and putting more pressure on airlines to compensate elsewhere.\" Travelers are now seeing the turmoil show up in their ticket prices. United Airlines chief executive Scott Kirby this week warned fliers to book their \"summer travel as soon as possible, before prices go even higher.\"\n\nThe jet fuel crisis is so dire that \"airlines are drawing up plans to cancel flights\" if the war drags on, said Gottsegen in The Telegraph (U.K.). There is particular concern about the ability for some planes to refuel after long-haul flights to southeast Asia, a major Gulf oil importer, \"potentially leaving aircraft stranded\" at far-flung locales. \"Because no one has a crystal ball, what this all means for travelers is up in the air,\" said Aarian Marshall in Wired. But if the war continues for weeks or even months, \"bigger changes\u2014and inconveniences\u2014might be headed to an airline near you.\" Carriers could raise ticket prices, eliminate less profitable routes, or experiment with new fees\u2014as they did during 2008's \"major and sustained\" fuel shock, when charging passengers for luggage became the norm.\n\nWill vacations \"might seem distasteful,\" said Andrea Felsted in Bloomberg. But it's a serious problem for the tourism industry, which was \"already at risk from a slowdown following the post-Covid travel boom.\" Certain tourist spots like Dubai, the fifth-most visited travel destination last year, are a no-go now with the war happening. Another important global tourist spot, Mexico, is simultaneously witnessing \"a wave of violence\" following the killing of a Jalisco cartel leader, which will undoubtedly give travelers more pause. \"While the super-wealthy will continue to travel, the simply comfortable might vacation closer to home, or not at all, particularly if the cost of energy deepens the cost-of-living crisis.\"\n\nThe travel industry's problems run deeper than the cost of jet fuel, said Ganesh Sitaraman in The Atlantic. In recent weeks, travelers have endured thousands of canceled flights, hours-long lines at TSA checkpoints, and multiple safety crises, including a tragic crash at LaGuardia Airport. \"Flying hasn't always been like this,\" and the culprit for America's mess in the skies is deregulation. The Airline Deregulation Act of 1978 eliminated route and price regulation, setting the stage for the current era of \"fortress hubs dominated by just one airline\" at the expense of smaller communities, as well as the relentless cost cutting that has made flying miserable. \"Politicians need to learn the lessons of hundreds of years of infrastructure policy\" and embrace \"a regulatory and industrial policy that will once again make our air transportation system the envy of the world.\""
+  },
+  {
+    "id": "time_shotwell_v2",
+    "title": "Rocket Woman: Gwynne Shotwell's Vision for SpaceX",
+    "source": "Time",
+    "issue": "April 06, 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-06",
+    "fileUrl": "docs/Time/Time 06 April 2026.pdf",
+    "content": "There are 18 Starship spacecraft in various stages of construction arrayed across the 1 million-sq.-ft floor of the SpaceX factory in Starbase, Texas. Some of them are, for now, just stainless-steel barrels measuring nearly 30 ft. across. Others have already been assembled and outfitted with their tapered nose cones, and are ready to be stacked atop a first-stage booster, taking final shape as SpaceX\u2019s 40-story Starship rockets.\n\nEleven uncrewed Starships have been launched since 2023, some successfully, some not, each of them producing a staggering 16.7 million lb. of thrust from its 33 first-stage engines\u2014more than double the ground-shaking power of the Apollo-era Saturn V. On a recent Friday in February, none of that violence was in evidence, as work proceeded in the gleaming white factory. Some of the welding is done robotically, but mostly these are hand-built rockets\u2014artisanal rockets.\n\nDespite that old-world craftsmanship, they are getting built fast, with a goal of getting launched fast, aiming to meet NASA\u2019s goal of pressing fresh American boot prints on the moon during the flight of the mission dubbed Artemis IV in two years\u2019 time. Starship is the newest rocket in the SpaceX lineup, a step up in power from its popular Falcon 9 model. Artemis is NASA\u2019s new lunar program, which will be buying services from SpaceX\u2019s Starship.\n\n\u201cIt\u2019s a hard problem and the whole architecture is complex, but we\u2019re gunning for 2028,\u201d says SpaceX president and chief operating officer Gwynne Shotwell, 62, as she stands on a walkway overlooking the factory floor. It\u2019s possible that one of the vehicles under construction here could be the 21st century equivalent of Apollo 11\u2019s lunar module Eagle, the lander that carried the first humans to the surface of the moon in 1969. But Shotwell is hoping that test flights will proceed so quickly that all of these spacecraft will have flown by the time of Artemis IV.\n\n\u201cBy 2028,\u201d she says, gesturing to the 18 Starships, \u201cthese should be long gone. They better have flown by [then].\u201d\n\nWhen Shotwell says something had better happen, it better. A veteran of nearly 40 years in the aerospace sector, she is one of its top players. Shotwell is second on the SpaceX org chart\u2014behind only CEO and founder Elon Musk\u2014leading an $800 billion company that is about to get a lot bigger. On Feb. 2, SpaceX announced that it is merging with xAI, Musk\u2019s artificial intelligence company. The combined operation will be worth a reported $1.5 trillion, a valuation that will be tested when the privately held company begins selling stock. The initial public offering is set for the second quarter of 2026.\n\n\u201cI\u2019m not supposed to talk about the IPO in any way,\u201d says Shotwell, \u201cbut I\u2019m looking forward to it. It\u2019s a new thing\u2014a new set of methodologies to run companies\u2014so I\u2019m excited about it.\u201d"
+  },
+  {
+    "id": "fp_national_treasure_2026",
+    "title": "National Treasure: The blockbuster that probes Japan's identity crisis",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/docs/Foreign Policy/Foreign Policy Spring 2026-1.pdf"
+  },
+  {
+    "id": "fp_frozen_out_2026",
+    "title": "Frozen Out: How the United States forgot its far north",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/docs/Foreign Policy/Foreign Policy Spring 2026-1.pdf"
+  },
+  {
+    "id": "fp_master_and_margarita_2026",
+    "title": "A Lavish New \u2018Master and Margarita\u2019: How did Putin ever approve this adaptation?",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/docs/Foreign Policy/Foreign Policy Spring 2026-1.pdf"
+  },
+  {
+    "id": "hbr_ai_strategy_2026",
+    "title": "Aligning AI Strategy with Business Reality",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Hard",
+    "date": "2026",
+    "fileUrl": "/docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "hbr_c_suite_recruiters_2026",
+    "title": "How to Stand Out to C-Suite Recruiters",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "hbr_lifes_work_gayle_king_2026",
+    "title": "Life's Work: Gayle King",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Easy",
+    "date": "2026",
+    "fileUrl": "/docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "02d096a2-dfd6-4d6a-8716-df8e5062858f",
+    "title": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --",
+    "source": "Bloomberg Businessweek",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_bloomberg_v2.md",
+    "content": "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | # InInContextContext A new way to think about the worldA new way to think about the world # The World # Can\u2019t Afford # A Recession \u25cf By Jorgelina do Rosario, Shawn Donnan and Enda Curran For decades, global economic crises have prompted the world to band together. During the Great Recession, central banks rode to the rescue with massive monetary stimulus as international leaders drew up a coordinated response. A dozen years later, pandemic-era governments built on those 2007-08 lessons, adding unprecedented fiscal spending to the mix. Today, though, as central bankers and heads of state contemplate the potential fallout from the Iran war and the biggest energy crunch in half a century\u2014or whatever cross-continental crisis comes next\u2014 it looks increasingly unlikely there\u2019ll be another spurt of unified action. The spirit of cooperation is no longer there, and even if it were, there are major questions as to whether countries could even afford it. After years of responding to economic shock after economic shock, we\u2019ve been left woefully unprepared to deal with another one. \u201cThis is the worst place we\u2019ve been in 20 years,\u201d or probably \u201clonger than that,\u201d for communal capacity to combat a widespread downturn, says Harvard Kennedy School economist Carmen Reinhart, who\u2019s made a career out of studying global crises. Although markets breathed a collective sigh of relief after the US and Iran agreed to a temporary ceasefire and Tehran pledged to reopen the Strait of Hormuz, a crucial energy shipping channel, it\u2019s too early to know if a truce In Context 11 and respond to crises. Even before the during the pandemic,\u201d Reinhart says. Iran war, IMF economists cautioned that \u201cI don\u2019t think they can be heroes now.\u201d a mix of reduced government resources The energy price shock in particular and low growth weakened the global abil- presents an acute challenge for"
+  },
+  {
+    "id": "ceeebfd8-5367-4ec3-bb6a-496023e40dfc",
+    "title": "S21",
+    "source": "Barrons",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_barrons_v2.md",
+    "content": "### S21 \n\n\u2018Family Office\u2019 World As wealth proliferates, more financial advice firms are adopting the \u201cfamily office\u201d moniker in an attempt to appeal to rich families\u2019 desire for comprehensive services. BY STEVE GARMHAUSEN\tILLUSTRATIONS BY CAROLINA MOSCOSO a veteran Morgan Stanley advisor\tplanning? Do you have more-compliors, and he went on to play one season professionally in Europe, so he has deep relationships on that side. He has been successful in helping us build that part of the business. Corey Mazza:Working with athletes has happened organically, by the nature of my background and a mutual comfort that their perspective is well understood by our team. It\u2019s an area where I feel comfortable, and that resonates with athletes I speak to. How has having a sports-minded mentality helped the team overall? Mazza:Having backgrounds in team sports has had a big influence in terms of how we integrate as partners with our broader team and with clients. We all enjoy team sport activities together. Whether it is mountain biking, pickleball, or basketball, there\u2019s a lot of camaraderie built through team-based activities. And having a team sports background\u2014where it\u2019s client first, then team, then yourself\u2014is important for prioritizing our team\u2019s goals and Management\tJ.P. Morgan Wealth \n\nAn investor should consider the investment objectives, risks, charges and expenses of the fund carefully before investing. To obtain a prospectus containing this and other information, please visit www.cullenfunds.com or call 646-200-1800. Read the prospectus carefully before investing. Investing involves risk, including loss of principal. Each product has unique risks and investors should review and understand these risks before investing. Investing in these products may not be suitable for all investors. There is no guarantee dividends will be paid. Cullen Capital Management, LLC. (CCM) is an independent investment advisor registered under the Investment Advisers Act of 1940 and is doing business as Schafer Cullen Capital Management, Inc. (SCCM). The Cullen Funds Trust (CFT), SCCM and CCM are affiliates. This information should not be used as the primary basis for any investment decision nor should it be considered as advice to meet your particular investment needs. The ETF is distributed by SEI Investments Distribution Co. (SIDCO). The Mutual Fund is distributed by Paralel Distributors LLC (Paralel). Paralel and SIDCO and CCM are unaffiliated entities. Timothy Cordle is a registered representative of Paralel Distribution LLC."
+  },
+  {
+    "id": "b667744d-1376-44aa-b0b5-6944880e2711",
+    "title": "RUSSIA President Vladimir Putin speaks during a parade marking the 81st anniversary of the victory i",
+    "source": "Beijing Review",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_beijing_v2.md",
+    "content": "RUSSIA President Vladimir Putin speaks during a parade marking the 81st anniversary of the victory in the Soviet Union\u2019s Great Patriotic War in Moscow on May 9 http://www.bjreview.com MAY 21, 2026 BEIJING REVIEW 9 THIS WEEK PEOPLE & POINTS \uf0dc CHAOSHAN\u2019S VALUED HISTORY HITS THE BIG SCREEN 12.5 percent and Mercedes-Benz 19 perOld vs. NEV\tcent. Global Times\tAt the 2026 Beijing International Automotive Exhibition, which closed on April 28 May 3, all three brands sought to show For decades, German brands have how far they are willing to adapt to local dominated China\u2019s auto market. But the tastes. Their China-focused NEV models rise of homegrown new-energy vehicles took center stage, many bearing little (NEVs) has weakened that advantage. resemblance to traditional German cars, A younger generation of Chinese conwith large central control screens, all-scesumers is also reshaping the market, nario intelligent connectivity and voice increasingly associating German cars systems tailored specifically to Chinesewith their parents\u2019 era rather than with language use. the future of mobility.\tFor German automakers, today\u2019s Market figures tell the story clearly. Chinese market is no longer a comfort In 2025, sales by major German car- zone where success can be taken for \n\nFarming for Fine Dining Lifeweek May 18 Caviar and foie gras were once luxuries that many Chinese families could taste only when someone brought them back from abroad. That era is over: China is now the world\u2019s largest producer and ex- porter of caviar, while its foie gras output accounts for roughly 45 percent of the global total. The shift is about more than scale. China already accounts for over 60 per- cent of global aquaculture output, but the Lan Hongchun, director of the hit Chaoshan (Teochew)-dialect filmDear You, has seen his low-budget feature surpass 100 million yuan ($13.9 million) at the box of- fice since its release on April 30. The film, which centers on centuries-oldqiaopi\u2014 letters accompanied by remittances sent to family in China by overseas Chinese\u2014 was made on a budget of just 14 million yuan ($1.94 million). The Chaoshan region includes Chaozhou and Shantou cities in Guangdong Province. Lan, 41, was born in Shantou. During a previous tenure as a doc- umentary filmmaker, he interviewed many elderly overseas Chinese in Southeast Asia. \u201cAlmost every detail in this story actually hap- pened to someone,\u201d Lan said. The film was shot at real locations with non-professional actors and simple equipment. \u201cOurproductsareallelectricvehicles. \u201cManylanguagesaremovingtoward Theyarelighter,moreaffordableand digitization,andwedon\u2019twanttobe morereliablethantraditional left behind.\u201d gasoline-powered motorcycles.\u201d DorjeMigyur,adeveloper ofTibetanlargelanguage Su Shaozong,founderofafirmbasedinZhengzhou,Henan model(LLM)DeepZang,speakingabouthiscompany\u2019s Province,thatdevelopsmotorcyclesforchildren,inan efforts to address general-purpose LLMs\u2019 limited ability to interviewwithXinhuaNewsAgencyaboutChina\u2019s understandTibetan motocrossboom"
+  },
+  {
+    "id": "cf0ddfe5-1913-488e-b4e5-1e455e905385",
+    "title": "THIS WEEK recognition of the demanding nature Empowering Nurses\tof nursing work\u2014long hours, heavy re",
+    "source": "Beijing Review",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_beijing_v2.md",
+    "content": "THIS WEEK recognition of the demanding nature Empowering Nurses\tof nursing work\u2014long hours, heavy responsibilities and limited rest. Such Today gestures, prioritizing genuine rest over Beijing Evening News performative celebrations, embody true May 14 appreciation. Though China\u2019s nursing On May 12, International Nurses Day, workforce surpassed 6 million in 2025, many regions in China honored nurses with workloads remain high, highlighting practical measures rather than formal cel- persistent staffing gaps. Sustainable \n\nmore telling change lies in what it farms and how. Thanks to advances in aquacul- ture technology, species once associated with distant waters are now being raised in Chinese lakes, reservoirs and even in the waters of saline-alkali land. Salmon and trout are a case in point. China lacks the cold coastal waters that make Norway ideal for Atlantic salmon farming, but inland regions such as Qinghai Province and Xinjiang Uygur Autonomous Region have glacier-fed water bodies suit- able for raising triploid rainbow trout, a larger, sterile variety developed through selective breeding. The rapid growth of do- mestic rainbow trout farming has coincided with rising demand in the country, as health awareness increases and more Chinese consumers seek high-quality protein. In the first quarter of 2026, China was the world\u2019s second largest market for salmon and trout consumption. Eel production tells a similar story. Fujian and Guangdong provinces now lead large-scale farming of Japanese eel. What began partly as a response to foreign demand has become part of China\u2019s own appetite for premium protein and rich flavor. Technology is pushing the frontier further. Automated feeding systems can ad- just rations according to water temperature and distribute feed more evenly, reducing injuries when fish compete for food. Wu Yize became the second youngest player to be crowned a Crucible Champion in a compelling World Snooker Championship final on May 10. Wu, 22, is second youngest behind Stephen Hendry, who was 21 when he took the title for the first time in 1990. \u201cSince I made the decision to drop out of school, my dad has been by my side,\u201d Wu said at the event. \u201cMy mom has also been going through a lot over the years. They are the source of my strength.\u201d Along with the 500,000-pound ($667,750) top prize, Wu\u2019s win propels him to fourth in the world ranking, having started the season outside the top 16. The Crucible Champion title takes its name from the Crucible Theatre in Sheffield, England, where the World Snooker Championship has been held every year since 1977. \u201cIndustrialtourismisanexus \u201cManypeoplemayhaveneverbeento wheresecondaryandtertiary China,buttheyexperienceChinese industries converge.\u201d culturethroughtheproducts ChenWei,anexpertfromTsinghuaUniversity, they use.\u201d commentingon popularinitiativesofturning YouXinyu,aChineseentrepreneurandfounderof industriallandmarks intotouristattractions PASSION,aRussianconsumerelectronicscompany, tellingXinhuathathiscompany\u2019scomputerscurrently rankfirstintheirpricesegmentinRussia \n\nChinese President Xi Jinping hosts a welcome ceremony as part of U.S. President Donald Trump\u2019s state visit to China, outside the Great Hall of the People in Beijing, on May 14 1212 BEIJING REVIEW MAY 21, 2026BEIJING REVIEW MAY 21, 2026 http://www.bjreview.comhttp://www.bjreview.com http://www.bjreview.comhttp://www.bjreview.com MAY 21, 2026 BEIJING REVIEWMAY 21, 2026 BEIJING REVIEW1313"
+  },
+  {
+    "id": "78e80c90-b47b-48d1-a487-5b009e0565fb",
+    "title": "A Recession",
+    "source": "Bloomberg Businessweek",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_bloomberg_v2.md",
+    "content": "# A Recession \n\n\u25cf By Jorgelina do Rosario, Shawn Donnan and Enda Curran For decades, global economic crises have prompted the world to band together. During the Great Recession, central banks rode to the rescue with massive monetary stimulus as international leaders drew up a coordinated response. A dozen years later, pandemic-era governments built on those 2007-08 lessons, adding unprecedented fiscal spending to the mix. Today, though, as central bankers and heads of state contemplate the potential fallout from the Iran war and the biggest energy crunch in half a century\u2014or whatever cross-continental crisis comes next\u2014 it looks increasingly unlikely there\u2019ll be another spurt of unified action. The spirit of cooperation is no longer there, and even if it were, there are major questions as to whether countries could even afford it. After years of responding to economic shock after economic shock, we\u2019ve been left woefully unprepared to deal with another one. \u201cThis is the worst place we\u2019ve been in 20 years,\u201d or probably \u201clonger than that,\u201d for communal capacity to combat a widespread downturn, says Harvard Kennedy School economist Carmen Reinhart, who\u2019s made a career out of studying global crises. Although markets breathed a collective sigh of relief after the US and Iran agreed to a temporary ceasefire and Tehran pledged to reopen the Strait of Hormuz, a crucial energy shipping channel, it\u2019s too early to know if a truce In Context\t11 and respond to crises. Even before the during the pandemic,\u201d Reinhart says. Iran war, IMF economists cautioned that \u201cI don\u2019t think they can be heroes now.\u201d a mix of reduced government resources\tThe energy price shock in particular and low growth weakened the global abil- presents an acute challenge for cenity to protect countries in an increasingly tral bankers, including at the Federal volatile world.\tReserve: Do they raise interest rates to To be sure, the fund still has plenty contain inflation or lower them to proof firepower: It had $164 billion in out- tect jobs? Boosting rates also increases standing loans to members as of April 3, the cost of servicing debt and further out of a total lending capacity of $1 tril- eats away the fiscal capacity to respond lion. But critics worry that it has been to a crisis. In the US alone, where total US government debt held by the public its ability to foresee vulnerabilities. is forecast to reach $32 trillion this year, (An IMF spokesperson disputed that annual interest payments are on track to Reinhart characterization: \u201cOur surveillance is exceed $1 trillion. introduced in 2003, a signature policy that used to be named after the architect Why Elon\u2019s Internet of Thabo Mbeki, who succeeded Nelson of apartheid."
+  },
+  {
+    "id": "7df24500-1b21-4c1b-a99d-dab3bdb6a12e",
+    "title": "FORGED UNDER FIRE By Guan Zhongmei he mid-May meetings between Chinese President TX i J i n p i n g ",
+    "source": "Beijing Review",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_beijing_v2.md",
+    "content": "FORGED UNDER FIRE By Guan Zhongmei he mid-May meetings between Chinese President TX i J i n p i n g a n d U . S . President Donald Trump in Beijing drew global attention. If we place these meetings within a broader historical context, one thing becomes clear: China-U.S. cooperation brings both bilateral and global benefits, and confrontation takes a toll on both countries and the world at large. This is not mere rhetoric but a lesson repeatedly proven through the history of interactions between the two countries. Back-to-back: A participant shares his family connection with China\u2019s Fujian Province at the 2025 Kuliang safeguarding peace Forum in New York City, the United States, on November 25, 2025. The event recounted the Take China-U.S. relations in the memories of Americans who once lived in China and carried on the legacy in both countries global fight against fascism as an example. On September 18, 1931, March 1941, the U.S. Congress passed the Lend- Shoulder-to-shoulder: Japanese troops blew up a section Lease Act, providing military supplies to China of railway under their control near\tadvancing development and other Allied nations. From the steady supply of Shenyang, Liaoning Province, and\tHistory, however, does not always American aid to China to the Chinese civilians who accused Chinese troops of sabotage\tmove smoothly. After the founding risked their lives to rescue U.S. soldiers stranded in as a pretext to attack. Later that\tof the People\u2019s Republic of China Japanese-occupied regions, each episode attested to a night, they attacked barracks near\tin 1949, ideological confrontation \u201cback-to-back\u201d bond forged in wartime. the city. The September 18 Incident\tand geopolitical conflicts led the two During the 14-year war of resistance, China tied marked the beginning of the\tcountries into more than two decades down the bulk of Japan\u2019s military forces, inflicting Chinese People\u2019s War of Resistance\tof Cold War hostility. over 1.5 million casualties and disrupting Japan\u2019s conis team visited the U.S. In 1979, the two countries formally established diplomatic relations, ushering in a new stage of development. Since then, bilateral exchanges in trade, culture and science and technology have expanded rapidly, creating deeply intertwined economic ties. Statistics from the United Nations show that in 2024, trade in goods between China and the U.S. reached $688.28 billion, which was 275 times the volume of the trade in 1979. UN data show that in 2024, China Representatives of China and the United States\u2014two of the principal Allied victors of World was the destination for 51.7 percent of War II\u2014stand side by side aboard theUSS Missouribattleship on September 2, 1945, as Japan U.S. soybean exports, 29.7 percent of formally surrenders its cotton exports, 17.2 percent of its"
+  },
+  {
+    "id": "0d55e670-38ee-4d6e-8516-6511f4417b52",
+    "title": "BY JACK HOUGH",
+    "source": "Barrons",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_barrons_v2.md",
+    "content": "# BY JACK HOUGH \n\n0.6 0.4 0.2 come with new engine deliveries,\u201d says Stallard. New engines are typically sold for a loss, with profits comPunished\ting later. That\u2019s a longstanding feature of the industry. Stallard rates shares Buy and has a $358 price target. Investors can\u2019t seem to look past the Middle East, but the company\u2019s\the company\u2019s defense propulcore business continues to grow.\tsion business, which accounts for about one-quarter of sales, is The stock looks like a buy. Talso booming, growing 19% year over year in the first quarter. Engine development is key to maintaining GE Aerospace\u2019s market share. BY AL ROOT\tIn 2025, it spent almost $3 billion on research and development, or roughly tock market corrections are\t7% of sales. painful. They can also be\tOil prices are a threat to the stock, healthy, checking overly exu-\tbut higher oil prices can drive demand berant investor enthusiasm\tfor more fuel-efficient engines, so long May 2023 '24\t'25\t'26\t0.6% His Fed Critics Wrong\tA Healthcare Rebound This Dividend Pro Likes Banks, Altria, and J&J BY IAN SALISBURY\tcome has a great record. What is your investing approach? any investors love divi- Michael Barclay:The Columbia dends, which generate\tdividend income strategy has been in income and signal the\tplace for 22 years. We are in the payer\u2019s financial health. large-cap value box. We buy only But in a market relent-\tstocks that pay dividends, and we lessly focused on\tapproach dividend investing from a \n\nSneak a Read Head into the weekend with a sneak preview of the Barron\u2019s magazine headlines with our convenient email newsletter\u2014 every Friday evening. Sign up Barrons.com/BarronsPreview \u00a9 2026 Dow Jones & Co., Inc. All rights reserved. 3DJ0468 \n\ntoo fast, the markets now expect the Fed-\tOf the nine stocks that surfaced, eight are"
+  },
+  {
+    "id": "c6b86fe2-e173-43aa-a223-47417cd75ba3",
+    "title": "VANISHING Low-cost flying faces serious threats.BREED The demise of Spirit Airlines is only the begi",
+    "source": "Barrons",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_barrons_v2.md",
+    "content": "VANISHING Low-cost flying faces serious threats.BREED The demise of Spirit Airlines is only the beginning.PAGE 14 \n\nLachlan Murdoch,Executive Chairman, News Corp Rupert Murdoch,Chairman Emeritus, News Corp Robert Thomson,CEO, News Corp Almar Latour, CEO, Dow Jones EXECUTIVE VICE PRESIDENT AND GENERAL MANAGER Dan Shar SENIOR EXECUTIVE EDITOR, WEALTH & INVESTING Bob Rose EDITOR IN CHIEF Ben Levisohn SENIOR MANAGING EDITORS Alex Eule, Lauren R. Rublin EDITORIAL DIRECTOR, MAGAZINE Phil Roosevelt EDITOR AT LARGE Andy Serwer MANAGING EDITORS Matt Bemer, Abby Carmel, Daren Fonda, Amey Stone, Joe Woelfel ASSISTANT MANAGING EDITORS Nathaniel Baker, Mel Gray, Liz Moyer, Mary Romano, Robert Sabat, Rupert Steiner (London bureau chief) NEWSLETTER EDITOR Azure Gilman ASSOCIATE EDITORS Andrew Bary, Randall W. Forsyth, Jack Hough, Reshma Kapadia, Al Root SENIOR WRITERS Bill Alpert, Martin Baccardax, Nicole Goodkind, Paul R. La Monica, Megan Leonhardt, Adam Levine, Joe Light, Elizabeth O\u2019Brien, Teresa Rivas, Ian Salisbury, Avi Salzman, Laura Sanicola, Rebecca Ungarino REPORTERS Jacob Adelman, Doug Busch, Todd Chanko, Janet H. Cho, Adam Clark, Nick Devor, Catherine Dunn, Sabrina Escobar, George Glover, Anita Hamilton, Callum Keown, Alex Kozul-Wright, Evie Liu, Shaina Mishkin, Kit Norton, Angela Palumbo, Josh Schafer, Abby Schultz, Connor Smith, Jacob Sonenshine, Mackenzie Tatananni, Karishma Vanjani, Dan Victor, Andrew Welsch, Nate Wolf STORY EDITORS Emma Higgins, Erin McCarthy, Patrick O\u2019Donnell, Stacy Ozol, Emily Russell, Ross Snel, Neal Templin, J.J. Thompson, Michael Topel COPY DESK Michael J. Burlingham, Robert Teitelman DEPUTY DIGITAL MANAGING EDITOR Zoe Szathmary DIGITAL PRODUCERS Robert Cushing, Clare McKeen HEAD OF VISUALS Chelsea Schiff ART DIRECTORS Shayanne Gal, Sue Ng, Lynne Tuttle DATA VISUALIZATION AND GRAPHICS EDITOR Elijah Nicholson-Messmer DEPUTY PHOTO DIRECTOR Karen Frank PHOTO EDITORS Alis Atwell, Nicole Silver RESEARCHER Dan Lam STATISTICS MANAGER Michael T. Kokoszka STATISTICIAN Darren Chima ADVERTISING SERVICES MANAGER James H. Balmer NEWS editors@barrons.com STATISTICS barronsstats@barrons.com CUSTOMER SERVICE 800-544-0422 GLOBAL HEAD, WEALTH & ASSET MANAGEMENT Jack Otter Barron\u2019s is a trademark of Dow Jones and its affiliates. Barron\u2019s (USPS 044-700) (ISSN 1077-8039) Published every Monday. Editorial and Publication Headquarters: 1211 Avenue of the Americas, New York, N.Y. 10036. Periodicals postage paid at Chicopee, MA and other mailing offices. Regular U.S. subscription rate: one year, $359.88. Entire editorial content of this publication copyrighted by Dow Jones & Co., Inc. and must not be reproduced in whole or in part without special permission. Unsolicited manuscripts should be accompanied by self-addressed envelope with proper postage. All advertising published in Barron\u2019s is subject to the applicable rate card, copies of which are available from the Advertising Director, 1211 Avenue of the Americas, New York, N.Y. 10036. Barron\u2019s reserves the right not to accept an advertiser\u2019s order. Only publication of an advertisement shall constitute acceptance of the advertiser's order. Postmaster: Send address changes to Barron\u2019s, 200 Burnett Rd., Chicopee, MA 01020."
+  },
+  {
+    "id": "798ec416-e613-4a3b-899d-1f2489a14573",
+    "title": "QUIET LUXURY Spain\u2019s Slower Side By Paul Richardson The Pizarro statue in Trujillo\u2019s Plaza Mayor sum",
+    "source": "Bloomberg Businessweek",
+    "issue": "Extracted Issue",
+    "difficulty": "Medium",
+    "date": "2026",
+    "fileUrl": "/tmp/temp_agent1_bloomberg_v2.md",
+    "content": "QUIET LUXURY Spain\u2019s Slower Side By Paul Richardson The Pizarro statue in Trujillo\u2019s Plaza Mayor summer travel special Just a few years ago, meeting an American, or a foreign visitor of any\tPlaza de Espa\u00f1a in M\u00e9rida, the capital of Extremadura nationality, on the road in Extremadura would have been a rare occurrence. In a region the size of Switzerland, with a population of barely a million inhabitants, you were less likely to encounter a tour group than a troop of pigs eating acorns (the secret to Spain\u2019s exquisite ib\u00e9rico ham). These days, not so much. As Spain\u2019s tourist industry has grown\u2014from 53 million foreign arrivals in 2010 to 97 million in 2025, according to government statistics\u2014savvy visitors have begun trading oversaturated destinations including Barcelona and the Balearic Islands for this type of lesser-known spot. Extremadura, 180 miles from Lisbon and Madrid, offers the Spanish culture they crave but with a lot more peace and quiet. That\u2019s pretty much my story too. Throughout the 1990s, I lived on Ibiza, where I luxuriated in the pre-internet, presmartphone, pre-everything pleasures of a place that hadn\u2019t yet hit the big time with tourism. When relentless development, environmental depletion and excessive traffic began to take their toll on the island, I was out. Ibiza had been known as a hippie haven in the 1960s and a smalltime package-tour destination in the \u201970s, but thediscotecaboom of the \u201990s established the White Island as a global tourist brand and changed it forever. Extremadura\u2014a pit stop on my road trip across the Iberian Peninsula\u2014wasn\u2019t meant to be my final destination, but what I found there in 2000 was astoundOH? CANADA!\tdouble-digit decrease in Canadians going to the US. Those trips are down by more than 34% since the start of 2025. Summer flight bookings for 2026 plummeted 70%. Politics are a factor. Indiana-based novelist Emily Matchar spent two weeks True North\ttraveling in Ontario and Quebec with her husband and children last year. The vacation doubled as an apology tour of sorts after President Donald Trump suggested that Canada should become the Believers\t51st state and directed aggressive tariffs at one of America\u2019s largest trading partBy Brandon Presser\tners.\u201cWe\u2019ve been mad at the way the US is treating it,\u201d she says, \u201cand we thought it would be good to contribute to our neighbor\u2019s economy, even if a tiny bit.\u201d But Yanks crossing the 49th parallel aren\u2019t merely performing an act of economic mea culpa. Canada\u2019s sudden rise in the zeitgeist\u2014the steamy hockey soap operaHeated Rivalryhas inspired countless searches for Canadian cottage real estate listings\u2014doesn\u2019t fully explain increased travel interest either. The reality is that Canada represents value for American travelers. It\u2019s a shorter drive or flight at a time when soaring fuel prices are causing costs to rise. The weaker Canadian dollar is another Orcas off the shore of Victoria, British Columbia\tlure. The friendlier exchange rate can make it manageable for American visitors to level up from burgers and poutine to a summer travel special"
+  },
+  {
+    "id": "atlantic_robyn_v2",
+    "title": "Robyn Is Still Dancing On Her Own",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "April 2026",
+    "fileUrl": "docs/The Atlantic/The Atlantic April 2026.pdf"
+  },
+  {
+    "id": "atlantic_franco_v2",
+    "title": "The Last Days of Franco",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "April 2026",
+    "fileUrl": "docs/The Atlantic/The Atlantic April 2026.pdf"
+  },
+  {
+    "id": "atlantic_colossus_v2",
+    "title": "Colossus: Memphis Data Center",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "April 2026",
+    "fileUrl": "docs/The Atlantic/The Atlantic April 2026.pdf"
+  },
+  {
+    "id": "guardian_mothers_v2",
+    "title": "Asian mothers, bad feelings",
+    "source": "The Guardian Weekly",
+    "issue": "8 May 2026",
+    "difficulty": "Intermediate",
+    "date": "8 May 2026",
+    "fileUrl": "docs/The Guardian Weekly/The Guardian Weekly 08 May  2026.pdf"
+  },
+  {
+    "id": "guardian_angels_v2",
+    "title": "Angels of deception",
+    "source": "The Guardian Weekly",
+    "issue": "8 May 2026",
+    "difficulty": "Intermediate",
+    "date": "8 May 2026",
+    "fileUrl": "docs/The Guardian Weekly/The Guardian Weekly 08 May  2026.pdf"
+  },
+  {
+    "id": "guardian_flights_v2",
+    "title": "Direct flight from Miami to Caracas marks reset connection",
+    "source": "The Guardian Weekly",
+    "issue": "8 May 2026",
+    "difficulty": "Intermediate",
+    "date": "8 May 2026",
+    "fileUrl": "docs/The Guardian Weekly/The Guardian Weekly 08 May  2026.pdf"
+  },
+  {
+    "id": "spectator_christophers_v2",
+    "title": "Twin peaks: The Christophers",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Intermediate",
+    "date": "16 May 2026",
+    "fileUrl": "docs/The Spectator/The Spectator - May 16, 2026.pdf"
+  },
+  {
+    "id": "spectator_saints_v2",
+    "title": "Saints alive!",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Intermediate",
+    "date": "16 May 2026",
+    "fileUrl": "docs/The Spectator/The Spectator - May 16, 2026.pdf"
+  },
+  {
+    "id": "spectator_blitz_v2",
+    "title": "Broken homes",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Intermediate",
+    "date": "16 May 2026",
+    "fileUrl": "docs/The Spectator/The Spectator - May 16, 2026.pdf"
+  },
+  {
+    "id": "nyt_1",
+    "title": "Global Tariffs Rising to 15% This Week, Bessent Says",
+    "source": "NYT",
+    "issue": "NYT 0503.pdf",
+    "difficulty": "intermediate",
+    "date": "March 5, 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/NYT/NYT 0503.pdf"
+  },
+  {
+    "id": "nyt_2",
+    "title": "Paramount-Warner Deal Will Change Streaming",
+    "source": "NYT",
+    "issue": "NYT 0503.pdf",
+    "difficulty": "intermediate",
+    "date": "March 5, 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/NYT/NYT 0503.pdf"
+  },
+  {
+    "id": "nyt_3",
+    "title": "Two Big Production Houses To Merge, Chaired by Zucker",
+    "source": "NYT",
+    "issue": "NYT 0503.pdf",
+    "difficulty": "advanced",
+    "date": "March 5, 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/NYT/NYT 0503.pdf"
+  },
+  {
+    "id": "newsweek_1",
+    "title": "CHILD OF CHERNOBYL",
+    "source": "Newsweek",
+    "issue": "Newsweek 22 May 2026.pdf",
+    "difficulty": "intermediate",
+    "date": "May 22, 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Newsweek/Newsweek 22 May 2026.pdf"
+  },
+  {
+    "id": "newsweek_2",
+    "title": "THE COST OF TOGETHERNESS",
+    "source": "Newsweek",
+    "issue": "Newsweek 22 May 2026.pdf",
+    "difficulty": "advanced",
+    "date": "May 22, 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Newsweek/Newsweek 22 May 2026.pdf"
+  },
+  {
+    "id": "newsweek_3",
+    "title": "ISLAND OF DESPAIR",
+    "source": "Newsweek",
+    "issue": "Newsweek 22 May 2026.pdf",
+    "difficulty": "intermediate",
+    "date": "May 22, 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Newsweek/Newsweek 22 May 2026.pdf"
+  },
+  {
+    "id": "open_1",
+    "title": "READING THE TEA LEAVES",
+    "source": "Open",
+    "issue": "Open  - 13 April 2026.pdf",
+    "difficulty": "intermediate",
+    "date": "13 APRIL 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Open/Open  - 13 April 2026.pdf"
+  },
+  {
+    "id": "open_2",
+    "title": "SPOT THE LEADER",
+    "source": "Open",
+    "issue": "Open  - 13 April 2026.pdf",
+    "difficulty": "advanced",
+    "date": "13 APRIL 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Open/Open  - 13 April 2026.pdf"
+  },
+  {
+    "id": "open_3",
+    "title": "STALIN'S PLOT",
+    "source": "Open",
+    "issue": "Open  - 13 April 2026.pdf",
+    "difficulty": "intermediate",
+    "date": "13 APRIL 2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Open/Open  - 13 April 2026.pdf"
+  },
+  {
+    "id": "other_1",
+    "title": "AI PROGRESS TO CONTINUE SHAPING ROBOTS IN 2026",
+    "source": "Other Reports",
+    "issue": "TheRobotReport2026_outlook.pdf",
+    "difficulty": "intermediate",
+    "date": "2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Other Reports/TheRobotReport2026_outlook.pdf"
+  },
+  {
+    "id": "other_2",
+    "title": "VANDERLANDE IDENTIFIES WAREHOUSE AUTOMATION TRENDS",
+    "source": "Other Reports",
+    "issue": "TheRobotReport2026_outlook.pdf",
+    "difficulty": "intermediate",
+    "date": "2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Other Reports/TheRobotReport2026_outlook.pdf"
+  },
+  {
+    "id": "other_3",
+    "title": "HUMANOIDS IN 2026: LESS DANCING, MORE DOING",
+    "source": "Other Reports",
+    "issue": "TheRobotReport2026_outlook.pdf",
+    "difficulty": "advanced",
+    "date": "2026",
+    "fileUrl": "/Users/go/my-github-project/docs/Other Reports/TheRobotReport2026_outlook.pdf"
+  },
+  {
+    "id": "time_v3_art1",
+    "title": "ROCKET WOMAN",
+    "source": "Time",
+    "issue": "April 6, 2026",
+    "difficulty": "Medium",
+    "date": "2026-04-06",
+    "fileUrl": "/Users/go/my-github-project/docs/Time/Time 06 April 2026.pdf"
+  },
+  {
+    "id": "time_v3_art2",
+    "title": "Stella McCartney",
+    "source": "Time",
+    "issue": "April 6, 2026",
+    "difficulty": "Medium",
+    "date": "2026-04-06",
+    "fileUrl": "/Users/go/my-github-project/docs/Time/Time 06 April 2026.pdf"
+  },
+  {
+    "id": "time_v3_art3",
+    "title": "Hindou Oumarou Ibrahim",
+    "source": "Time",
+    "issue": "April 6, 2026",
+    "difficulty": "Medium",
+    "date": "2026-04-06",
+    "fileUrl": "/Users/go/my-github-project/docs/Time/Time 06 April 2026.pdf"
+  },
+  {
+    "id": "time_v3_art4",
+    "title": "Damar Hamlin",
+    "source": "Time",
+    "issue": "April 6, 2026",
+    "difficulty": "Medium",
+    "date": "2026-04-06",
+    "fileUrl": "/Users/go/my-github-project/docs/Time/Time 06 April 2026.pdf"
+  },
+  {
+    "id": "fp-gilman-v3",
+    "title": "The New Metabolic World Order",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Advanced",
+    "date": "2026-03-01",
+    "fileUrl": "/data/articles/fp-gilman-v3.json"
+  },
+  {
+    "id": "fp-ashford-v3",
+    "title": "Renewing the Alliance",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Medium",
+    "date": "2026-03-01",
+    "fileUrl": "/data/articles/fp-ashford-v3.json"
+  },
+  {
+    "id": "fp-bunzel-v3",
+    "title": "Can Europe Thrive Again?",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Medium",
+    "date": "2026-03-01",
+    "fileUrl": "/data/articles/fp-bunzel-v3.json"
+  },
+  {
+    "id": "fp-dummer-v3",
+    "title": "One Man's Meat",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Medium",
+    "date": "2026-03-01",
+    "fileUrl": "/data/articles/fp-dummer-v3.json"
+  },
+  {
+    "id": "hbr-hellauer-v3",
+    "title": "Founder Transitions",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Medium",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr-hellauer-v3.json"
+  },
+  {
+    "id": "hbr-berndt-v3",
+    "title": "A Systematic Approach to Experimenting with Gen AI",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr-berndt-v3.json"
+  },
+  {
+    "id": "hbr-ertel-v3",
+    "title": "What Makes for an Effective Deal Review Process?",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Medium",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr-ertel-v3.json"
+  },
+  {
+    "id": "hbr-nieto-v3",
+    "title": "Project Management: CEOs must put projects at the center",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Medium",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr-nieto-v3.json"
+  },
+  {
+    "id": "5f0d8f27-b034-4522-b988-8bd9742917de",
+    "title": "Stacy Kranitz",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_atlantic_v3.md"
+  },
+  {
+    "id": "4104e93b-5a72-4e2d-830e-9365e6868eda",
+    "title": "\u201cI\u2019m trying to be positive,\u201d Irvi told me, but he felt like a\ndisappointment",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_atlantic_v3.md"
+  },
+  {
+    "id": "4a668ac8-7bc5-4f0e-95c9-0e42c1ec2d03",
+    "title": "What does it feel like to be patterns called Lichtenberg figures, which\nstruck by lightning?\tresembl",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_atlantic_v3.md"
+  },
+  {
+    "id": "8dfc2960-1ae0-4a30-bd64-083c22bcc792",
+    "title": "T h e o d d s ofbeing struck by lightning\nin the United States in a given year are\nroughly one in 1",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_atlantic_v3.md"
+  },
+  {
+    "id": "c7f9a4cc-1ae2-4c4a-ba12-3154e0127048",
+    "title": "Iing about not being in the school play, either. They were",
+    "source": "The Guardian Weekly",
+    "issue": "08 May 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_guardian_weekly_v3.md"
+  },
+  {
+    "id": "746e3326-7c30-4b5c-9d76-6014632ceac9",
+    "title": "38\tAsian mothers, bad feelings",
+    "source": "The Guardian Weekly",
+    "issue": "08 May 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_guardian_weekly_v3.md"
+  },
+  {
+    "id": "773634ce-1b1a-40db-8912-720230039c05",
+    "title": "in recent decades that it\u2019s possible to feel the shock of displacement doses. That\u2019s",
+    "source": "The Guardian Weekly",
+    "issue": "08 May 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_guardian_weekly_v3.md"
+  },
+  {
+    "id": "d8c5bae1-7161-4b2f-9e74-ba1291eff632",
+    "title": "at a deep emotional costBy Jamie Bartlett",
+    "source": "The Guardian Weekly",
+    "issue": "08 May 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_guardian_weekly_v3.md"
+  },
+  {
+    "id": "2ce04680-1c70-4ee4-be07-a8b4810486b8",
+    "title": "Get the\nwhole\npicture\nFrom Byzantium to Basquiat: the only\nmagazine to cover art from every period",
+    "source": "The Spectator",
+    "issue": "May 23, 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_spectator_v3.md"
+  },
+  {
+    "id": "65751c2a-9196-4bed-8b89-fdcfcabd38cd",
+    "title": "14 M AY T O 2 J U LY  F R O M \u00a3 65\nRubik\u2019s Cube Masterclass\nSmoked Salmon and Caviar\nWhisky Mastercl",
+    "source": "The Spectator",
+    "issue": "May 23, 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_spectator_v3.md"
+  },
+  {
+    "id": "8a7f3bc9-c853-40a2-8037-8ccbac02665b",
+    "title": "scientist or a failed politician, scare- rying about these threats is always\nNo sacred cows",
+    "source": "The Spectator",
+    "issue": "May 23, 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_spectator_v3.md"
+  },
+  {
+    "id": "e1043324-c051-4c07-8266-db31217a210c",
+    "title": "LIFE\nfake crystal chandeliers, fake gold- though, her dinner is a packet of\nFood\nframed pictures, fa",
+    "source": "The Spectator",
+    "issue": "May 23, 2026",
+    "difficulty": "Advanced",
+    "date": "2026-06-14",
+    "fileUrl": "/tmp/temp_agent4_the_spectator_v3.md"
+  },
+  {
+    "id": "b704bdae-1919-47be-a17e-38ee90fc43c4",
+    "title": "SCHG .434.26+0.14 .0363",
+    "source": "Barrons",
+    "issue": "Vol. CVI No. 20",
+    "difficulty": "Advanced",
+    "date": "2026-05-18",
+    "fileUrl": ""
+  },
+  {
+    "id": "964e0cdd-1ca2-4bc4-8557-c17622298873",
+    "title": "# Closed Out of",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-01",
+    "fileUrl": ""
+  },
+  {
+    "id": "NYT_1",
+    "title": "Moving Past the Pain, Ready for Rebirth",
+    "source": "NYT",
+    "issue": "March 5, 2026",
+    "difficulty": "Medium",
+    "date": "March 5, 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "NYT_2",
+    "title": "Even Amid Reminders of Mortality, It\u2019s Best to Sing Along",
+    "source": "NYT",
+    "issue": "March 5, 2026",
+    "difficulty": "Medium",
+    "date": "March 5, 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "NYT_3",
+    "title": "Two Books and a Singular Notion on Stagings",
+    "source": "NYT",
+    "issue": "March 5, 2026",
+    "difficulty": "Medium",
+    "date": "March 5, 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "NYT_4",
+    "title": "Photographer Sues Netflix Over \u2018Napalm Girl\u2019 Film",
+    "source": "NYT",
+    "issue": "March 5, 2026",
+    "difficulty": "Medium",
+    "date": "March 5, 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "Newsweek_1",
+    "title": "THE COST OF TOGETHERNESS",
+    "source": "Newsweek",
+    "issue": "May 22, 2026",
+    "difficulty": "Medium",
+    "date": "May 22, 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "Newsweek_2",
+    "title": "ISLAND OF DESPAIR",
+    "source": "Newsweek",
+    "issue": "May 22, 2026",
+    "difficulty": "Medium",
+    "date": "May 22, 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "Newsweek_3",
+    "title": "Matsuda Sangyo Builds Value From Finite Resources",
+    "source": "Newsweek",
+    "issue": "May 22, 2026",
+    "difficulty": "Medium",
+    "date": "May 22, 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "Open_1",
+    "title": "THE BATTLE FOR COMMAND",
+    "source": "Open",
+    "issue": "20 April 2026",
+    "difficulty": "Medium",
+    "date": "20 April 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "Open_2",
+    "title": "THE PINARAYI PLEBISCITE",
+    "source": "Open",
+    "issue": "20 April 2026",
+    "difficulty": "Medium",
+    "date": "20 April 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "Open_3",
+    "title": "A STAR IS REBORN",
+    "source": "Open",
+    "issue": "20 April 2026",
+    "difficulty": "Medium",
+    "date": "20 April 2026",
+    "fileUrl": "placeholder"
+  },
+  {
+    "id": "art_55939972",
+    "title": "Open Insights: Part 1",
+    "source": "Open",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-20",
+    "fileUrl": "/data/pdfs/Open_April 2026.pdf"
+  },
+  {
+    "id": "art_1fab1ed6",
+    "title": "Open Insights: Part 2",
+    "source": "Open",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-20",
+    "fileUrl": "/data/pdfs/Open_April 2026.pdf"
+  },
+  {
+    "id": "art_0e8772d2",
+    "title": "Open Insights: Part 3",
+    "source": "Open",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-20",
+    "fileUrl": "/data/pdfs/Open_April 2026.pdf"
+  },
+  {
+    "id": "art_ca0bfca8",
+    "title": "Open Insights: Part 4",
+    "source": "Open",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-20",
+    "fileUrl": "/data/pdfs/Open_April 2026.pdf"
+  },
+  {
+    "id": "art_a9ef2b7a",
+    "title": "Open Insights: Part 5",
+    "source": "Open",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-20",
+    "fileUrl": "/data/pdfs/Open_April 2026.pdf"
+  },
+  {
+    "id": "art_cfadf083",
+    "title": "The Atlantic Insights: Part 1",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-01",
+    "fileUrl": "/data/pdfs/The_Atlantic_April 2026.pdf"
+  },
+  {
+    "id": "art_538f33b6",
+    "title": "The Atlantic Insights: Part 2",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-01",
+    "fileUrl": "/data/pdfs/The_Atlantic_April 2026.pdf"
+  },
+  {
+    "id": "art_9b5891e0",
+    "title": "The Atlantic Insights: Part 3",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-01",
+    "fileUrl": "/data/pdfs/The_Atlantic_April 2026.pdf"
+  },
+  {
+    "id": "art_3a8f9c41",
+    "title": "The Atlantic Insights: Part 4",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-01",
+    "fileUrl": "/data/pdfs/The_Atlantic_April 2026.pdf"
+  },
+  {
+    "id": "art_ae060c6e",
+    "title": "The Atlantic Insights: Part 5",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-04-01",
+    "fileUrl": "/data/pdfs/The_Atlantic_April 2026.pdf"
+  },
+  {
+    "id": "8eaf182a",
+    "title": "of State for East Asia and...",
+    "source": "Foreign Affairs",
+    "issue": "May/June 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-01",
+    "fileUrl": "docs/Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+  },
+  {
+    "id": "f399113c",
+    "title": "Korea is thus a preview of...",
+    "source": "Foreign Affairs",
+    "issue": "May/June 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-01",
+    "fileUrl": "docs/Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+  },
+  {
+    "id": "272f9dcf",
+    "title": "104 foreign affairs How North Korea...",
+    "source": "Foreign Affairs",
+    "issue": "May/June 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-01",
+    "fileUrl": "docs/Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+  },
+  {
+    "id": "55457c86",
+    "title": "provocations. In 2003, for instance, China...",
+    "source": "Foreign Affairs",
+    "issue": "May/June 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-01",
+    "fileUrl": "docs/Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+  },
+  {
+    "id": "3143c071",
+    "title": "to Russia to fight against Ukraine...",
+    "source": "Foreign Affairs",
+    "issue": "May/June 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-01",
+    "fileUrl": "docs/Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+  },
+  {
+    "id": "25158e20",
+    "title": "Partner, Vantage Partners I L LU...",
+    "source": "Harvard Business Review",
+    "issue": "January/February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "7b593076",
+    "title": "What Makes for an Effective Deal...",
+    "source": "Harvard Business Review",
+    "issue": "January/February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "473c55bc",
+    "title": "And they continue to make a...",
+    "source": "Harvard Business Review",
+    "issue": "January/February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "a8829e64",
+    "title": "Project-driven organizations reconfigure how value is...",
+    "source": "Harvard Business Review",
+    "issue": "January/February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "0bcba4c6",
+    "title": "begin to feel that the brand...",
+    "source": "Harvard Business Review",
+    "issue": "January/February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "docs/Harvard Business Review/Harvard_Business_Review_-_JanuaryFebruary_2026.pdf"
+  },
+  {
+    "id": "guardian_gaming_08may2026_v4",
+    "title": "My mother is addicted to gaming. What should I do?",
+    "source": "The Guardian Weekly",
+    "issue": "08 May 2026",
+    "difficulty": "Beginner",
+    "date": "2026-05-08",
+    "fileUrl": "/data/articles/guardian_gaming_08may2026_v4.json"
+  },
+  {
+    "id": "guardian_asparagus_08may2026_v4",
+    "title": "Fears for spears: how to cook asparagus without blanching",
+    "source": "The Guardian Weekly",
+    "issue": "08 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-08",
+    "fileUrl": "/data/articles/guardian_asparagus_08may2026_v4.json"
+  },
+  {
+    "id": "guardian_country_diary_08may2026_v4",
+    "title": "Country Diary: The missing bees",
+    "source": "The Guardian Weekly",
+    "issue": "08 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-08",
+    "fileUrl": "/data/articles/guardian_country_diary_08may2026_v4.json"
+  },
+  {
+    "id": "time_mccartney_06april2026_v4",
+    "title": "Stella McCartney's Sustainable Fashion Future",
+    "source": "Time",
+    "issue": "06 April 2026",
+    "difficulty": "Advanced",
+    "date": "2026-04-06",
+    "fileUrl": "/data/articles/time_mccartney_06april2026_v4.json"
+  },
+  {
+    "id": "time_indigenous_06april2026_v4",
+    "title": "What Happens If Everything Goes Right For The Planet?",
+    "source": "Time",
+    "issue": "06 April 2026",
+    "difficulty": "Advanced",
+    "date": "2026-04-06",
+    "fileUrl": "/data/articles/time_indigenous_06april2026_v4.json"
+  },
+  {
+    "id": "time_comeback_06april2026_v4",
+    "title": "A reality-TV spoof that's a reality check",
+    "source": "Time",
+    "issue": "06 April 2026",
+    "difficulty": "Advanced",
+    "date": "2026-04-06",
+    "fileUrl": "/data/articles/time_comeback_06april2026_v4.json"
+  },
+  {
+    "id": "spectator_iced_fingers_16may2026_v4",
+    "title": "The Vintage Chef: Iced fingers",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-16",
+    "fileUrl": "/data/articles/spectator_iced_fingers_16may2026_v4.json"
+  },
+  {
+    "id": "spectator_mandelson_16may2026_v4",
+    "title": "First they came for Mandelson...",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-16",
+    "fileUrl": "/data/articles/spectator_mandelson_16may2026_v4.json"
+  },
+  {
+    "id": "spectator_arsenal_corners_16may2026_v4",
+    "title": "Arsenal turn every corner into a scrum",
+    "source": "The Spectator",
+    "issue": "16 May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-16",
+    "fileUrl": "/data/articles/spectator_arsenal_corners_16may2026_v4.json"
+  },
+  {
+    "id": "6a4445a6-f2b1-4ee2-9669-30ac6e8386ba",
+    "title": "When it came to choosing a side, sports Carr\u2019s Trump Bump were front and center,...",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Medium",
+    "date": "2026-05-01",
+    "fileUrl": "/data/articles/6a4445a6-f2b1-4ee2-9669-30ac6e8386ba_v4.json"
+  },
+  {
+    "id": "foreign_affairs_north_korea_v5",
+    "title": "How North Korea Won: The Strange Triumph of Kim Jong Un",
+    "source": "Foreign Affairs",
+    "issue": "May/June 2026",
+    "difficulty": "Hard",
+    "date": "2026-05-01",
+    "fileUrl": "Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+  },
+  {
+    "id": "foreign_affairs_grand_strategy_v5",
+    "title": "A Grand Strategy of Consolidation: How Trump Can Revitalize American Power",
+    "source": "Foreign Affairs",
+    "issue": "May/June 2026",
+    "difficulty": "Hard",
+    "date": "2026-05-01",
+    "fileUrl": "Foreign Affairs/Foreign Affairs_May June 2026.pdf"
+  },
+  {
+    "id": "shortcut-seclusion",
+    "title": "A Shortcut To Seclusion",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01",
+    "fileUrl": "/data/articles/shortcut-seclusion_v5.json"
+  },
+  {
+    "id": "spains-slower-side",
+    "title": "Spain's Slower Side",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01",
+    "fileUrl": "/data/articles/spains-slower-side_v5.json"
+  },
+  {
+    "id": "true-north-believers",
+    "title": "True North Believers",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01",
+    "fileUrl": "/data/articles/true-north-believers_v5.json"
+  },
+  {
+    "id": "greek-summer-reaches-peak",
+    "title": "Greek Summer Reaches a Peak",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01",
+    "fileUrl": "/data/articles/greek-summer-reaches-peak_v5.json"
+  },
+  {
+    "id": "new-kind-book-club",
+    "title": "A New Kind of Book Club",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01",
+    "fileUrl": "/data/articles/new-kind-book-club_v5.json"
+  },
+  {
+    "id": "marc-to-market",
+    "title": "Marc to Market",
+    "source": "Bloomberg Businessweek",
+    "issue": "May 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-01",
+    "fileUrl": "/data/articles/marc-to-market_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_ai_strategy",
+    "title": "Match Your AI Strategy to Your Organization's Reality",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_ai_strategy_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_csuite_recruiters",
+    "title": "How to Stand Out to C-Suite Recruiters",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_csuite_recruiters_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_prologis_ceo",
+    "title": "The Founder and CEO of Prologis on Staying Ahead of Disruptive Change",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_prologis_ceo_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_beauty_marketing",
+    "title": "When High-Tech Beauty Marketing Harms Teen Health",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_beauty_marketing_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_transformation_treadmill",
+    "title": "Get Off the Transformation Treadmill",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_transformation_treadmill_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_leading_after_founder",
+    "title": "Leading After the Founder",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_leading_after_founder_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_gen_ai_experiments",
+    "title": "A Systematic Approach to Experimenting with Gen AI",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_gen_ai_experiments_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_negotiation_struggles",
+    "title": "Why Big Companies Struggle to Negotiate Great Deals",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Advanced",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_negotiation_struggles_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_project_driven",
+    "title": "The Project-Driven Organization",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_project_driven_v5.json"
+  },
+  {
+    "id": "hbr_2026_01_fastvertising",
+    "title": "Marketing at the Speed of Culture",
+    "source": "Harvard Business Review",
+    "issue": "January-February 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-01-01",
+    "fileUrl": "/data/articles/hbr_2026_01_fastvertising_v5.json"
+  },
+  {
+    "id": "robyn_dancing",
+    "title": "Robyn Is Still Dancing On Her Own",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Medium",
+    "date": "2026-04-01",
+    "fileUrl": "/data/articles/robyn_dancing_v5.json"
+  },
+  {
+    "id": "last_days_of_franco",
+    "title": "The Last Days of Franco",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Hard",
+    "date": "2026-04-01",
+    "fileUrl": "/data/articles/last_days_of_franco_v5.json"
+  },
+  {
+    "id": "vigdis_hjorth_family_secrets",
+    "title": "Vigdis Hjorth\u2019s Family Secrets",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Medium",
+    "date": "2026-04-01",
+    "fileUrl": "/data/articles/vigdis_hjorth_family_secrets_v5.json"
+  },
+  {
+    "id": "college_educated_working_class",
+    "title": "The College-Educated Working Class",
+    "source": "The Atlantic",
+    "issue": "April 2026",
+    "difficulty": "Hard",
+    "date": "2026-04-01",
+    "fileUrl": "/data/articles/college_educated_working_class_v5.json"
+  },
+  {
+    "id": "madness_of_lord_tennyson",
+    "title": "The Madness of Lord Tennyson",
+    "source": "The Atlantic",
+    "issue": "March 2026",
+    "difficulty": "Medium",
+    "date": "2026-03-01",
+    "fileUrl": "/data/articles/madness_of_lord_tennyson_v5.json"
+  },
+  {
+    "id": "how_toni_morrison_saw_history",
+    "title": "How Toni Morrison Saw History",
+    "source": "The Atlantic",
+    "issue": "March 2026",
+    "difficulty": "Medium",
+    "date": "2026-03-01",
+    "fileUrl": "/data/articles/how_toni_morrison_saw_history_v5.json"
+  },
+  {
+    "id": "restored_deep_aec39792",
+    "title": "Building Cohesive Business Systems: Value Creation and AI"
+  },
+  {
+    "id": "restored_deep_a88070db",
+    "title": "Edappadi K Palaniswami and AIADMK's New Era in Tamil Nadu"
+  },
+  {
+    "id": "restored_deep_ae7c8a99",
+    "title": "Return to Competence: Democrats to Watch in 2028 and Beyond"
+  },
+  {
+    "id": "restored_deep_ad73428e",
+    "title": "Graduating into an AI World: Finding First Jobs Today"
+  },
+  {
+    "id": "restored_deep_b2d80095",
+    "title": "Changing Tides for American Express: Corporate Comp Plans"
+  },
+  {
+    "id": "restored_deep_b84580e3",
+    "title": "Reshma Saujani on the Childcare Affordability Crisis"
+  },
+  {
+    "id": "restored_deep_a62fca5a",
+    "title": "Where the Boss Got Started: CEOs Reflect on First Jobs"
+  },
+  {
+    "id": "restored_deep_bdc62e9d",
+    "title": "Diagnosing Britain: Pageantry Abroad Masks Decline at Home"
+  },
+  {
+    "id": "restored_deep_af809412",
+    "title": "Where the Jobs Are: The Disconnect in Entry-Level Roles"
+  },
+  {
+    "id": "restored_deep_ab49acc3",
+    "title": "Can Europe Thrive Again? Assessing Global Leadership"
+  },
+  {
+    "id": "restored_deep_b60c06bf",
+    "title": "A Heavy Price: Impact of Energy Costs on Britain's Industry"
+  },
+  {
+    "id": "restored_deep_a7af1941",
+    "title": "Mariska Hargitay Explores Her Mother's Legacy in New Film"
+  },
+  {
+    "id": "restored_deep_bc7837d6",
+    "title": "The Shock Waves of Iran: Working with Insiders for Change"
+  },
+  {
+    "id": "restored_deep_bcf3b955",
+    "title": "Infrastructure as Power: The New Global Battleground"
+  },
+  {
+    "id": "restored_deep_b12bff99",
+    "title": "Rethinking the Nine-to-Five: Flexible Work and Peak Focus"
+  },
+  {
+    "id": "restored_deep_aa0c97ab",
+    "title": "The New Metabolic World Order and the Green Entente"
+  },
+  {
+    "id": "restored_deep_ab719637",
+    "title": "55 Years of Ping-Pong Diplomacy: China-U.S. Relations"
+  },
+  {
+    "id": "restored_deep_b233e942",
+    "title": "China's Ambitious Drives: Water Conservancy and AI Education"
+  },
+  {
+    "id": "restored_deep_a543af22",
+    "title": "Elon Musk's Doge Project and the Automation of Government"
+  },
+  {
+    "id": "restored_deep_b74e8efa",
+    "title": "Can Red Lobster Stay Afloat? Inside the Turnaround Fight"
+  },
+  {
+    "id": "restored_deep_bef7b1af",
+    "title": "The $599 MacBook Neo: Apple's Latest Hardware Innovations"
+  },
+  {
+    "id": "restored_deep_df73ca57",
+    "title": "What Does It Feel Like to Be Struck by Lightning?"
+  },
+  {
+    "id": "restored_deep_e2dccc5a",
+    "title": "Frozen Out: How the United States Forgot Its Far North"
+  },
+  {
+    "id": "restored_deep_e53fa409",
+    "title": "The Path to Regime Change in Iran: A New Middle East"
+  },
+  {
+    "id": "restored_deep_e6706796",
+    "title": "Weakened Starmer: Britain's Government Drifts Left"
+  },
+  {
+    "id": "restored_deep_e6768298",
+    "title": "Inside Xi's System: The New Face of Totalitarianism"
+  },
+  {
+    "id": "restored_deep_e7970134",
+    "title": "Revitalizing the US Techno-Industrial Base"
+  },
+  {
+    "id": "restored_deep_e7d4c779",
+    "title": "Will India's Tech Graduates Pass the AI Test?"
+  },
+  {
+    "id": "restored_deep_e939479f",
+    "title": "Lucy Liu's Lasting Legacy & Brandi Carlile"
+  },
+  {
+    "id": "restored_deep_e98d4ac4",
+    "title": "The New Trade Order: Restoring a Broken Global Economy"
+  },
+  {
+    "id": "restored_deep_eaa2a679",
+    "title": "Takaichi's Triumph: Reshaping Japanese Politics"
+  },
+  {
+    "id": "restored_deep_eafa24ff",
+    "title": "Anjimile's Climb from Rock Bottom to Musical Renewal"
+  },
+  {
+    "id": "restored_deep_eafa2bed",
+    "title": "The $2M Award: Changing Guidelines for Detransitioners"
+  },
+  {
+    "id": "restored_deep_ebe8e2b7",
+    "title": "Gambling It All: The Cruz Family's Journey"
+  },
+  {
+    "id": "restored_deep_ee151b0a",
+    "title": "War on Iran: Spiralling Out of Control Under Trump"
+  },
+  {
+    "id": "restored_deep_ee88439e",
+    "title": "The Succession Challenge for China's Family Businesses"
+  },
+  {
+    "id": "restored_deep_f0e45161",
+    "title": "Tragedy in Darfur: 64 Killed in Hospital Strike"
+  },
+  {
+    "id": "restored_deep_f1c913c5",
+    "title": "Rethinking the C-Suite & Using Copycats to Your Advantage"
+  },
+  {
+    "id": "restored_deep_f1fa860e",
+    "title": "Aligning Marketing and Finance for Business Growth"
+  },
+  {
+    "id": "restored_deep_f2f2dd2d",
+    "title": "The Battle Over Redistricting and Black Voting Power"
+  },
+  {
+    "id": "restored_deep_f30a7f39",
+    "title": "Women Are Changing the Key of Radiohead"
+  },
+  {
+    "id": "restored_deep_f499ba58",
+    "title": "Antisemitic Threats and the Complex Journey of IVF"
+  },
+  {
+    "id": "restored_01ba18d9",
+    "title": "Vote of Confusion: Republican Election-Law Strategy and Shifting Rules"
+  },
+  {
+    "id": "restored_deep_2d77de0e",
+    "title": "Corporate Comebacks: How Boeing, Intel, and Macy's Are Rebuilding"
+  },
+  {
+    "id": "restored_deep_2e2aeb0f",
+    "title": "The Decline of Liberalism in an Era of Autopsies and Prophecies"
+  },
+  {
+    "id": "restored_deep_311ec9a2",
+    "title": "DeepSeek's Rise: The Illusion of Excluding China from AI Governance"
+  },
+  {
+    "id": "restored_deep_313b0787",
+    "title": "Future of Warfare: Drones, Distributed Sensors, and the AI Advantage"
+  },
+  {
+    "id": "restored_deep_314eca70",
+    "title": "The Competency Crisis: Why Nobody Seems to Know How to Do Their Jobs Anymore"
+  },
+  {
+    "id": "restored_deep_319f9386",
+    "title": "Living in the Shadows: One Family's Endless Battle With ICE Panic"
+  },
+  {
+    "id": "restored_deep_32c43c0a",
+    "title": "Satire Meets Slop: The Onion's Bold Play for Control of Alex Jones's Infowars"
+  },
+  {
+    "id": "restored_deep_3592bd26",
+    "title": "Michael Pollan's 'A World Appears': Unraveling the Mystery of Consciousness"
+  },
+  {
+    "id": "restored_deep_35ccf19c",
+    "title": "Reprogramming the Matrix: Elon Musk's Red Pill Vision for the Digital Era"
+  },
+  {
+    "id": "restored_deep_35d90c58",
+    "title": "Cross-Straits Relations: The Lingering Legacy of the KMT's 1949 Retreat"
+  },
+  {
+    "id": "restored_deep_391585a2",
+    "title": "Kim's Dangerous Liaisons: Putin's Pyongyang Visit and the New Northern Threat"
+  },
+  {
+    "id": "restored_deep_392f8cbb",
+    "title": "Transforming the Workforce: Is AI Getting Good Enough to Train Itself?"
+  },
+  {
+    "id": "restored_deep_3d6026c4",
+    "title": "Anduril's Barracuda Missile and the Race for Lethal Autonomous Weapons"
+  },
+  {
+    "id": "restored_deep_3d7a144f",
+    "title": "Rethinking Retirement: Will Trump's Plan Bridge the Savings Gap?"
+  },
+  {
+    "id": "restored_deep_3ddefcac",
+    "title": "How to Fight an Economic War: China's Plan to Bypass Western Financial Control"
+  },
+  {
+    "id": "restored_deep_3e09ec34",
+    "title": "A Cautionary Tale: Brazil's Warning to the Global Economy on High Interest Rates"
+  },
+  {
+    "id": "restored_deep_42194253",
+    "title": "North Korea as It Is: The Chilling Case for a Cold Peace"
+  },
+  {
+    "id": "restored_deep_42340a24",
+    "title": "Microsoft's AI Push: Satya Nadella Sets the Pace for Copilot's Future"
+  },
+  {
+    "id": "restored_deep_43a25015",
+    "title": "Fight the Power: Local Battles Over Solar Energy and Climate Denial"
+  },
+  {
+    "id": "restored_deep_45bde5c3",
+    "title": "The Cost of Togetherness: Why the Gulf States Must Renegotiate Defense Pacts"
+  },
+  {
+    "id": "restored_deep_46cf57b0",
+    "title": "Tragic Legacy: Living With the Lasting Impact of the Chernobyl Disaster"
+  },
+  {
+    "id": "restored_e71bc646",
+    "title": "The Allure and Danger of Online Sports Gambling"
+  },
+  {
+    "id": "restored_e71ee15f",
+    "title": "Gainsborough: The Fashion of Portraiture"
+  },
+  {
+    "id": "restored_ea1c1c3c",
+    "title": "The Contemporary World is an American Creation"
+  },
+  {
+    "id": "restored_efc3cdfe",
+    "title": "China in Focus: Publishing, Fishing, and Succession"
+  },
+  {
+    "id": "restored_f11f1271",
+    "title": "International Columns: The Chagos Dispute and Taliban Rule"
+  },
+  {
+    "id": "restored_f286d882",
+    "title": "Sponsored: Top Business Resources and Companies"
+  },
+  {
+    "id": "restored_f844a78c",
+    "title": "Global Issues, U.S. Politics, and the Mystery of Consciousness"
+  },
+  {
+    "id": "restored_fb883334",
+    "title": "Anjimile's Musical Rebirth: Vulnerability and Transformation"
+  },
+  {
+    "id": "restored_fdf4945d",
+    "title": "The New Trade Order: Restoring Balance to a Broken Global Economy"
+  },
+  {
+    "id": "restored_ffb322f1",
+    "title": "The New Metabolic World Order and the Ecological Cold War"
+  },
+  {
+    "id": "restored_6d140f38",
+    "title": "The Pros and Cons of the $599 MacBook Neo"
+  },
+  {
+    "id": "restored_78793c9b",
+    "title": "Achieving Work-Life Balance: Finding the Rhythm"
+  },
+  {
+    "id": "restored_83d4e974",
+    "title": "Bridging the Gap Between HR and Tech Leadership"
+  },
+  {
+    "id": "restored_88f3e3cc",
+    "title": "Thailand's Conservatives Win a Surprise General Election Victory"
+  },
+  {
+    "id": "restored_8d637362",
+    "title": "Sri Lanka's Fragile Recovery Under a Former Marxist Leader"
+  },
+  {
+    "id": "restored_8d78ce74",
+    "title": "Political Changes and Rights for Tea Garden Labourers in Assam"
+  },
+  {
+    "id": "restored_908cf3a4",
+    "title": "The Varied Impacts of AI on Modern Society"
+  },
+  {
+    "id": "restored_912c6507",
+    "title": "The Overlooked Women of the Nuremberg Trials"
+  },
+  {
+    "id": "restored_93298092",
+    "title": "AI, Grayson Perry, and the Future of Work"
+  },
+  {
+    "id": "restored_93e7cfe2",
+    "title": "Spiralling Out of Control: Netanyahu and the War on Iran"
+  },
+  {
+    "id": "restored_957b2c30",
+    "title": "Beware the Placeholder Relationship"
+  },
+  {
+    "id": "restored_95a00542",
+    "title": "World Cups Radiate Hope, But This One Also Has a Shadow"
+  },
+  {
+    "id": "restored_9f346ce3",
+    "title": "Preserving the Past: A New Archive Protects Nigeria's History"
+  },
+  {
+    "id": "restored_a24b2d7d",
+    "title": "The Battle Over Election Laws Moves to the States"
+  },
+  {
+    "id": "restored_a2934dc0",
+    "title": "How Microsoft Fumbled Its Early AI Lead and Is Trying to Catch Up"
+  },
+  {
+    "id": "restored_a8cfd71d",
+    "title": "The Future of College: Wealth vs. Meritocracy in Elite Admissions"
+  },
+  {
+    "id": "restored_aa837626",
+    "title": "Building a Winning Spirit: The Boston Scientific Turnaround"
+  },
+  {
+    "id": "restored_ab59f239",
+    "title": "The Anarchy of 2026: Iran, America, and a New World Order"
+  },
+  {
+    "id": "restored_acd2716f",
+    "title": "The Rise of Edappadi K Palaniswami and AIADMK 3.0"
+  },
+  {
+    "id": "restored_ae686342",
+    "title": "The Inevitable Decline of the US Oil and Gas Settler Era"
+  },
+  {
+    "id": "restored_deep_8de9d856",
+    "title": "Vladimir Putin Faces Open Criticism as Allies Break Silence"
+  },
+  {
+    "id": "restored_deep_8e1a3c57",
+    "title": "The Weak Case and Uncertain Benefits of Social Media Bans for Kids"
+  },
+  {
+    "id": "restored_deep_90c0eda6",
+    "title": "How Prime Minister Anutin Revived the Thai Right's Electoral Fortunes"
+  },
+  {
+    "id": "restored_deep_914453b1",
+    "title": "The Global Shortage of Tenor Singers: A Voice Made, Not Found"
+  },
+  {
+    "id": "restored_deep_914c3279",
+    "title": "Can We Finally Retire the Vacation Cruise? And Other Global Developments"
+  },
+  {
+    "id": "restored_deep_91c4c8e5",
+    "title": "The Impact of AI on Society and the Future of Higher Education"
+  },
+  {
+    "id": "restored_deep_94fda93b",
+    "title": "Prosecutors Have Moved Far Too Slowly in the Jeffrey Epstein Case"
+  },
+  {
+    "id": "restored_deep_962caba6",
+    "title": "Stablecoins Find Their Feet Across Asia as Speculative Crypto Totters"
+  },
+  {
+    "id": "restored_deep_990ba1cf",
+    "title": "Traditional Chinese Medicine Meets Modernity and China's Concert Boom"
+  },
+  {
+    "id": "restored_deep_993d609a",
+    "title": "How Stephen Squeri Got American Express Charging Ahead"
+  },
+  {
+    "id": "restored_deep_99b9b6eb",
+    "title": "A Strategic Choice for Cuba's Economy and the Future of US Oil Production"
+  },
+  {
+    "id": "restored_deep_9a30c9b7",
+    "title": "Gainsborough: The Fashion of Portraiture at the Frick Collection"
+  },
+  {
+    "id": "restored_deep_9c492d72",
+    "title": "Vigdis Hjorth\u2019s Family Secrets: A Review of 'Repetition'"
+  },
+  {
+    "id": "restored_deep_9d2ee9e6",
+    "title": "A Family's Decision to Self-Deport to Mexico Amidst ICE Threats"
+  },
+  {
+    "id": "restored_deep_9d454951",
+    "title": "Transforming Negotiation Strategy: From Consensus to Problem-Solving"
+  },
+  {
+    "id": "restored_deep_9ea138f0",
+    "title": "Chuck Schumer's Last Stand: High-Stakes Primaries Test the Senate Leader"
+  },
+  {
+    "id": "restored_deep_9eab282e",
+    "title": "An Abundance Foreign Policy: Rebooting US Industrial Capacity and National Security"
+  },
+  {
+    "id": "restored_deep_9f1f1c1a",
+    "title": "Detecting Emerging Realities Before Transformations Become the Only Options"
+  },
+  {
+    "id": "restored_deep_a2b0e30c",
+    "title": "Trump's Term Echoes a Grim Past: The Legacy of Woodrow Wilson"
+  },
+  {
+    "id": "restored_deep_a2f878f8",
+    "title": "Closing the Gap: Structured Experimentation for Generative AI Adoption"
+  },
+  {
+    "id": "restored_deep_a384b391",
+    "title": "Top Companies and National Elite Honorees List"
+  },
+  {
+    "id": "restored_b8d8615e",
+    "title": "Securing the Hemispheric Infrastructure Battleground"
+  },
+  {
+    "id": "restored_bd456136",
+    "title": "KKR Co-CEOs Buy the Dip Amidst Shifting Activist Holdings"
+  },
+  {
+    "id": "restored_c5cf0f62",
+    "title": "How to Fight an Economic War: China's Parallel Financial System"
+  },
+  {
+    "id": "restored_c62faf9b",
+    "title": "The K-Shaped Economy and the Threat of Autocracy"
+  },
+  {
+    "id": "restored_c62fdd65",
+    "title": "Can Copilot Put Microsoft Back on Course in the AI Race?"
+  },
+  {
+    "id": "restored_cd12ac8b",
+    "title": "Defying the E-Commerce Curse: How Quince is Winning Over Shoppers"
+  },
+  {
+    "id": "restored_d9306f9a",
+    "title": "Market Impacts: War Affects LNG Decisions While Trade Desk Soars"
+  },
+  {
+    "id": "restored_d9b9efaa",
+    "title": "A Journey of Peace: Cross-Straits Dialogue and Resource Sharing"
+  },
+  {
+    "id": "restored_dbabcc17",
+    "title": "Finding the Real Ireland Amidst Tourist Complaints"
+  },
+  {
+    "id": "restored_dcd8032b",
+    "title": "Jane Fraser's Impact: Five Years Leading Citi as Wall Street's First Woman CEO"
+  },
+  {
+    "id": "restored_de3dd269",
+    "title": "UK Elections: What Major Council Losses Could Mean for Starmer"
+  },
+  {
+    "id": "restored_deep_0000e1c9",
+    "title": "Software-mageddon: Agentic AI Wipes Out Billions in Outsourcing Stocks"
+  },
+  {
+    "id": "restored_deep_00d218ca",
+    "title": "Restrain or Abolish? The Debate Over Border Enforcement Tactics"
+  },
+  {
+    "id": "restored_deep_02243bf3",
+    "title": "Designing an Effective Deal Review Process for Complex Negotiations"
+  },
+  {
+    "id": "restored_deep_0370f518",
+    "title": "The Shock Waves of Iran: Navigating Energy Weaponization and Inflation"
+  },
+  {
+    "id": "restored_deep_04178c21",
+    "title": "Maximizing Engagement: The Power of Hybrid Work and Unlocked Projects"
+  },
+  {
+    "id": "restored_deep_04bcfbc7",
+    "title": "Global Tariffs Rise to 15% as Trump Administration Enforces Duties"
+  },
+  {
+    "id": "restored_deep_074273b6",
+    "title": "The Founder's Next Chapter: Transitioning Roles for Long-Term Value"
+  },
+  {
+    "id": "restored_deep_096be9ab",
+    "title": "From Schoolyard Swaps to Ancient Egypt: The Enduring History of Liquorice"
+  },
+  {
+    "id": "restored_deep_0a2b9911",
+    "title": "The Insatiable Beast: Layoffs and the Extraordinary Cost of the AI Race"
+  },
+  {
+    "id": "restored_deep_0a8cdd27",
+    "title": "Renewing the Alliance: Navigating the Future of Trans-Atlantic Relations"
+  },
+  {
+    "id": "restored_deep_74928ba2",
+    "title": "AI in the Delingpole Household: Grayson Perry Explores the AIpocalypse"
+  },
+  {
+    "id": "restored_deep_74dc4175",
+    "title": "College Grads Return to School Amid Tough Job Market and Student Loan Caps"
+  },
+  {
+    "id": "restored_deep_77246da2",
+    "title": "Montserrat Roig's Classic Novel The Time of Cherries Finally in English"
+  },
+  {
+    "id": "restored_deep_7883aa97",
+    "title": "The Appeal of Kokuho: Empathy and Human Flaws in Kabuki"
+  },
+  {
+    "id": "restored_deep_78f554e9",
+    "title": "Homes in Hawaii: A Selection of Premium Real Estate Properties"
+  },
+  {
+    "id": "restored_deep_792d824e",
+    "title": "The 55th Anniversary of Ping-Pong Diplomacy: Navigating China-U.S. Relations"
+  },
+  {
+    "id": "restored_deep_79c05961",
+    "title": "Why Banning Under-16s from Social Media Will Do More Harm Than Good"
+  },
+  {
+    "id": "restored_deep_7bda6f0f",
+    "title": "Political Dynamics in Assam: Rupjyoti Kurmi and the Road to Jorhat"
+  },
+  {
+    "id": "restored_deep_7d9b4667",
+    "title": "UK Elections: What's at Stake for Keir Starmer and the Major Parties"
+  },
+  {
+    "id": "restored_deep_7db9e1a5",
+    "title": "Microsoft's AI Push: The Challenges of Scaling Copilot in the Enterprise"
+  },
+  {
+    "id": "restored_deep_7ddd30c6",
+    "title": "Amazon Tops the Fortune 500: The Power of Scale and Customer Loyalty"
+  },
+  {
+    "id": "restored_deep_81440784",
+    "title": "Science-Based Ecotourism: Swimming With Sperm Whales in Dominica"
+  },
+  {
+    "id": "restored_deep_83f6f494",
+    "title": "One Man's Meat: How High Prices Are Swapping Donkey for Horse in China"
+  },
+  {
+    "id": "restored_deep_86160e7a",
+    "title": "Scoring Internships: Navigating the High Stakes of the First Job Pathway"
+  },
+  {
+    "id": "restored_deep_861f904e",
+    "title": "Surviving the Strike: The Rare and Recurring Experiences of Lightning Survivors"
+  },
+  {
+    "id": "restored_deep_880be766",
+    "title": "Iran War Impacts India: How the Conflict is Affecting the Rupee and Economy"
+  },
+  {
+    "id": "restored_deep_8b369379",
+    "title": "Sri Lanka's Fragile Recovery: Rebuilding After Cyclone Ditwah and Economic Crisis"
+  },
+  {
+    "id": "restored_deep_8b39669b",
+    "title": "Are America and China Condemned to Repeat History? Warnings of Great-Power Wars"
+  },
+  {
+    "id": "restored_deep_8d766319",
+    "title": "Dave Grohl's Addiction to Achievement and His Search for Balance"
+  },
+  {
+    "id": "restored_deep_8d886840",
+    "title": "Vote of Confusion: Shifting Election Laws Ahead of the Midterms"
+  },
+  {
+    "id": "restored_deep_8dccecdf",
+    "title": "The K-Shaped Economy and the Threat of Sleepwalking into Autocracy"
+  },
+  {
+    "id": "restored_deep_4b0e318e",
+    "title": "Mercor: Redefining the Labor Market with AI"
+  },
+  {
+    "id": "restored_deep_4b325487",
+    "title": "The Impact of Iran's Actions on Global Oil Prices and Shipping"
+  },
+  {
+    "id": "restored_deep_4b89dfa6",
+    "title": "Managing the Emotions and Strategies of Founder Transitions"
+  },
+  {
+    "id": "restored_deep_4d2db78a",
+    "title": "The Future of Health in China: Innovative and Inclusive"
+  },
+  {
+    "id": "restored_deep_4f1fc76e",
+    "title": "Mercor's Rapid Rise and the Controversies of AI Contract Work"
+  },
+  {
+    "id": "restored_deep_50c23935",
+    "title": "China's Generational Shift in Manufacturing and Other News"
+  },
+  {
+    "id": "restored_deep_5198d1cd",
+    "title": "Kim Jong Un's Strategic Maneuvers Between World Powers"
+  },
+  {
+    "id": "restored_deep_539ae6a8",
+    "title": "The Shift to Fluid Resource Management in Project-Driven Organizations"
+  },
+  {
+    "id": "restored_deep_547afb46",
+    "title": "The Real-World Applications and Limitations of AI in the Workplace"
+  },
+  {
+    "id": "restored_deep_5765fd39",
+    "title": "The Growing Movement to Regulate the Booming Sports Betting Industry"
+  },
+  {
+    "id": "restored_deep_586ce1de",
+    "title": "The Importance of Objective Successor Evaluation in Founder Transitions"
+  },
+  {
+    "id": "restored_deep_58d43479",
+    "title": "The Battle Over Mega Solar Farms in the English Countryside"
+  },
+  {
+    "id": "restored_deep_599ba8a2",
+    "title": "The Emotional Toll of Returning to Mexico After Years in the U.S."
+  },
+  {
+    "id": "restored_deep_59a68a64",
+    "title": "The Geopolitics of Chagos, Afghanistan's Apartheid, and the Gulf"
+  },
+  {
+    "id": "restored_deep_5e4de4a2",
+    "title": "The Controversy Over Trump's Iran Stance and Cultural Snippets"
+  },
+  {
+    "id": "restored_deep_5f09d9bf",
+    "title": "New Graduates Struggle and Adapt in a Demanding Job Market"
+  },
+  {
+    "id": "restored_deep_5f54b837",
+    "title": "The Ugly Side of Legalized Sports Betting for Athletes"
+  },
+  {
+    "id": "restored_deep_66c901f7",
+    "title": "The Republican Effort to Remake State Election Laws"
+  },
+  {
+    "id": "restored_deep_69e4a799",
+    "title": "The Competitiveness Challenge Facing Europe and Mario Draghi's Reforms"
+  },
+  {
+    "id": "restored_deep_6a24ecb8",
+    "title": "The Security Implications of Hegseth's Signal App Usage"
+  },
+  {
+    "id": "restored_deep_6ab1a467",
+    "title": "The Nature of Time: From Perception to Physics"
+  },
+  {
+    "id": "restored_deep_c1bab570",
+    "title": "The Booming Industry of Career Coaching for Students"
+  },
+  {
+    "id": "restored_deep_c28f5a88",
+    "title": "Review: The Complexities of DTF: St. Louis"
+  },
+  {
+    "id": "restored_deep_c441d1e3",
+    "title": "A Wild Texas Primary and the Climate Threat to Winter Sports"
+  },
+  {
+    "id": "restored_deep_c46d01b3",
+    "title": "A Lavish New Adaptation of The Master and Margarita"
+  },
+  {
+    "id": "restored_deep_c4b01124",
+    "title": "Sydney McLaughlin-Levrone and Wuthering Heights Reimaginings"
+  },
+  {
+    "id": "restored_deep_c56028a5",
+    "title": "The Small-Cap Stock Revival May Just Be Starting"
+  },
+  {
+    "id": "restored_deep_c6d9f8c8",
+    "title": "Solutions to Snoring and Sleep Apnoea"
+  },
+  {
+    "id": "restored_deep_c8e582e1",
+    "title": "The Surprising Rise of American Express CEO Stephen Squeri"
+  },
+  {
+    "id": "restored_deep_c9832937",
+    "title": "The Environmental Impact of the Global AI Data Center Rush"
+  },
+  {
+    "id": "restored_deep_cb357452",
+    "title": "The People vs. AI: Behind the Cover"
+  },
+  {
+    "id": "restored_deep_cfdabad9",
+    "title": "The Nuremberg Women: Hidden Histories and the Shadows of War"
+  },
+  {
+    "id": "restored_deep_cffacb63",
+    "title": "Brazil's Vanishing Lagoons and Other Travel Destinations"
+  },
+  {
+    "id": "restored_deep_d24d76e9",
+    "title": "The Signalgate Scandal: How the Trump Administration Leaked Intel"
+  },
+  {
+    "id": "restored_deep_d4ef73ed",
+    "title": "Vigdis Hjorth's Repetition: Autofiction and the Limits of Storytelling"
+  },
+  {
+    "id": "restored_deep_d7b05015",
+    "title": "Corporate Change Agents: Kelly Ortberg at Boeing and Lip-Bu Tan at Intel"
+  },
+  {
+    "id": "restored_deep_d8b331bb",
+    "title": "EarthRanger: AI-Powered Wildlife Conservation"
+  },
+  {
+    "id": "restored_deep_d8f2ae55",
+    "title": "The Decline of Single-Earner Homebuyers in America"
+  },
+  {
+    "id": "restored_deep_db1ed68b",
+    "title": "Elon Musk, Empathy Exploits, and Political Conspiracies"
+  },
+  {
+    "id": "restored_deep_db334a13",
+    "title": "Iran's Internal Politics and the Future of the IRGC"
+  },
+  {
+    "id": "restored_deep_dcd31fb2",
+    "title": "Mastering Fastvertising: Relevance Over Production Value"
+  },
+  {
+    "id": "restored_deep_df51a366",
+    "title": "Observations on China's Society and Global Strategy"
+  },
+  {
+    "id": "restored_deep_1697da57",
+    "title": "Has Spanish Peaked in America?"
+  },
+  {
+    "id": "restored_deep_16ac7f53",
+    "title": "The Addictive Allure of Online Sports Betting"
+  },
+  {
+    "id": "restored_deep_1709e840",
+    "title": "The Roots of American Conflict: Power Over Culture Wars"
+  },
+  {
+    "id": "restored_deep_18737b7c",
+    "title": "Fascism, Equality, and Liberalism: Global Political Trends"
+  },
+  {
+    "id": "restored_deep_1a00534e",
+    "title": "Training the Machines: Workers Feeding AI Their Own Replacements"
+  },
+  {
+    "id": "restored_deep_1afb2421",
+    "title": "Global Debt Crisis and the IMF's Diminishing Firepower"
+  },
+  {
+    "id": "restored_deep_1dc56c6e",
+    "title": "Fastvertising: Agility, Tone, and the Power of Real-Time Marketing"
+  },
+  {
+    "id": "restored_deep_1e249208",
+    "title": "Schumer's Dilemma and the Evolution of Democratic Leadership"
+  },
+  {
+    "id": "restored_deep_20243ee7",
+    "title": "Letters to the Editor: Ed-Tech, Arctic Refreezing, and Historical Empires"
+  },
+  {
+    "id": "restored_deep_2066a13a",
+    "title": "The Iran Imperative: Reshaping the Middle East After Conflict"
+  },
+  {
+    "id": "restored_deep_21a566e0",
+    "title": "How Quince is Defying the E-Commerce Curse with Affordable Luxury"
+  },
+  {
+    "id": "restored_deep_2236b68d",
+    "title": "2026 Best and Brightest Companies to Work For in the Nation"
+  },
+  {
+    "id": "restored_deep_22c94e65",
+    "title": "Their First Job Might Wipe Out Yours: Inside Mercor's AI Training"
+  },
+  {
+    "id": "restored_deep_23746c68",
+    "title": "Weaponizing Cricket: How Geopolitics Hijacked South Asian Sports"
+  },
+  {
+    "id": "restored_deep_243cc6dc",
+    "title": "Red Lobster's Turnaround Challenge: Navigating Leases and Bankruptcy"
+  },
+  {
+    "id": "restored_deep_27443fd0",
+    "title": "Economic Missteps and Recovery: UK's Path Forward After Truss and Brexit"
+  },
+  {
+    "id": "restored_deep_27c1791f",
+    "title": "China's Arctic Ambitions and the Growing Security Concerns in the High North"
+  },
+  {
+    "id": "restored_deep_28c7823f",
+    "title": "Iran's Resilience: Controlling the Conflict and Its Strategic Impact"
+  },
+  {
+    "id": "restored_deep_28e38d0c",
+    "title": "War on Iran: Netanyahu's Political Survival vs. National Security"
+  },
+  {
+    "id": "restored_deep_29130e7e",
+    "title": "Powering AI: The Massive Energy Demands of Musk's Colossus Data Center"
+  },
+  {
+    "id": "restored_deep_29ad832b",
+    "title": "American Express Under Squeri: Playing Offense During Crisis"
+  },
+  {
+    "id": "restored_deep_0ac3bf76",
+    "title": "Qatar LNG Plant Drone Attack Triggers Global Energy Shock"
+  },
+  {
+    "id": "restored_deep_0e927dea",
+    "title": "Alabama Offers Three Tricks to Fix Poor Urban Schools"
+  },
+  {
+    "id": "restored_deep_0c51a21c",
+    "title": "A Systematic Approach to Experimenting with Gen AI"
+  },
+  {
+    "id": "restored_deep_11c6dbf6",
+    "title": "The Tech High Ground: U.S. Leadership in AI and Tech Standards"
+  },
+  {
+    "id": "restored_deep_10ca309b",
+    "title": "China's Economy Starts 2026 on Solid Footing"
+  },
+  {
+    "id": "restored_deep_13180de9",
+    "title": "American Addresses: The Price of Hosting US Forces in the Gulf"
+  },
+  {
+    "id": "restored_deep_1059e1a3",
+    "title": "The Escalating Iran War and Its Global Consequences"
+  },
+  {
+    "id": "restored_deep_15cfc265",
+    "title": "Teyana Taylor on Oscars, Motherhood, and Never Caging a Creative"
+  },
+  {
+    "id": "restored_deep_1616630e",
+    "title": "Rethinking the C-Suite & Bob Sternfels on McKinsey's Future"
+  },
+  {
+    "id": "restored_deep_138496c5",
+    "title": "How Project-Driven Organizations Reconfigure Value Delivery"
+  },
+  {
+    "id": "restored_deep_0b463028",
+    "title": "Microsoft's High-Stakes Gamble on AI Agents and Gigawatt Scale"
+  },
+  {
+    "id": "restored_deep_12a4d4e9",
+    "title": "Mifepristone Legal Fight Threatens Routine Medical Care"
+  },
+  {
+    "id": "restored_deep_0c105d76",
+    "title": "The Project-Driven Organization: A New Enterprise Model"
+  },
+  {
+    "id": "restored_deep_0db9d65a",
+    "title": "The 2026 US Invasion of Iran and the Dawn of a New World Order"
+  },
+  {
+    "id": "restored_deep_0f972f15",
+    "title": "A 20-Year Chase: The Self-Taught Mechanic Behind a World-Leading Motorcycle"
+  },
+  {
+    "id": "restored_deep_113297bb",
+    "title": "Venezuela Needs Regime Change: The Narrow Path to Democracy"
+  },
+  {
+    "id": "restored_deep_118fd11d",
+    "title": "Climate Policy Reversals & The Rise of Placeholder Relationships"
+  },
+  {
+    "id": "restored_deep_12ae1702",
+    "title": "US-Israel Strikes on Iran Trigger Fears of Global Economic Crisis"
+  },
+  {
+    "id": "restored_deep_15bb2054",
+    "title": "RNC Election Lawsuits and the Struggle for MAGA Voter Trust"
+  },
+  {
+    "id": "restored_deep_0c773c91",
+    "title": "The Wealth Bias in Elite University Admissions"
+  },
+  {
+    "id": "restored_deep_0d9a9fac",
+    "title": "North Korea as It Is: Rethinking U.S. Nuclear Strategy"
+  },
+  {
+    "id": "restored_02bf7515",
+    "title": "RNC Ballot Strategy and the Push for Election Integrity"
+  },
+  {
+    "id": "restored_02cb8c60",
+    "title": "Russia's Return to the Cultural and Sporting Stage"
+  },
+  {
+    "id": "restored_092f07e4",
+    "title": "Netanyahu Balances National Security With Political Survival"
+  },
+  {
+    "id": "restored_0eaefa8f",
+    "title": "The Dark Side of Legalized Sports Betting"
+  },
+  {
+    "id": "restored_0f34592b",
+    "title": "An Effective American Technology Strategy"
+  },
+  {
+    "id": "restored_15a533d1",
+    "title": "The HBR Interview: Bob Sternfels on Shaping McKinsey's Next Century"
+  },
+  {
+    "id": "restored_18534720",
+    "title": "Renewing the Alliance: A Healthier Trans-Atlantic Relationship"
+  },
+  {
+    "id": "restored_1feb64db",
+    "title": "In South Asia, Sports is Geopolitics by Other Means"
+  },
+  {
+    "id": "restored_2767a31a",
+    "title": "Milan Fashion Week: Signs of Spring on the Streets"
+  },
+  {
+    "id": "restored_36c3bca3",
+    "title": "Learning the Ropes of Sports Betting the Hard Way"
+  },
+  {
+    "id": "restored_42d5e503",
+    "title": "The Controversy Over Hegseth's Security Breach and Trump's Atlantic Interview"
+  },
+  {
+    "id": "restored_4ade7b09",
+    "title": "Stock Market Data and Fund Listings"
+  },
+  {
+    "id": "restored_503ef359",
+    "title": "Teyana Taylor: Balancing Oscars, Motherhood, and Future Ambitions"
+  },
+  {
+    "id": "restored_50b3345d",
+    "title": "Trump's Term Echoes the Racist Past of Woodrow Wilson"
+  },
+  {
+    "id": "restored_511ef31b",
+    "title": "Amazon Dethrones Walmart as America's Largest Company"
+  },
+  {
+    "id": "restored_5751147e",
+    "title": "The Challenging Job Market for Recent College Graduates"
+  },
+  {
+    "id": "restored_5c99a899",
+    "title": "The Necessity of Including China in Global AI Governance"
+  },
+  {
+    "id": "restored_5e7382e9",
+    "title": "A Critique of Western Myths and India's Muscular Doctrine"
+  },
+  {
+    "id": "restored_628defc3",
+    "title": "Stablecoins Find Practical Use Cases Across Asia"
+  },
+  {
+    "id": "restored_62a1624e",
+    "title": "Breaking the Cycle of Chronic Corporate Transformations"
+  },
+  {
+    "id": "restored_67a42309",
+    "title": "The Fall and Rise of Billy Idol"
+  },
+  {
+    "id": "restored_deep_f63c841b",
+    "title": "Political Debates, News Round-Up, and Italy's World Cup Miss",
+    "source": "Open",
+    "issue": "Spring 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f63c841b.json"
+  },
+  {
+    "id": "restored_deep_f6579b63",
+    "title": "How North Korea Won: Advancing Nuclear Goals and Ties with China",
+    "source": "Foreign Affairs",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f6579b63.json"
+  },
+  {
+    "id": "restored_deep_f69f3828",
+    "title": "RFK Jr. as Health Secretary: Paranoia and the MAHA Movement",
+    "source": "Economist",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f69f3828.json"
+  },
+  {
+    "id": "restored_deep_f6f2d7db",
+    "title": "Art & Music: William Eggleston and a Recipe for Meen Moilee",
+    "source": "The Week",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f6f2d7db.json"
+  },
+  {
+    "id": "restored_deep_f7a5e634",
+    "title": "Navigating Human and Agentic Workforces: Change Management Strategies",
+    "source": "Harvard Business Review",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f7a5e634.json"
+  },
+  {
+    "id": "restored_deep_f804261a",
+    "title": "Embracing Real-World Experimentation for Generative AI in the Workplace",
+    "source": "Harvard Business Review",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f804261a.json"
+  },
+  {
+    "id": "restored_deep_f85e8ce4",
+    "title": "Global Fiction Reviews: Authoritarian Realities and Postcolonial Murder",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Beginner",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f85e8ce4.json"
+  },
+  {
+    "id": "restored_deep_f88dd015",
+    "title": "The Fractured Post-American World and the Future of Democracy",
+    "source": "Foreign Policy",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f88dd015.json"
+  },
+  {
+    "id": "restored_deep_f9b31bb6",
+    "title": "Farah Khan's Culinary Show Shines a Light on the Real Heroes: Cooks",
+    "source": "Open",
+    "issue": "Spring 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_f9b31bb6.json"
+  },
+  {
+    "id": "restored_deep_fae71798",
+    "title": "Race to the Top: How the Xiamen Marathon is Shaping the City's Future",
+    "source": "Beijing Review",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_fae71798.json"
+  },
+  {
+    "id": "restored_deep_fafe83f7",
+    "title": "America's CEO-in-Chief: Tariffs and the New Face of Warfare",
+    "source": "Other Reports",
+    "issue": "Spring 2026",
+    "difficulty": "Beginner",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_fafe83f7.json"
+  },
+  {
+    "id": "restored_deep_fc221572",
+    "title": "Dear Mary: Navigating Tricky Etiquette in Social Gatherings",
+    "source": "The Spectator",
+    "issue": "Spring 2026",
+    "difficulty": "Beginner",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_fc221572.json"
+  },
+  {
+    "id": "restored_deep_fc8554c6",
+    "title": "Hard Fork Podcast: AI's Economic Impact and Cleaning Tech",
+    "source": "NYT",
+    "issue": "Spring 2026",
+    "difficulty": "Beginner",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_fc8554c6.json"
+  },
+  {
+    "id": "restored_deep_fdc1dc8e",
+    "title": "Nuclear Power for Data Centers and Robyn's Triumphant Return",
+    "source": "The Atlantic",
+    "issue": "Spring 2026",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_fdc1dc8e.json"
+  },
+  {
+    "id": "restored_deep_fe08d611",
+    "title": "Marquis Who's Who Honors Top Professionals in Various Fields",
+    "source": "Other Reports",
+    "issue": "Spring 2026",
+    "difficulty": "Advanced",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_fe08d611.json"
+  },
+  {
+    "id": "restored_deep_fe7a1bff",
+    "title": "A Novice's Journey Through the Slippery Slopes of Sports Betting",
+    "source": "The Atlantic",
+    "issue": "Spring 2026",
+    "difficulty": "Beginner",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_fe7a1bff.json"
+  },
+  {
+    "id": "restored_deep_ff486f5c",
+    "title": "The High-Stakes Reality and Risks of Professional Sports Betting",
+    "source": "The Atlantic",
+    "issue": "Spring 2026",
+    "difficulty": "Beginner",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_deep_ff486f5c.json"
+  },
+  {
+    "id": "restored_df6e1b41",
+    "title": "Economic Turbulence Looms Amid Surging Oil Prices and Unrest",
+    "source": "Barrons",
+    "issue": "Recent Issue",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_df6e1b41.json"
+  },
+  {
+    "id": "restored_e5720255",
+    "title": "Scoring Internships: Navigating the Brutal Job Market",
+    "source": "Bloomberg Businessweek",
+    "issue": "Recent Issue",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_e5720255.json"
+  },
+  {
+    "id": "restored_e5e011bc",
+    "title": "China-U.S. Relations: Ping-Pong Diplomacy and the Realities of Rivalry",
+    "source": "Beijing Review",
+    "issue": "Recent Issue",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_e5e011bc.json"
+  },
+  {
+    "id": "restored_e6e7b81a",
+    "title": "Leadership in the Age of AI: Judgment Over Prediction",
+    "source": "Foreign Affairs",
+    "issue": "Recent Issue",
+    "difficulty": "Intermediate",
+    "date": "2026-05-10T00:00:00Z",
+    "fileUrl": "/data/articles/restored_e6e7b81a.json"
+  },
+  {
+    "id": "restored_a8977f39",
+    "title": "Top Companies and National Elite Honorees List"
+  }
+]

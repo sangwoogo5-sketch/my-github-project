@@ -4,12 +4,12 @@
   "description": "English study app workspace",
   "scripts": {
     "convert": "npx kordoc docs -o md",
-    "dev": "echo \"Vite dev server will be configured here soon!\""
+    "dev": "npm run dev --prefix app"
   },
   "devDependencies": {
     "kordoc": "^1.9.0"
   },
   "dependencies": {
-    "pdfjs-dist": "^6.0.227"
+    "pdfjs-dist": "^4.10.38"
   }
 }

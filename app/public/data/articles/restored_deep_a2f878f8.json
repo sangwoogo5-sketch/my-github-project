@@ -1,0 +1,10 @@
+{
+  "id": "restored_deep_a2f878f8",
+  "title": "Closing the Gap: Structured Experimentation for Generative AI Adoption",
+  "source": "Harvard Business Review",
+  "issue": "Spring 2026",
+  "difficulty": "Intermediate",
+  "date": "2026-05-10T00:00:00Z",
+  "fileUrl": "/data/articles/restored_deep_a2f878f8.json",
+  "content": "A significant gap currently exists between the massive technological investments companies are making in generative artificial intelligence and the actual value generated from its use. While this new technology certainly has transformative potential, organizations must make significant changes to their internal processes, skills, and overall strategies to adopt it effectively. To safely bridge this gap, businesses are encouraged to embrace structured experimentation before attempting to scale up these tools across the entire enterprise. By launching small, carefully designed experiments based on testable hypotheses, managers can successfully overcome the decision-making paralysis often associated with technological uncertainty. This methodical approach forces leaders to focus on strategic questions, helping them assess exactly how, for whom, and under what conditions the AI truly works.\n\nWhen conducted properly, these organizational experiments can serve as powerful engines of strategic learning and adaptation across an entire business ecosystem. For example, recent studies on AI assistants like Microsoft Copilot revealed that while users drafted documents faster, offering extensive training was still absolutely key to successful adoption. Similarly, the software platform Grab is currently using large-scale experiments to examine how more than one million entrepreneurs utilize AI for specific daily tasks. In the physical production sector, companies like Siemens have discovered that shop-floor AI assistants can drastically cut the time needed to find complex repair instructions. Ultimately, structured experimentation proves that successful AI adoption requires carefully analyzing granular performance data before fully integrating the technology."
+}

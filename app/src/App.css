@@ -36,7 +36,7 @@
 /* Word Selection Popup */
 .selection-popup {
   position: absolute;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, 0);
   background: var(--accent);
   color: white;
   padding: 8px 16px;
@@ -50,17 +50,17 @@
 .selection-popup::after {
   content: '';
   position: absolute;
-  top: 100%;
+  bottom: 100%;
   left: 50%;
   transform: translateX(-50%);
   border-width: 6px;
   border-style: solid;
-  border-color: var(--accent) transparent transparent transparent;
+  border-color: transparent transparent var(--accent) transparent;
 }
 
 @keyframes popIn {
-  from { opacity: 0; transform: translate(-50%, -80%) scale(0.9); }
-  to { opacity: 1; transform: translate(-50%, -100%) scale(1); }
+  from { opacity: 0; transform: translate(-50%, 20%) scale(0.9); }
+  to { opacity: 1; transform: translate(-50%, 0) scale(1); }
 }
 
 /* Flashcards UI */
@@ -179,4 +179,30 @@
 }
 .icon-btn:hover {
   background: rgba(255,255,255,0.2);
+}
+
+/* Mobile Optimizations */
+@media (max-width: 600px) {
+  .reader-header h1 {
+    font-size: 1.6rem !important;
+    line-height: 1.3;
+  }
+  .feature-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+  }
+  .feature-tabs button {
+    flex-shrink: 0;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  .glass-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
 }

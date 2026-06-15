@@ -41,13 +41,12 @@ async function processPdf(filePath) {
         
         pdfParser.on("pdfParser_dataError", errData => {
             console.error(`Error parsing ${filePath}:`, errData.parserError);
-            resolve(); // Resolve anyway to continue with next file
+            resolve();
         });
         
         pdfParser.on("pdfParser_dataReady", pdfData => {
             const rawText = pdfParser.getRawTextContent();
-            // Split by any newline, removing carriage returns
-            const lines = rawText.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
+            const lines = rawText.split(/\r?\n/).map(l => l.trim());
             
             if (lines.length === 0) {
                 resolve();
@@ -57,62 +56,87 @@ async function processPdf(filePath) {
             const fileName = path.basename(filePath, '.pdf');
             const folderName = path.basename(path.dirname(filePath));
             
-            let currentChunk = [];
-            let currentLen = 0;
-            let partNumber = 1;
+            const adKeywords = ['subscribe', 'advertisement', 'click here', 'read more', 'all rights reserved', 'page (', 'break---'];
+            
+            let paragraphs = [];
+            let currentP = "";
             
             for (let i = 0; i < lines.length; i++) {
                 const line = lines[i];
-                // Skip page breaks and useless lines
-                if (line.includes('Page (') && line.includes('Break---')) continue;
-                if (line.length < 20 && !line.endsWith('.')) continue; // Skip very short header/footer/ads
-                
-                // Try to build paragraphs by joining lines that don't end in punctuation
-                let p = line;
-                while (i + 1 < lines.length && !p.match(/[.!?]$/) && lines[i+1].length > 0) {
-                    i++;
-                    const nextLine = lines[i];
-                    if (nextLine.includes('Page (') && nextLine.includes('Break---')) continue;
-                    p += " " + nextLine;
+                if (line.length === 0) {
+                    if (currentP) { paragraphs.push(currentP); currentP = ""; }
+                    continue;
                 }
                 
-                currentChunk.push(p);
-                currentLen += p.length;
+                const lowerLine = line.toLowerCase();
+                if (adKeywords.some(k => lowerLine.includes(k))) continue;
+                if (line.length < 10 && !line.match(/[a-zA-Z]/)) continue; // skip page numbers/junk
                 
-                if (currentLen > CHUNK_SIZE || i === lines.length - 1) {
-                    if (currentChunk.length === 0) continue;
-                    
-                    const id = `${folderName.replace(/\s+/g, '_')}_${fileName.replace(/\s+/g, '_')}_pt${partNumber}`;
-                    const title = `${fileName} - Part ${partNumber}`;
-                    
-                    const articleData = {
-                        id,
-                        title,
-                        source: folderName,
-                        difficulty: partNumber % 3 === 0 ? "Advanced" : partNumber % 2 === 0 ? "Intermediate" : "Beginner",
-                        date: new Date().toISOString(),
-                        coverImg: "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=500&q=80",
-                        content: currentChunk.join('\n\n')
-                    };
-                    
-                    fs.writeFileSync(path.join(outputDir, `${id}.json`), JSON.stringify(articleData, null, 2));
-                    
-                    indexData.push({
-                        id,
-                        title,
-                        source: folderName,
-                        difficulty: articleData.difficulty,
-                        date: articleData.date,
-                        coverImg: articleData.coverImg,
-                        fileUrl: `/data/articles/${id}.json`
-                    });
-                    
-                    partNumber++;
-                    currentChunk = [];
-                    currentLen = 0;
+                let pLine = line;
+                if (currentP.endsWith('-')) {
+                    currentP = currentP.slice(0, -1) + pLine; // Fix hyphenation
+                } else if (currentP) {
+                    currentP += " " + pLine;
+                } else {
+                    currentP = pLine;
+                }
+                
+                const isEndOfSentence = currentP.match(/[.!?]$/);
+                const nextLine = (i + 1 < lines.length) ? lines[i+1].trim() : "";
+                
+                if (isEndOfSentence || nextLine === "") {
+                    paragraphs.push(currentP);
+                    currentP = "";
                 }
             }
+            if (currentP) paragraphs.push(currentP);
             
+            let articles = [];
+            let currentArticle = [];
+            
+            for (let i = 0; i < paragraphs.length; i++) {
+                const p = paragraphs[i];
+                // Heuristic for title: short, no ending punctuation
+                const isTitle = p.length > 5 && p.length < 150 && !p.match(/[.!?]$/);
+                
+                if (isTitle && currentArticle.length > 3) {
+                    articles.push(currentArticle);
+                    currentArticle = [p];
+                } else {
+                    currentArticle.push(p);
+                }
+            }
+            if (currentArticle.length > 0) articles.push(currentArticle);
+            
+            articles.forEach((art, idx) => {
+                if (art.join(' ').length < 300) return; // Skip tiny articles/junk
+                
+                const isTitleLike = art[0].length < 150 && !art[0].match(/[.!?]$/);
+                const title = isTitleLike ? art[0].replace(/[^a-zA-Z0-9\s-]/g, '').trim() : `${fileName} - Article ${idx + 1}`;
+                const id = `${folderName.replace(/\s+/g, '_')}_${fileName.replace(/\s+/g, '_')}_art${idx + 1}`;
+                
+                const articleData = {
+                    id,
+                    title: title || `Article ${idx + 1}`,
+                    source: folderName,
+                    issue: fileName,
+                    difficulty: idx % 3 === 0 ? "Advanced" : idx % 2 === 0 ? "Intermediate" : "Beginner",
+                    date: new Date().toISOString(),
+                    content: art.join('\n\n')
+                };
+                
+                fs.writeFileSync(path.join(outputDir, `${id}.json`), JSON.stringify(articleData, null, 2));
+                
+                indexData.push({
+                    id,
+                    title: articleData.title,
+                    source: folderName,
+                    issue: fileName,
+                    difficulty: articleData.difficulty,
+                    date: articleData.date,
+                    fileUrl: `/data/articles/${id}.json`
+                });
+            });
             resolve();
         });
         
@@ -122,16 +146,14 @@ async function processPdf(filePath) {
 }
 
 async function run() {
-    // Process first 5 files for now to avoid freezing the system for 10 minutes
-    const filesToProcess = allFiles.slice(0, 5); 
-    console.log(`Processing ${filesToProcess.length} files as a batch...`);
+    console.log(`Processing ${allFiles.length} files...`);
     
-    for (const file of filesToProcess) {
+    for (const file of allFiles) {
         await processPdf(file);
     }
     
     fs.writeFileSync(indexFile, JSON.stringify({ articles: indexData }, null, 2));
-    console.log(`Done! Wrote index.json with ${indexData.length} parts.`);
+    console.log(`Done! Wrote index.json with ${indexData.length} articles.`);
 }
 
 run();
