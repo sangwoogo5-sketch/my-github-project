@@ -302,7 +302,7 @@ function App() {
     try {
       let meaning = "";
       if (apiKey) {
-        const prompt = `Translate this English text to Korean. Use concise casual language (반말, e.g. ~다, ~했다) to save tokens. Just output the translation without any markdown or quotes.\n\nText: ${text}`;
+        const prompt = `Translate this English text to Korean. Use natural and polite formal language (존댓말, e.g. ~해요, ~합니다) for consistency. Just output the translation without any markdown or quotes.\n\nText: ${text}`;
         const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
